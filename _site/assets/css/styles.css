@@ -1,0 +1,60 @@
+body { font-family: 'Source Sans Pro', sans-serif; padding: 75px 0 0 0; margin: 0; background: #f6f9f1; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+
+/*--- navigation bar ---*/
+.navbar { background: #dfdfdf; padding: 0.2rem 0.5rem; }
+
+.navbar-nav li a { transition: 0.4s; border-radius: 30px; padding: 5px 15px; margin: 5px 0 0 5px; }
+
+.nav-link, .navbar-brand { color: #1d1d1d; cursor: pointer; }
+
+.navbar-brand img { max-height: 60px; }
+
+.nav-link { font-size: 1rem; margin-right: 1em !important; }
+
+.current { color: #14a9ff; }
+
+.navbar-brand:focus, .navbar-brand:hover { color: #b8b6b6; }
+
+.nav-link:hover { color: #14a9ff; /* background-color: rgb(72, 72, 72); */ }
+
+.navbar-collapse { justify-content: flex-end; }
+
+/*--- home header section ---*/
+.header { background-image: url("/assets/images/classroom2.jpg"); background-size: cover; background-position: center; background-attachment: fixed; position: relative; height: 100%; /* opacity: 70%; */ }
+
+@media screen and (max-device-width: 1024px) { .header, .masthead { background-attachment: initial; } }
+
+.overlay { position: absolute; min-height: 100%; min-width: 100%; left: 0; top: 0; background: rgba(46, 46, 46, 0.6); }
+
+.description { left: 50%; position: absolute; top: 55%; transform: translate(-50%, -55%); text-align: center; }
+
+.description h1 { color: #ffffff; }
+
+.description p { color: #fff; font-size: 1.3rem; line-height: 1.5; }
+
+.description a.btn { border: 1px solid #5133fc; background: #5133fc; border-radius: 0.5em; color: #fff; }
+
+.description a.btn:hover { transition: 0.6s; border: 1px solid #fff; background: #fff; color: #5133fc; }
+
+/*--- masthead ---*/
+.masthead { height: 60vh; background-image: url("/assets/images/head.jpg"); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; }
+
+.masthead h1, .masthead p { color: #fff; }
+
+.masthead-overlay { min-width: 100%; background: rgba(46, 46, 46, 0.6); }
+
+/*--- Footer ---*/
+.page-footer { background-color: #a0a0a0; color: #282828; padding: 60px 0 5px; }
+
+.footer-copyright { color: #282828; padding: 30px 0; }
+
+.footer-brand img { max-height: 75px; margin: 30px 0 0 10px; }
+
+@media (max-width: 575.98px) { .description { left: 0; padding: 0 15px; position: absolute; top: 10%; transform: none; text-align: center; }
+  .description h1 { font-size: 2em; }
+  .description p { font-size: 1.2rem; }
+  .features { margin: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
