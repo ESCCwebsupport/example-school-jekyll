@@ -1,6 +1,6 @@
 - name: Our school
-  link: /about.html
+  link: /about
 - name: Governors
-  link: /governors.html
+  link: /governors
 - name: Contact
   link: /contact
