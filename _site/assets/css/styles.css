@@ -52,9 +52,14 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
 
 .footer-brand img { max-height: 75px; margin: 30px 0 0 10px; }
 
+/*--- mobile ---*/
 @media (max-width: 575.98px) { .description { left: 0; padding: 0 15px; position: absolute; top: 10%; transform: none; text-align: center; }
+  .navbar-brand img { max-height: 45px; }
   .description h1 { font-size: 2em; }
   .description p { font-size: 1.2rem; }
   .features { margin: 0; } }
+
+/*--- buttons ---*/
+@media screen and (min-width: 0\0) and (min-resolution: 72dpi) { .header, .ie9up { background-attachment: initial; } }
 
 /*# sourceMappingURL=styles.css.map */
