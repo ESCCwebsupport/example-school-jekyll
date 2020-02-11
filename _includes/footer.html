@@ -15,9 +15,11 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <a href="https://getwebsupport.co.uk" class="footer-brand img-responsive mx-auto"><img
-                        src="assets/images/wst-logo.png" alt="Web Support Team logo"></a>
+                        src=" {{ "/assets/images/wst-logo.png" | prepend: site.baseurl }}"
+                        alt="Web Support Team logo"></a>
                 <a href="https://eastsussex.gov.uk" class="footer-brand img-responsive mx-auto"><img
-                        src="assets/images/escc-logo-large.png" alt="East Sussex County Council logo"></a>
+                        src=" {{ "/assets/images/escc-logo-large.png"  | prepend: site.baseurl }}"
+                        alt="East Sussex County Council logo"></a>
             </div>
         </div>
         <div class="footer-copyright text-center">© 2020 Copyright: ESCC Web Content Service</div>
