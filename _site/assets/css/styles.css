@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Source+Sans+Pro:400,400i,700,700i&display=swap");
+html { overflow-y: scroll; }
+
 body { font-family: 'Source Sans Pro', sans-serif; padding: 75px 0 0 0; /* margin: 0; */ background: #f6f9f1; }
 
 body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
@@ -25,7 +27,7 @@ body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight
 /*--- home header section ---*/
 .header { background-image: url("/assets/images/classroom2.jpg"); background-size: cover; background-position: center; background-attachment: fixed; position: relative; height: 100%; /* opacity: 70%; */ }
 
-@media screen and (max-device-width: 1024px) { .header, .masthead { background-attachment: initial; } }
+@media screen and (max-device-width: 1024px) { .header, .masthead { background-attachment: initial !important; } }
 
 .overlay { position: absolute; min-height: 100%; min-width: 100%; left: 0; top: 0; background: rgba(46, 46, 46, 0.6); }
 
@@ -54,7 +56,7 @@ body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight
 .footer-brand img { max-height: 55px; margin: 30px 0 0 10px; }
 
 /*--- mobile ---*/
-@media (max-width: 575.98px) { body { padding: 70px 0 0 0; }
+@media (max-width: 575.98px) { body { padding: 60px 0 0 0; }
   .description { left: 0; padding: 0 15px; position: absolute; top: 10%; transform: none; text-align: center; }
   .navbar-brand img { max-height: 45px; }
   .description h1 { font-size: 2em; }
