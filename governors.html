@@ -1,0 +1,43 @@
+---
+layout: default
+title: Our governors
+permalink:
+---
+
+<section class="py-5">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+    </div>
+    <div class="container editable">
+        <p>
+            St Invicta's governors play a...
+        </p>
+    </div>
+
+</section>
+
+<section class="team py-5">
+    <h3 class="container py-3">
+        Meet our governors
+    </h3>
+    <div class="team container">
+
+        <div class="row">
+            {% assign governors = site.governors | sort: 'listing-priority' %}
+            {% for governor in governors %}
+            <div class="col-xl-4 col-md-6 mb-4 mx-auto">
+                <div class="card border-0 shadow">
+                    <img src="{{ governor.image }}" class="card-img-top"
+                        alt="{{ governor.first-name}} {{ governor.last-name }}">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">{{ governor.first-name}} {{ governor.last-name }}</h5>
+                        <div class="card-text text-black-50">{{ governor.job }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+</section>

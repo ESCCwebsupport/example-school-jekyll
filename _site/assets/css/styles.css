@@ -51,7 +51,7 @@ body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight
 
 .footer-copyright { color: #282828; padding: 30px 0; }
 
-.footer-brand img { max-height: 65px; margin: 30px 0 0 10px; }
+.footer-brand img { max-height: 55px; margin: 30px 0 0 10px; }
 
 /*--- mobile ---*/
 @media (max-width: 575.98px) { body { padding: 70px 0 0 0; }
@@ -63,5 +63,17 @@ body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight
 
 /*--- buttons ---*/
 @media screen and (min-width: 0\0) and (min-resolution: 72dpi) { .header, .masthead { background-attachment: scroll; } }
+
+/*--- profile section ---*/
+section.team { background-color: #dfdfdf; }
+
+.team .card { border: none; border-radius: 1rem; transition: all 0.2s; box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); }
+
+.card-img-top { flex-shrink: 0; }
+
+@media (min-width: 992px) { .team .card:hover { margin-top: -0.25rem; margin-bottom: 0.25rem; box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3); }
+  .team .card:hover .btn { opacity: 1; } }
+
+.introduction p { color: #5e5c5c; font-size: 1.2rem; line-height: 1.5; padding-bottom: 0.5rem; }
 
 /*# sourceMappingURL=styles.css.map */

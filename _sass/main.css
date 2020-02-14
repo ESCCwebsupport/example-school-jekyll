@@ -70,7 +70,7 @@ body h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-device-width: 1024px) {
     .header, .masthead {
-        background-attachment: initial;
+        background-attachment: initial !important;
     }
 }
 
@@ -149,7 +149,7 @@ body h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-brand img {
-    max-height: 65px;
+    max-height: 55px;
     margin: 30px 0 0 10px;
 }
 
@@ -157,7 +157,7 @@ body h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575.98px) {
     body {
-        padding: 70px 0 0 0;
+        padding: 60px 0 0 0;
     }
     .description {
         left: 0;
@@ -187,4 +187,39 @@ body h1, h2, h3, h4, h5, h6 {
     .header, .masthead {
         background-attachment: scroll;
     }
+}
+
+/*--- profile section ---*/
+
+section.team {
+    background-color: rgb(223, 223, 223);
+}
+
+.team .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    flex-shrink: 0;
+}
+
+@media (min-width: 992px) {
+    .team .card:hover {
+        margin-top: -0.25rem;
+        margin-bottom: 0.25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .team .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+.introduction p {
+    color: rgb(94, 92, 92);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-bottom: 0.5rem;
 }
