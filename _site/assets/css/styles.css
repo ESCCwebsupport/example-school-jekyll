@@ -24,6 +24,12 @@ body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight
 
 .navbar-collapse { justify-content: flex-end; }
 
+.input-group-append .btn { background-color: #fff; }
+
+.input-group-append .btn:hover, .input-group-append .btn:focus { background-color: #5b5b5b; }
+
+.form-control:focus { outline: 0 !important; border-color: initial; box-shadow: none; }
+
 /*--- home header section ---*/
 .header { background-image: url("/assets/images/classroom2.jpg"); background-size: cover; background-position: center; background-attachment: fixed; position: relative; height: 100%; /* opacity: 70%; */ }
 

@@ -60,6 +60,20 @@ body h1, h2, h3, h4, h5, h6 {
     justify-content: flex-end;
 }
 
+.input-group-append .btn {
+    background-color: #fff;
+}
+
+.input-group-append .btn:hover, .input-group-append .btn:focus {
+    background-color: rgb(91, 91, 91);
+}
+
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
 /*--- home header section ---*/
 
 .header {
