@@ -26,7 +26,7 @@ body h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight
 
 .input-group-append .btn { background-color: #fff; }
 
-.input-group-append .btn:hover, .input-group-append .btn:focus { background-color: #5b5b5b; }
+.input-group-append .btn:hover { background-color: #5b5b5b; }
 
 .form-control:focus { outline: 0 !important; border-color: initial; box-shadow: none; }
 

@@ -10,3 +10,4 @@ plugins:
 collections:
   - governors
   - teachers
+  - about-section
