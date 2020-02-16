@@ -14,6 +14,6 @@ They can add these to:
 * do other stuff
 * shame about the gap
 
-[Add links to other pages.](/governors/)
+[Add links to other pages.](/about/governors/)
 
 ##### Smaller header
