@@ -5,7 +5,9 @@ permalink: /about/safeguarding/
 published: false
 ---
 
-This is where you edit the text. Make sure pages are all markdown and then the team can update them
+This is where you edit the text. Make sure pages are all markdown and then the team can update them.
+
+This page can be cloned and edited to have a new URL, which I think is the easiest way for the team and clients to manage it.
 
 ### Bullets
 
