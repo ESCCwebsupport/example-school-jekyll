@@ -1,7 +1,7 @@
 ---
 layout: information-page
 title: Safeguarding
-permalink: /about/safeguarding/
+permalink:
 published: true
 ---
 
