@@ -2,7 +2,7 @@
 layout: information-page
 title: Safeguarding
 permalink: /about/safeguarding/
-visible: 1
+published: false
 ---
 
 This is where you edit the text. Make sure pages are all markdown and then the team can update them
