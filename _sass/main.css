@@ -251,7 +251,6 @@ section.team {
 body a {
     margin: auto;
     padding: 1rem 1.25rem;
-    text-decoration: none;
     color: blue;
     position: relative;
     transition: all .3s cubic-bezier(.2, 0, 0, 1);
@@ -264,7 +263,8 @@ body a {
     bottom: 0;
     right: 1.25rem;
     left: 1.25rem;
-    background-color: #ffffff;
+    background-color: blue;
+    text-decoration: none;
     transition: all .3s cubic-bezier(.2, 0, 0, 1);
     transform-origin: bottom center;
     z-index: -1;
