@@ -248,7 +248,7 @@ section.team {
 
 /*--- general changes ---*/
 
-body.a {
+body a {
     display: block;
     margin: auto;
     padding: 1rem 1.25rem;
