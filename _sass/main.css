@@ -81,7 +81,7 @@ body h1, h2, h3, h4, h5, h6 {
 /*--- home header section ---*/
 
 .header {
-    background-image: url("{{ site.cover }}");
+    background-image: url("{{ site.image }}");
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed;
