@@ -82,10 +82,10 @@ body h1, h2, h3, h4, h5, h6 {
 
 .header {
     background-image: url("{{ site.image }}");
-    background-size: cover !important;
-    background-position: center !important;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    position: relative !important;
+    position: relative;
     height: 100%;
     /* opacity: 70%; */
 }
