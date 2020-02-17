@@ -249,18 +249,16 @@ section.team {
 /*--- general changes ---*/
 
 body a {
-    display: block;
     margin: auto;
     padding: 1rem 1.25rem;
     text-decoration: none;
-    color: white;
+    color: blue;
     position: relative;
     transition: all .3s cubic-bezier(.2, 0, 0, 1);
     z-index: 1;
   
   &:after {
     content: '';
-    display: block;
     height: 2px;
     position: absolute;
     bottom: 0;
@@ -273,7 +271,7 @@ body a {
   }
   
   &:hover {
-    color: #2D2D2D;
+    color: gray;
     
     &:after {
       right: 0;
