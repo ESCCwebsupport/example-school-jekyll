@@ -247,36 +247,3 @@ section.team {
 }
 
 /*--- general changes ---*/
-
-body a {
-    margin: auto;
-    padding: 1rem 1.25rem;
-    color: blue;
-    position: relative;
-    transition: all .3s cubic-bezier(.2, 0, 0, 1);
-    z-index: 1;
-  
-  &:after {
-    content: '';
-    height: 2px;
-    position: absolute;
-    bottom: 0;
-    right: 1.25rem;
-    left: 1.25rem;
-    background-color: blue;
-    text-decoration: none;
-    transition: all .3s cubic-bezier(.2, 0, 0, 1);
-    transform-origin: bottom center;
-    z-index: -1;
-  }
-  
-  &:hover {
-    color: gray;
-    
-    &:after {
-      right: 0;
-      left: 0;
-      height: 100%;
-    }
-  }
-}
