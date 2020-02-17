@@ -78,11 +78,11 @@ body h1, h2, h3, h4, h5, h6 {
 /*--- home header section ---*/
 
 .header {
-    background-image: url("/assets/images/classroom2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
+    /*background-image: url("/assets/images/classroom2.jpg");*/
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    position: relative !important;
     height: 100%;
     /* opacity: 70%; */
 }
