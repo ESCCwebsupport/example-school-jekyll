@@ -11,6 +11,3 @@ plugins:
 collections:
   - governors
   - teachers
-  
-  
-  JEKYLL_ENV=production
