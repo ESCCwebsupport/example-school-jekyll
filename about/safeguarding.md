@@ -9,6 +9,8 @@ This is where you edit the text. Make sure pages are all markdown and then the t
 
 This page can be cloned and edited to have a new URL, which I think is the easiest way for the team and clients to manage it.
 
+Sample client update - they can edit markdown pages too.
+
 ### Bullets
 
 They can add these to:
