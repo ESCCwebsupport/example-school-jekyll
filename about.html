@@ -11,7 +11,7 @@ number_of_links: 6
         {% assign links = site.about-page-links | sort: 'sort_number' %}
         {% for link in links %}
         <div class="col xl-3 col-md-3 col-sm-6 mb-4">
-            <a href="{{ link.button-link }}" class="btn btn-primary btn-lg" role="button">{{ link.button-text }}</a>
+            <a href="{{ link.link }}" class="btn btn-primary btn-lg" role="button">{{ link.button-text }}</a>
         </div>
 
         {% endfor %}
