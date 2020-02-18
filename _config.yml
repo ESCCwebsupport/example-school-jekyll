@@ -12,3 +12,4 @@ plugins:
 collections:
   - governors
   - teachers
+  - about-page-links
