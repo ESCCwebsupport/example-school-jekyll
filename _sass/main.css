@@ -252,4 +252,8 @@ section.team {
     width: 100%;
 }
 
+.landing-buttons .col-sm-12 {
+    flex-basis: 100%;
+}
+
 /*--- general changes ---*/
