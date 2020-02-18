@@ -246,4 +246,10 @@ section.team {
     padding-bottom: 0.5rem;
 }
 
+/*--- landing page buttons ---*/
+
+.landing-buttons a.btn {
+    width: 100%;
+}
+
 /*--- general changes ---*/
