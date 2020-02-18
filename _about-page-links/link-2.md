@@ -1,5 +1,5 @@
 ---
 button-text: Put your second link here
-button-link:
+internal-link:
 sort_number: 2
 ---

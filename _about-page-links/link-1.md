@@ -1,6 +1,6 @@
 ---
 button-text: Put your first link here
-button-link:
+internal-link:
 sort_number: 1
 ---
 
