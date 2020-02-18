@@ -1,6 +1,6 @@
 ---
-button-text: Put your first link here
-link:
+button-text: Uniform
+link: /about/uniform/
 sort_number: 1
 ---
 
