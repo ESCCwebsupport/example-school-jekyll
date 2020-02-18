@@ -1,6 +1,6 @@
 ---
 button-text: Link text
-internal_link:
+link:
 sort_number:
 published: no
 ---
