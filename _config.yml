@@ -10,6 +10,7 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  - governors
-  - teachers
-  - about-page-links
+  governors:
+  teachers:
+  about-page-links:
+    _hide_content: true
