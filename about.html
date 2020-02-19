@@ -2,6 +2,7 @@
 layout: information-page
 title: About
 published: true
+page_blocks:
 ---
 
 <div class="landing-buttons container pt-4">
@@ -15,4 +16,11 @@ published: true
         {% endfor %}
 
     </div>
+
+    {% for block in page.page_blocks %}
+    {% case block._id %}
+    {% when 'text_block' %}
+    {% include text-block.html block=block %}
+    {% endcase %}
+    {% endfor %}
 </div>
