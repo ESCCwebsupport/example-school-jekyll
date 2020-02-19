@@ -3,9 +3,9 @@ layout: information-page
 title: About
 published: true
 page_blocks:
-  - _id: text_block
-    header: Header here
-    content_markdown: And some text
+- _id: text_block
+header: Header here
+content_markdown: And some text
 ---
 
 <div class="landing-buttons container pt-4">
@@ -20,10 +20,10 @@ page_blocks:
 
     </div>
 
-    {% for block in page.page_blocks %}
-    {% case block._id %}
-    {% when 'text_block' %}
-    {% include text-block.html block=block %}
-    {% endcase %}
-    {% endfor %}
 </div>
+{% for block in page.page_blocks %}
+{% case block._id %}
+{% when 'text_block' %}
+{% include text-block.html block=block %}
+{% endcase %}
+{% endfor %}
