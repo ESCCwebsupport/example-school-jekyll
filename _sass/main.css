@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.1rem;
-    padding: 75px 0 0 0;
+    /* padding: 75px 0 0 0; */
     /* margin: 0; */
     background: #f6f9f1;
 }
@@ -174,9 +174,9 @@ body h1, h2, h3, h4, h5, h6 {
 /*--- mobile ---*/
 
 @media (max-width: 575.98px) {
-    body {
+    /* body {
         padding: 60px 0 0 0;
-    }
+    } */
     .description {
         left: 0;
         padding: 0 15px;
