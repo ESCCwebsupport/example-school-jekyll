@@ -84,12 +84,12 @@ body h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
     position: relative;
     height: 100vh !important;
-    /* opacity: 70%; */
 }
 
 @media screen and (max-device-width: 1024px) {
     .header, .masthead {
         background-attachment: initial !important;
+        height: auto;
     }
 }
 
@@ -182,7 +182,7 @@ body h1, h2, h3, h4, h5, h6 {
         left: 0;
         padding: 0 15px;
         position: absolute;
-        top: 10%;
+        top: 15%;
         transform: none;
         text-align: center;
     }
