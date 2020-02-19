@@ -20,7 +20,7 @@ _array_structures:
       icon: ballot
       value:
         _id: text_block
-        title:
+        header:
         content_markdown:
     - label: Link Button
       icon: link
