@@ -23,3 +23,10 @@ They can add these to:
 [Add links to other pages.](/about/governors/)
 
 ##### Smaller header
+
+{% for block in page.page_blocks %}
+  {% case block._id %}
+    {% when 'text_block' %}
+      {% include text-block.html block=block %}
+  {% endcase %}
+{% endfor %}
