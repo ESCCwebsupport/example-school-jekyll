@@ -200,6 +200,9 @@ body h1, h2, h3, h4, h5, h6 {
     .input-group {
         margin: 5px 0 8px 0;
     }
+    footer .col-sm-6 {
+        width: 50%;
+    }
 }
 
 /*--- buttons ---*/
