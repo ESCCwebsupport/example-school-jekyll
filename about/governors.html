@@ -10,7 +10,7 @@ published: true
         <h1>{{ page.title }}</h1>
     </div>
     <div class="container editable">
-        <p>St Invicta's governors play a...</p>
+        <p>St Invicta's governors play a I'm adding text here...</p>
         <ul>
             <li>vital role</li>
             <li>they have cool profile cards</li>
@@ -31,8 +31,7 @@ published: true
             {% for governor in governors %}
             <div class="col-xl-4 col-md-6 mb-4 mx-auto">
                 <div class="card border-0 shadow">
-                    <img src="{{ governor.image }}" class="card-img-top"
-                        alt="{{ governor.first-name}} {{ governor.last-name }}" />
+                    <img src="{{ governor.image }}" class="card-img-top" alt="{{ governor.first-name}} {{ governor.last-name }}" />
                     <div class="card-body text-center">
                         <h5 class="card-title mb-0">{{ governor.first-name}} {{ governor.last-name }}</h5>
                         <div class="card-text text-black-50">{{ governor.job }}</div>
