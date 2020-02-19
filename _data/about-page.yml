@@ -1,4 +1,6 @@
 - name: Back to home
   link: /
-- name: Governors
+- name: Governing body
   link: /about/governors/
+- name: Uniform
+  link: /about/uniform/
