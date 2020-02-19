@@ -21,9 +21,11 @@ content_markdown: And some text
     </div>
 
 </div>
-{% for block in page.page_blocks %}
-{% case block._id %}
-{% when 'text_block' %}
-{% include text-block.html block=block %}
-{% endcase %}
-{% endfor %}
+<div class="container">
+    {% for block in page.page_blocks %}
+    {% case block._id %}
+    {% when 'text_block' %}
+    {% include text-block.html block=block %}
+    {% endcase %}
+    {% endfor %}
+</div>
