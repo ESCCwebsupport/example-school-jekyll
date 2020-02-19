@@ -1,6 +1,6 @@
-- name: Governing body
-  link: /about/governors/
 - name: Back to home
   link: /
+- name: Governing body
+  link: /about/governors/
 - name: Uniform
   link: /about/uniform/
