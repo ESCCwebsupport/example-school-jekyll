@@ -4,6 +4,9 @@ title: Safeguarding
 permalink:
 published: true
 page_blocks:
+  - _id: text_block
+    header: Where does this go?
+    content_markdown: And where does this go?
 ---
 
 This is where you edit the text. Make sure pages are all markdown and then the team can update them.
