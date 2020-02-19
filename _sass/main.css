@@ -89,7 +89,7 @@ body h1, h2, h3, h4, h5, h6 {
 @media screen and (max-device-width: 1024px) {
     .header, .masthead {
         background-attachment: initial !important;
-        height: auto;
+        height: auto !important;
     }
 }
 
