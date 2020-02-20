@@ -6,13 +6,13 @@ published: true
 page_blocks:
   - _id: text_block
     header: Where does this go?
-    content_markdown: And where does this go?
+    content: And where does this go?
   - _id: link_button
     link_text: Read more information on our governors page
     link: /about/governors/
   - _id: text_block
     header: Let's add some more text after this
-    content_markdown: |-
+    content: |-
       Here's a content section:
 
       * bullet point
