@@ -3,9 +3,6 @@ layout: information-page
 title: About
 published: true
 page_blocks:
-- _id: text_block
-header: More information here
-content_markdown: Does this work?
 ---
 
 <div class="landing-buttons container pt-4">
@@ -21,11 +18,9 @@ content_markdown: Does this work?
     </div>
 
 </div>
-<div class="container">
-    {% for block in page.page_blocks %}
-    {% case block._id %}
-    {% when 'text_block' %}
-    {% include text-block.html block=block %}
-    {% endcase %}
-    {% endfor %}
-</div>
+{% for block in page.page_blocks %}
+{% case block._id %}
+{% when 'text_block' %}
+{% include text-block.html block=block %}
+{% endcase %}
+{% endfor %}
