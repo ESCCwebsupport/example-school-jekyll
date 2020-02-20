@@ -75,6 +75,11 @@ body h1, h2, h3, h4, h5, h6 {
     box-shadow: none;
 }
 
+.navbar .form-control {
+    border-top-left-radius: 0.25em !important;
+    border-bottom-left-radius: 0.25em !important;
+}
+
 @media (max-width: 768px) {
     .current {
         border-bottom: none;
