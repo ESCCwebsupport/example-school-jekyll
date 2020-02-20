@@ -19,6 +19,9 @@ page_blocks:
       * and another
       * third one
       * see link below
+  - _id: link_button
+    link_text: This is the button we're referring to
+    link: /
 ---
 
 This is where you edit the text. Make sure pages are all markdown and then the team can update them.
