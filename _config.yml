@@ -22,7 +22,7 @@ _array_structures:
       value:
         _id: text_block
         header:
-        content_markdown:
+        content:
     - label: Link Button
       icon: link
       value:
