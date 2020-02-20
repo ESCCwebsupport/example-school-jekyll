@@ -3,9 +3,9 @@ layout: information-page
 title: About
 published: true
 page_blocks:
-  - _id: text_block
-    header: More information here
-    content_markdown: Does this work?
+- _id: text_block
+header: More information here
+content_markdown: Does this work?
 ---
 
 <div class="landing-buttons container pt-4">
@@ -21,7 +21,6 @@ page_blocks:
     </div>
 
 </div>
-</section>
 <div class="container">
     {% for block in page.page_blocks %}
     {% case block._id %}
