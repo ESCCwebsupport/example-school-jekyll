@@ -27,5 +27,5 @@ _array_structures:
       icon: link
       value:
         _id: link_button
-        name:
+        link_text:
         link:
