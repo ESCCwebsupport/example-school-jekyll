@@ -15,9 +15,10 @@ collections:
 
 page_blocks: []
 _array_structures:
+  style: modal
   page_blocks:
     - label: Text Block
-      icon: text
+      icon: content
       value:
         _id: text_block
         header:
