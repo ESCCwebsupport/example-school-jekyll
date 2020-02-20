@@ -259,3 +259,7 @@ section.team {
 }
 
 /*--- general changes ---*/
+
+.visually-hidden {
+    display: none;
+}
