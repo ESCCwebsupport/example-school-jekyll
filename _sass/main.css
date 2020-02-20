@@ -250,7 +250,7 @@ section.team {
 
 /*--- landing page buttons ---*/
 
-.landing-buttons a.btn {
+.landing-buttons a.btn, .block-buttons a.btn {
     width: 100%;
 }
 
