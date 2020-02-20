@@ -17,12 +17,14 @@ page_blocks: []
 _array_structures:
   page_blocks:
     - label: Text Block
+      style: modal
       icon: ballot
       value:
         _id: text_block
         header:
         content_markdown:
     - label: Link Button
+      style: modal
       icon: link
       value:
         _id: link_button
