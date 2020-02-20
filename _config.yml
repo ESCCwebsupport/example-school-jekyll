@@ -16,9 +16,8 @@ collections:
 page_blocks: []
 _array_structures:
   page_blocks:
-    - style: modal
       label: Text Block
-      icon: ballot
+      icon: text
       value:
         _id: text_block
         header:
