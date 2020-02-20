@@ -11,7 +11,13 @@
             {{ content }}
         </div>
     </section>
-    {% include text-block.html %}
+    {% for block in page.page_blocks %}
+    {% case block._id %}
+    {% when 'text_block' %}
+    {% include text-block.html block=block %}
+    {% endcase %}
+    {% endfor %}
+
     {% include footer.html %}
     {% include scripts.html %}
 
