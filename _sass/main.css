@@ -25,7 +25,7 @@ body h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav li a {
     transition: 0.4s;
-    padding: 3px 15px;
+    padding: 5px 15px;
     margin: 5px 0 0 5px;
 }
 
@@ -45,8 +45,6 @@ body h1, h2, h3, h4, h5, h6 {
 
 .current {
     color: #4083ff;
-    text-decoration: none;
-    border-bottom: #4083ff 0.1em solid;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
