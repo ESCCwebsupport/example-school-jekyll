@@ -7,6 +7,9 @@ page_blocks:
   - _id: text_block
     header: Where does this go?
     content_markdown: And where does this go?
+  - _id: link_button
+    link_text: Read more information on our governors page
+    link: /about/governors/
 ---
 
 This is where you edit the text. Make sure pages are all markdown and then the team can update them.
