@@ -61,6 +61,8 @@ body h1, h2, h3, h4, h5, h6 {
 
 .input-group-append .btn {
     background-color: #fff;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
 }
 
 .input-group-append .btn:hover {
@@ -76,6 +78,8 @@ body h1, h2, h3, h4, h5, h6 {
 .navbar .form-control {
     border-top-left-radius: 0.25em !important;
     border-bottom-left-radius: 0.25em !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }
 
 @media (max-width: 768px) {
@@ -92,6 +96,10 @@ body h1, h2, h3, h4, h5, h6 {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+nav form.ignore {
+    display: flex;
 }
 
 /*--- home header section ---*/
