@@ -251,7 +251,7 @@ section.team {
     object-fit: cover;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .card-img-top {
         height: 50vh;
     }
