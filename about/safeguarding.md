@@ -3,6 +3,7 @@ layout: information-page
 title: Safeguarding
 permalink:
 published: true
+_hide_content: true
 page_blocks:
   - _id: text_block
     header: Where does this go?
