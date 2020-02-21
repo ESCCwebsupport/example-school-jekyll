@@ -247,6 +247,14 @@ section.team {
 
 .card-img-top {
     flex-shrink: 0;
+    height: 40vh;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .card-img-top {
+        height: 50vh;
+    }
 }
 
 @media (min-width: 992px) {
