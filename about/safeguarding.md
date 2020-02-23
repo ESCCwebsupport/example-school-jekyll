@@ -3,11 +3,13 @@ layout: information-page
 title: Safeguarding
 permalink:
 published: true
-# _hide_content: true
 page_blocks:
   - _id: text_block
     header: Where does this go?
-    content_markdown: And where does this go?
+    content_markdown: |-
+      And where does this go?
+
+      > Does this work?
   - _id: link_button
     link_text: Read more information on our governors page
     link: /about/governors/
