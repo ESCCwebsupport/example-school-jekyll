@@ -31,6 +31,8 @@ This page can be cloned and edited to have a new URL, which I think is the easie
 
 Sample client update - they can edit markdown pages too.
 
+> Blockquotes in markup too?
+
 ### Bullets
 
 They can add these to:
