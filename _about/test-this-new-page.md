@@ -1,7 +1,7 @@
 ---
 layout: information-page
 title: Test this new page
-permalink:
+permalink: about/test/
 published: true
 page_blocks:
   - _id: intro_text
