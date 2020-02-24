@@ -3,11 +3,13 @@ layout: information-page
 title: Safeguarding
 permalink:
 published: true
-# _hide_content: true
 page_blocks:
   - _id: text_block
     header: Where does this go?
-    content_markdown: And where does this go?
+    content_markdown: |-
+      And where does this go?
+
+      > Does this work?
   - _id: link_button
     link_text: Read more information on our governors page
     link: /about/governors/
@@ -30,6 +32,8 @@ This is where you edit the text. Make sure pages are all markdown and then the t
 This page can be cloned and edited to have a new URL, which I think is the easiest way for the team and clients to manage it.
 
 Sample client update - they can edit markdown pages too.
+
+> Blockquotes in markup too?
 
 ### Bullets
 
