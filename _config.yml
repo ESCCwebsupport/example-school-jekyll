@@ -15,7 +15,7 @@ collections:
   about:
     _hide_content: true
     output: true
-    permalink: /:path
+    permalink: /about/:title/
 
 page_blocks: []
 _array_structures:
