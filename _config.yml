@@ -10,8 +10,11 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  - governors
-  - teachers
+  governors:
+  teachers:
+  pages:
+    output: true
+    permalink: /:path
 
 page_blocks: []
 _array_structures:
