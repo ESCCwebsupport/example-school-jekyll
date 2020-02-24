@@ -12,7 +12,7 @@ plugins:
 collections:
   governors:
   teachers:
-  pages:
+  about:
     output: true
     permalink: /:path
 
