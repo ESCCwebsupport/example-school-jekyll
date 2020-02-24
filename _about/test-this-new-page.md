@@ -10,4 +10,9 @@ page_blocks:
 
       * bullet 1
       * bullet 2
+
+      If you want to know more you should see other text that we put here.
+  - _id: link_button
+    link_text: Linky here to go somewhere
+    link: /about/
 ---
