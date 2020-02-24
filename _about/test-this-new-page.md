@@ -4,7 +4,7 @@ title: Test this new page
 permalink:
 published: true
 page_blocks:
-  - _id: intro_text
+  - _id: introduction_text
     content_markdown: |-
       Introduction text goes here.
 

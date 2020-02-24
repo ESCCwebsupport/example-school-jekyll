@@ -24,7 +24,7 @@ _array_structures:
     - label: Introduction Text
       icon: text
       value:
-        _id: intro_text
+        _id: introduction_text
         content_markdown:
     - label: Text Block
       icon: content

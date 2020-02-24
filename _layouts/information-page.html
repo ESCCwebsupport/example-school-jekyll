@@ -16,6 +16,8 @@
         {% include text-block.html block=block %}
         {% when 'link_button' %}
         {% include link-button.html block=block %}
+        {% when 'introduction_text' %}
+        {% include introduction-text.html block=block %}
         {% endcase %}
         {% endfor %}
     </section>
