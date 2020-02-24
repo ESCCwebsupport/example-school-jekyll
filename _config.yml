@@ -13,6 +13,7 @@ collections:
   governors:
   teachers:
   about:
+    _hide_content: true
     output: true
     permalink: /:path
 
