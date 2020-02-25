@@ -50,3 +50,5 @@ They can add these to:
 With some more regular text.
 
 ![Emma Clothier](/assets/images/safeguarding/emma.jpg "Emma Clothier"){: width="400" height="300"}
+
+![](/assets/images/:collection/safeguarding/headteacher.jpg){: width="250" height="300"}
