@@ -38,3 +38,7 @@ _array_structures:
         _id: link_button
         link_text:
         link:
+
+_options:
+  image:
+    uploads_dir: "uploads/front-matter-images/:title"

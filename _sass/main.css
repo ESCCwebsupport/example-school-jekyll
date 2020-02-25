@@ -257,24 +257,6 @@ section.team {
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
-/* .card-img-top {
-    flex-shrink: 0;
-    height: 40vh;
-    object-fit: cover;
-}
-
-@media (max-width: 768px) {
-    .card-img-top {
-        height: 50vh;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .card-img-top {
-        height: 55vh;
-    }
-} */
-
 @media (min-width: 992px) {
     .team .card:hover {
         margin-top: -0.25rem;
