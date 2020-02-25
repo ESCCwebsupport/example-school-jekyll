@@ -2,7 +2,6 @@
 layout: information-page
 title: About
 published: true
-page_blocks:
 ---
 
 <div class="landing-buttons container pt-4">
@@ -16,19 +15,5 @@ page_blocks:
         {% endfor %}
 
     </div>
-    <blockquote>
-        <p>To err is human! Some more really long stuff because I
-            need to make sure
-            this but of text overflows at least on to two lines, but possibly a third because I don't think this is
-            indenting properly.
-        </p>
-        <footer class="blockquote-footer">by <cite>Alexander Pope</cite></footer>
-    </blockquote>
 
 </div>
-{% for block in page.page_blocks %}
-{% case block._id %}
-{% when 'text_block' %}
-{% include text-block.html block=block %}
-{% endcase %}
-{% endfor %}

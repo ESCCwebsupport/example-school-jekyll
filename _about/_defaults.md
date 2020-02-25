@@ -1,7 +1,7 @@
 ---
 layout: information-page
 title: New Page
-permalink:
+slug:
 published: false
 page_blocks:
 ---
