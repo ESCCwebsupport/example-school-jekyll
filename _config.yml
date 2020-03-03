@@ -41,8 +41,8 @@ _array_structures:
 
 _options:
   content:
-    uploads_dir: "/assets/images/:collection/:title"
+    uploads_dir: ":path"
     width: 200
     height: 300
     resize_style: "cover"
-    mime_type: "image/jpeg"
+    expandable: true
