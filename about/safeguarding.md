@@ -49,4 +49,4 @@ They can add these to:
 
 With some more regular text.
 
-![](/:path/bridget.jpg){: width="400" height="300"}
+![](/assets/images/safeguarding/bridget.jpg){: width="400" height="300"}
