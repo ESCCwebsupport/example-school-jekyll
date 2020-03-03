@@ -41,7 +41,7 @@ _array_structures:
 
 _options:
   content:
-    uploads_dir: "/:path/"
+    uploads_dir: "/assets/images/:path/"
     width: 200
     height: 300
     resize_style: "cover"
