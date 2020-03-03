@@ -48,5 +48,3 @@ They can add these to:
 ##### Smaller header
 
 With some more regular text.
-
-![](/assets/images/safeguarding/bridget.jpg){: width="400" height="300"}
