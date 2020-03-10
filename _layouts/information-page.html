@@ -20,12 +20,6 @@
         {% include introduction-text.html block=block %}
         {% endcase %}
         {% endfor %}
-        {% for link in page.page_links %}
-        {% case link._id %}
-        {% when 'link' %}
-        {% include landing-link.html block=block %}
-        {% endcase %}
-        {% endfor %}
 
     </section>
 
