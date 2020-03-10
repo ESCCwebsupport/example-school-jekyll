@@ -1,7 +1,7 @@
 ---
 layout: information-page
 title: Where does this page show in the tree?
-slug: tree test
+slug: about/another_section/tree-test
 published: true
 page_blocks:
   - _id: introduction_text
