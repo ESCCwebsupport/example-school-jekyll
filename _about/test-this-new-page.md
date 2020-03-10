@@ -14,7 +14,7 @@ page_blocks:
       If you want to know more you should see other text that we put here.
   - _id: link_button
     link_text: Linky here to go somewhere
-    link: /about/
+    link: /about/governors/
   - _id: text_block
     header: Add a header in the front matter
     content_markdown: |-
