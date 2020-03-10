@@ -38,14 +38,13 @@ _array_structures:
         _id: link_button
         link_text:
         link:
-
-page_links: []
-  - label: Page Links
-    icon: link
-    value:
-      _id: link
-      link_text:
-      link:
+    - label: Page Links
+      icon: link
+      value:
+        _id: landing_link
+        link_text:
+        link:
+          
 
 
 _options:
