@@ -39,6 +39,17 @@ _array_structures:
         link_text:
         link:
 
+page_links: []
+_array_structures:
+  page_links:
+    - label: Page Links
+      icon: link
+      value:
+        _id: link
+        link_text:
+        link:
+
+
 _options:
   content:
     uploads_dir: "/assets/images/:title"
