@@ -189,6 +189,37 @@ nav form.ignore {
     background: rgba(46, 46, 46, 0.6);
 }
 
+/*--- Lunr search ---*/
+
+#lunrsearchresults {
+    padding-top: 0.5rem;
+}
+
+.lunrsearchresult {
+    padding-bottom: 0.5rem;
+}
+
+.lunrsearchresult .title {
+    color: #d9230f;
+}
+
+.lunrsearchresult .url {
+    color: silver;
+}
+
+.lunrsearchresult a {
+    display: block;
+    color: #777;
+}
+
+.lunrsearchresult a:hover, .lunrsearchresult a:focus {
+    text-decoration: none;
+}
+
+.lunrsearchresult a:hover .title {
+    text-decoration: underline;
+}
+
 /*--- Footer ---*/
 
 .page-footer {

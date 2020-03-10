@@ -25,4 +25,5 @@ page_blocks:
       3. doing more contenty stuff
 
       ##### Smaller headings too
+description: A new page with some information on it. Gobbledigook.
 ---
