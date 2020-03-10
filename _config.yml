@@ -40,15 +40,12 @@ _array_structures:
         link:
 
 page_links: []
-_landing_structures:
-  style: modal
-  page_links:
-    - label: Page Links
-      icon: link
-      value:
-        _id: link
-        link_text:
-        link:
+  - label: Page Links
+    icon: link
+    value:
+      _id: link
+      link_text:
+      link:
 
 
 _options:
