@@ -41,6 +41,7 @@ _array_structures:
 
 page_links: []
 _landing_structures:
+  style: modal
   page_links:
     - label: Page Links
       icon: link
