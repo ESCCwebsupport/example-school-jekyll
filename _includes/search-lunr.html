@@ -27,7 +27,7 @@
     
     var idx = lunr(function () {
         this.ref('id')
-        this.field('title', { boost })
+        this.field('title', { boost: 5 })
         this.field('body')
         this.field('description')
         console.log(documents);
