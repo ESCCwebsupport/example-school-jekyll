@@ -5,11 +5,15 @@ slug: new page
 published: true
 page_blocks:
   - _id: introduction_text
-    content_markdown: |-
-      Introduction text goes here.
+    content_markdown: >-
+      Introduction text goes here. Add this block once per page for some leading
+      text.
+
 
       * bullet 1
+
       * bullet 2
+
 
       If you want to know more you should see other text that we put here.
   - _id: link_button
