@@ -103,7 +103,7 @@ h1 {
         background-attachment: initial !important;
     }
     .masthead {
-        text-align: left;
+        text-align: left !important;
     }
 }
 
