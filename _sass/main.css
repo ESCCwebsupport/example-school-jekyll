@@ -102,6 +102,9 @@ h1 {
     .header, .masthead {
         background-attachment: initial !important;
     }
+    .masthead {
+        text-align: left;
+    }
 }
 
 .overlay {
@@ -157,7 +160,6 @@ h1 {
 
 .masthead h1, h2, h3, .masthead p {
     color: #fff;
-    text-align: left;
 }
 
 .masthead-overlay {
