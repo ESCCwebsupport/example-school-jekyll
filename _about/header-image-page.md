@@ -1,5 +1,5 @@
 ---
-layout: header-image
+layout: information-page
 title: Header image page
 slug: image page
 published: true
