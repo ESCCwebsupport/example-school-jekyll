@@ -2,7 +2,7 @@
 
 <script>
     {% assign counter = 0 %}
-    var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+    var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'robots' or page.url contains 'assets' %}{% else %}{
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
@@ -13,7 +13,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.page_blocks | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: '_id', ' ' | replace: '=&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' }}",
+        "body": "{{ page.page_blocks | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: '  header', ' ' }}",
         "description": "{{ page.description}}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}{% for page in site.posts %}{
@@ -27,8 +27,8 @@
     
     var idx = lunr(function () {
         this.ref('id')
-        this.field('title', { boost: 5 })
-        this.field('body')
+        this.field('title', { boost: 10 })
+        this.field('body', { boost: 5 })
         this.field('description')
         console.log(documents);
     

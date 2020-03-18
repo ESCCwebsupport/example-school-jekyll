@@ -25,6 +25,7 @@ page_blocks:
   - _id: link_button
     link_text: This is the button we're referring to
     link: /
+description: About our policy on safeguarding, who the school's designated safeguarding leads are.
 ---
 
 This is where you edit the text. Make sure pages are all markdown and then the team can update them.

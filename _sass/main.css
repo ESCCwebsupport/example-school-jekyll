@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Source+Sans+Pro:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i|Oxygen:400,700&display=swap');
+
 html {
     overflow-y: scroll;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 1.1rem;
     /* padding: 75px 0 0 0; */
     /* margin: 0; */
@@ -12,8 +13,12 @@ body {
 }
 
 body h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+}
+
+h1 {
+    font-size: 2.4rem;
 }
 
 /*--- navigation bar ---*/
@@ -26,7 +31,7 @@ body h1, h2, h3, h4, h5, h6 {
 .navbar-nav li a {
     transition: 0.4s;
     padding: 5px 15px;
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 0;
 }
 
 .nav-link, .navbar-brand {
@@ -59,34 +64,15 @@ body h1, h2, h3, h4, h5, h6 {
     justify-content: flex-end;
 }
 
-.input-group-append .btn {
-    background-color: #fff;
-    border-bottom-left-radius: 0 !important;
-    border-top-left-radius: 0 !important;
-}
-
-.input-group-append .btn:hover {
-    background-color: rgb(91, 91, 91);
-}
-
-.form-control:focus {
-    outline: 0 !important;
-    border-color: initial;
-    box-shadow: none;
-}
-
-.navbar .form-control {
-    border-top-left-radius: 0.25em !important;
-    border-bottom-left-radius: 0.25em !important;
-    border-bottom-right-radius: 0 !important;
-    border-top-right-radius: 0 !important;
+.nav-search-button {
+    margin: 0 7px 0 0;
 }
 
 @media (max-width: 992px) {
     .current {
         border-bottom: none;
     }
-    .input-group {
+    .nav-search-button {
         margin: 5px 0 8px 0;
     }
 }
@@ -100,16 +86,6 @@ body h1, h2, h3, h4, h5, h6 {
         max-width: 100%;
     }
 }
-
-nav form.ignore {
-    display: flex;
-    flex: auto;
-    justify-content: space-around;
-    position: relative;
-    margin-right: 8px;
-}
-
-/*--- collapse at larger screen size ---*/
 
 /*--- home header section ---*/
 
@@ -173,14 +149,13 @@ nav form.ignore {
 
 .masthead {
     height: 60vh;
-    background-image: url("/assets/images/head.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.masthead h1, .masthead p {
+.masthead h1, h2, h3, .masthead p {
     color: #fff;
 }
 
@@ -276,7 +251,7 @@ nav form.ignore {
 
 @media screen and (min-width:0\0) and (min-resolution:+72dpi) {
     .header, .masthead {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
 }
 
