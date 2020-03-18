@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<header>
 {% include head.html %}
-{% include navigation.html %}
-</header>
 
 <body>
+    <header>
+        {% include navigation.html %}
+    </header>
     {% if page.header_image %}
     {% include hero-image.html %}
     {% endif %}
