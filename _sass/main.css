@@ -157,6 +157,7 @@ h1 {
 
 .masthead h1, h2, h3, .masthead p {
     color: #fff;
+    text-align: left;
 }
 
 .masthead-overlay {
