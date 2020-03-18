@@ -4,13 +4,9 @@
 {% include head.html %}
 
 <body>
-    {% include navigation.html %}
-    {% for block in page.page_blocks %}
-    {% case block._id %}
-    {% when 'hero_image' %}
-    {% include hero-image.html block=block %}
-    {% endcase %}
-    {% endfor %}
+    {% if page.header_image %}
+    {% include hero-image.html %}
+    {% endif %}
     <section class="py-5">
         <div class="container">
             <h1> {{ page.title}} </h1>
