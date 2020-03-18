@@ -10,6 +10,6 @@ page_blocks:
       image in the front matter, but it will only show if the page layout is
       'header image'. Got to figure out if that's the best way or if there's
       some if...else that can be done to hide the normal h1 tag.
-header_image: /assets/images/classroom.jpg
+header_image: /assets/images/classroom2.jpg
 description: Test to see if the image loads properly.
 ---
