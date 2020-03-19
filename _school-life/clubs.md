@@ -10,7 +10,7 @@ page_blocks:
 
       See our timetable below for details about when we run these clubs and who
       to contact to get involved.
-header_image: /uploads/jazz-1415982-1920.jpg
+header_image:
 description: >-
   At St Invicta's we run a number of clubs, including music and athletics to
   encourage our children.
