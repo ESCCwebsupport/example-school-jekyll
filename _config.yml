@@ -16,6 +16,10 @@ collections:
     _hide_content: true
     output: true
     permalink: /about/:title/
+  school_life:
+    _hide_content: true
+    output: true
+    permalink: /school-life/:title/
 
 page_blocks: []
 _array_structures:
