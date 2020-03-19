@@ -5,5 +5,5 @@ page_blocks:
 header_image:
 description:
 slug:
-published: false
+published: true
 ---
