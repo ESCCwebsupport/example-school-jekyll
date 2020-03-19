@@ -1,5 +1,7 @@
 - name: Our school
   link: /about/
+- name: School life
+  link: /school-life/clubs/
 - name: Governors
   link: /about/governors/
 - name: Contact
