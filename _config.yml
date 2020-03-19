@@ -16,7 +16,7 @@ collections:
     _hide_content: true
     output: true
     permalink: /about/:title/
-  school_life:
+  school-life:
     _hide_content: true
     output: true
     permalink: /school-life/:title/
