@@ -23,11 +23,11 @@ collections:
   send:
     _hide_content: true
     output: true
-    permalink: /:collection/:title/
+    permalink: /send/:title/
   sen-policies:
     _hide_content: true
     output: true
-    permalink: /send/send-policies/:title/
+    permalink: /send/sen-policies/:title/
 
 page_blocks: []
 _array_structures:
