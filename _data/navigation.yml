@@ -1,10 +1,10 @@
 - name: Our school
   link: /about/
+- name: SEND
+  link: /send/
 - name: School life
   link: /school-life/clubs/
 - name: Governors
   link: /about/governors/
 - name: Contact
   link: /contact/
-- name: SEND
-  link: /send/
