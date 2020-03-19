@@ -23,7 +23,7 @@ collections:
   send:
     _hide_content: true
     output: true
-    permalink: /send/:path/:title/
+    permalink: /:collection/:title/
 
 page_blocks: []
 _array_structures:
