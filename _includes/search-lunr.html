@@ -16,6 +16,14 @@
         "body": "{{ page.page_blocks | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: '  header', ' ' }}",
         "description": "{{ page.description}}"
         {% assign counter = counter | plus: 1 %}
+        }, {% endfor %}
+        {% for page in site.school-life %}{
+        "id": {{ counter }},
+        "url": "{{ site.url }}{{ page.url }}",
+        "title": "{{ page.title }}",
+        "body": "{{ page.page_blocks | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: '  header', ' ' }}",
+        "description": "{{ page.description}}"
+        {% assign counter = counter | plus: 1 %}
         }, {% endfor %}{% for page in site.posts %}{
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",

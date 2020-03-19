@@ -20,6 +20,10 @@ collections:
     _hide_content: true
     output: true
     permalink: /school-life/:title/
+  send:
+    _hide_content: true
+    output: true
+    permalink: /send/:title/
 
 page_blocks: []
 _array_structures:
