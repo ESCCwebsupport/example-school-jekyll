@@ -4,7 +4,7 @@ image: /assets/images/classroom2.jpg
 permalink: pretty
 lang: en_GB
 
-# url: https://puny-caribou.cloudvent.net
+url: https://puny-caribou.cloudvent.net
 
 plugins:
   - jekyll-sitemap
