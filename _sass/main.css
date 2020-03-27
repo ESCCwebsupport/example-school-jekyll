@@ -529,3 +529,7 @@ blockquote p {
     width: 100%;
     display: block;
 }
+
+ul.image-gallery {
+    padding-inline-start: 0.25rem;
+}
