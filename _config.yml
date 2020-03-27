@@ -30,6 +30,7 @@ collections:
     output: true
     permalink: /send/sen-policies/:title/
 
+
 page_blocks: []
 _array_structures:
   style: modal
