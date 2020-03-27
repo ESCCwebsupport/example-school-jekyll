@@ -1,9 +1,9 @@
 ---
 layout: information-page
 ---
-<p>{{ page.date | date_to_string }} - {% include read_time.html %} read
+<p class="news-intro">Posted on {{ page.date | date_to_string }} - {% include read_time.html %} read
 </p>
 <p>
-    Posted by: {{ page.author }}
+    By {{ page.author }}
 </p>
 {{ content }}

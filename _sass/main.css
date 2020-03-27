@@ -533,3 +533,9 @@ blockquote p {
 ul.image-gallery {
     padding-inline-start: 0.25rem;
 }
+
+/*--- news section ---*/
+
+p.news-intro {
+    color: rgb(189, 11, 11);
+}

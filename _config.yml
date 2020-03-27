@@ -29,6 +29,9 @@ collections:
     _hide_content: true
     output: true
     permalink: /send/sen-policies/:title/
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
 
 
 page_blocks: []
