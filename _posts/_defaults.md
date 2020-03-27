@@ -1,5 +1,5 @@
 ---
-layout: information-page
+layout: post
 title: New news item
 header_image:
 description:

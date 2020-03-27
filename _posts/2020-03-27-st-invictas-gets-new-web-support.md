@@ -1,6 +1,5 @@
 ---
-layout:
-  - information-page
+layout: post
 title: St Invicta's gets new web support
 header_image:
 description: We are now using ESCC's Web Support Service to manage our website.
