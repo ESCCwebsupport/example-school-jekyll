@@ -1,5 +1,5 @@
 ---
-_layout:
+layout:
   - information-page
 title: St Invicta's gets new web support
 header_image:
