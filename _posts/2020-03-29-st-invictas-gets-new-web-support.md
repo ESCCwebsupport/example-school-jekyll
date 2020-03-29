@@ -2,7 +2,7 @@
 layout: post
 title: St Invicta's gets new web support
 author:
-posted_date-gmt:
+posted_date:
 header_image:
 description: We are now using ESCC's Web Support Service to manage our website.
 published: true
