@@ -17,7 +17,7 @@ title: Latest news
             <img src="/assets/images/news-radio.jpg" alt="{{ post.title }}">
             {% endif %}
             <span>
-              <h4>{{ post.date | date_to_string }}</h4>
+              <h4>{{ post.posted_date-gmt | date_to_string }}</h4>
             </span>
           </div>
           <div class="card-desc">
