@@ -7,8 +7,9 @@ title: Latest news
 <section class="pt-1 pb-5 news">
   <div class="container">
     <div class="row">
-      {% for post in site.posts %}
-      <div class="col-md-4">
+      {% assign posts = site.posts | sort: 'posted_date' | reverse %}
+      {% for post in posts %}
+      <div class="col-md-6 col-lg-4">
         <div class="card-content">
           <div class="card-img">
             {% if post.header_image %}
