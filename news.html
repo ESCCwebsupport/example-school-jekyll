@@ -4,21 +4,25 @@ title: Latest news
 <!-- header_image: /assets/images/news-radio.jpg -->
 ---
 </section>
-<section class="news details-card">
+<section class="pt-1 pb-5 news">
   <div class="container">
     <div class="row">
       {% for post in site.posts %}
       <div class="col-md-4">
         <div class="card-content">
           <div class="card-img">
+            {% if post.header_image %}
             <img src="{{ post.header_image }}" alt="{{ post.title }}">
+            {% else %}
+            <img src="/assets/images/news-radio.jpg" alt="{{ post.title }}">
+            {% endif %}
             <span>
               <h4>{{ post.date | date_to_string }}</h4>
             </span>
           </div>
           <div class="card-desc">
             <h3>{{ post.title }}</h3>
-            <p>{{ post.excerpt | truncatewords: 20 }}</p>
+            <p>{{ post.description | truncatewords: 15 }}</p>
             <a href="{{ post.url }}" class="btn-card">Read</a>
           </div>
         </div>

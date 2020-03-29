@@ -546,10 +546,6 @@ section.news {
     padding: 100px 0;
 }
 
-.details-card {
-    background: #ecf0f1;
-}
-
 .card-content {
     background: #ffffff;
     border: 4px;
@@ -567,12 +563,14 @@ section.news {
     width: 100%;
     height: auto;
     display: block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 .card-img span {
     position: absolute;
     top: 15%;
-    left: 12%;
+    left: 15%;
     background: #1ABC9C;
     padding: 6px;
     color: #fff;
@@ -610,11 +608,11 @@ section.news {
     color: #747373;
     font-size: 14px;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.5;
     margin: 0px;
     margin-bottom: 20px;
-    padding: 0;
+    padding: 0.3rem 0 0 0;
 }
 
 .btn-card {
