@@ -13,3 +13,32 @@ button_link: /about/welcome/
         <a href="{{ page.button_link }}" class="btn btn-primary btn-lg" role="button">Read our head's welcome</a>
     </div>
 </header>
+
+<section class="py-5 news">
+    <div class="container">
+        <h2 class="pb-4 text-center">Latest school news</h2>
+        <div class="row">
+            {% assign posts = site.posts | sort: 'posted_date' | reverse %}
+            {% for post in posts limit:3 %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        {% if post.header_image %}
+                        <img src="{{ post.header_image }}" alt="{{ post.title }}">
+                        {% else %}
+                        <img src="/assets/images/news-radio.jpg" alt="{{ post.title }}">
+                        {% endif %}
+                        <span>
+                            <h4>Posted {{ post.posted_date | date_to_string }}</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.description | truncatewords: 15 }}</p>
+                        <a href="{{ post.url }}" class="btn-card">Read</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+</section>
