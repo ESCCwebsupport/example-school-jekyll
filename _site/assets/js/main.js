@@ -175,3 +175,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
+
+
+$( document ).ready(function() {
+  $('a[href$="pdf"]').prepend(`<i class="fas fa-file-pdf"></i>`).addClass("no-style");
+});
