@@ -64,3 +64,4 @@ _options:
     width: 200
     height: 300
     resize_style: "cover"
+    table: true
