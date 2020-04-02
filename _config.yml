@@ -46,11 +46,11 @@ _array_structures:
         content_markdown:
     - label: Text Block
       icon: content
-      table: true
       value:
         _id: text_block
         header:
         content_markdown:
+          table: true
     - label: Link Button
       icon: link
       value:
