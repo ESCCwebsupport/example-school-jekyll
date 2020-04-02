@@ -46,6 +46,7 @@ _array_structures:
         content_markdown:
     - label: Text Block
       icon: content
+      table: true
       value:
         _id: text_block
         header:
@@ -64,4 +65,3 @@ _options:
     width: 200
     height: 300
     resize_style: "cover"
-    table: true
