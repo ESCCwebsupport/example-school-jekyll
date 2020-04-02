@@ -178,5 +178,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 $( document ).ready(function() {
-  $('a[href$="pdf"]').prepend(`<i class="fas fa-file-pdf"></i>`).addClass("no-style");
+  $('a[href$="pdf"]').prepend(`<i class="far fa-file-pdf"></i>`).addClass("no-style");
+  $('a[href$="doc"]').prepend(`<i class="far fa-file-word"></i>`).addClass("no-style");
+  $('a[href$="docx"]').prepend(`<i class="far fa-file-word"></i>`).addClass("no-style");
+  $('a[href$="xls"]').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
+  $('a[href$="xlsx"]').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
 });

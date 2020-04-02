@@ -692,6 +692,14 @@ p {
     color: rgb(186, 8, 8);
 }
 
+.fa-file-word {
+    color: #4083ff;
+}
+
+.fa-file-excel {
+    color: #16c224;
+}
+
 /*--- general ---*/
 
 p a:not(.no-style) {
@@ -705,6 +713,6 @@ p a:not(.no-style) {
 }
 
 p a:hover:not(.no-style) {
-    background-size: 3px 1.35rem;
+    background-size: 3px 1.4rem;
     color: #fff;
 }
