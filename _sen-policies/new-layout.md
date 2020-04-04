@@ -2,7 +2,7 @@
 layout: test
 title: test visual editing only
 header_image:
-_button:
+button:
     button_link:
     button_text:
 description:
