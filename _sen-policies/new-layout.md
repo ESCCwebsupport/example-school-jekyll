@@ -1,7 +1,7 @@
 ---
 layout: test
 title: test visual editing only
-header_image: /_site/assets/images/head.jpg
+header_image: /assets/images/head.jpg
 button:
   button_link:
   button_text:
