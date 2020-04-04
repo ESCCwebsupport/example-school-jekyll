@@ -10,8 +10,4 @@ slug:
 published: true
 ---
 
-<div class="container editable">
-    <h3>Smaller heading goes in here if needed</h3>
-    <p>Content here.</p>
-    <p>I can change this using the editor I hope.</p>
-</div>
+<div class="container editable"><p>Content here.</p><p>I can change this using the editor I hope.</p></div>
