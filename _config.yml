@@ -27,7 +27,7 @@ collections:
     output: true
     permalink: /send/:title/
   sen-policies:
-    _hide_content: false
+    _hide_content: true
     output: true
     permalink: /send/sen-policies/:title/
   posts:

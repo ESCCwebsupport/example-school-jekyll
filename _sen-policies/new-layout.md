@@ -3,8 +3,8 @@ layout: test
 title: test visual editing only
 header_image: /assets/images/news-radio.jpg
 button:
-  button_link:
-  button_text:
+  button_link: www.google.com
+  button_text: Google
 description:
 slug:
 published: true
