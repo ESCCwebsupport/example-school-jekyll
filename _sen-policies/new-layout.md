@@ -1,10 +1,10 @@
 ---
 layout: test
 title: test visual editing only
-header_image:
+header_image: /_site/assets/images/head.jpg
 button:
-    button_link:
-    button_text:
+  button_link:
+  button_text:
 description:
 slug:
 published: true
