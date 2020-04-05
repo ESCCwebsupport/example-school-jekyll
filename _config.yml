@@ -63,7 +63,15 @@ _options:
     uploads_dir: "/assets/images/:title"
     height: 400
     resize_style: "cover"
-    caption:
     table: true
-  content_markdown:
+  _block:
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    bold: true
+    numberedlist: true
+    code: true
     table: true
+    right: align-to-right
+    styles: /_sass/_content-typography.scss
+    embed: true
+    undo: true
+    redo: true
