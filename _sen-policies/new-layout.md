@@ -3,7 +3,7 @@ layout: test
 title: test visual editing only
 header_image: /assets/images/news-radio.jpg
 button:
-  button_link: https://www.google.com
+  button_link: 'https://www.google.com'
   button_text: Call to action
 description:
 slug:
