@@ -68,10 +68,10 @@ _options:
     format: p h1 h2 h3 h4 h5 h6 pre address div
     bold: true
     numberedlist: true
-    code: true
     table: true
-    right: align-to-right
+    right: text-right
     styles: /_sass/_content-typography.scss
     embed: true
     undo: true
     redo: true
+    image: true
