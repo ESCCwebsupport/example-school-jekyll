@@ -7,7 +7,7 @@ timezone: Europe/London
 
 url: https://puny-caribou.cloudvent.net
 
-uploads_dir: "/assets/images/:title"
+uploads_dir: "/assets/media/:title"
 
 plugins:
   - jekyll-sitemap
