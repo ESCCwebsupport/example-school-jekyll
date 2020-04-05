@@ -716,3 +716,10 @@ p a:hover:not(.no-style) {
     background-size: 3px 1.4rem;
     color: #fff;
 }
+
+p img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}

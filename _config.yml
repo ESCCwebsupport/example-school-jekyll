@@ -61,8 +61,9 @@ _array_structures:
 _options:
   content:
     uploads_dir: "/assets/images/:title"
-    width: 200
-    height: 300
+    height: 400
     resize_style: "cover"
+    caption:
+    table: true
   content_markdown:
     table: true
