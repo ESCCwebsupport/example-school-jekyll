@@ -61,11 +61,11 @@ _array_structures:
 
 
 _options:
-  # content:
-  #   uploads_dir: "/assets/images/:title"
-  #   height: 400
-  #   resize_style: "cover"
   content:
+    uploads_dir: "/assets/images/:title"
+    height: 400
+    resize_style: "cover"
+  block:
     format: p h1 h2 h3 h4 h5 h6 pre address
     bold: true
     italic: true
@@ -81,6 +81,3 @@ _options:
     undo: true
     redo: true
     image: true
-    uploads_dir: "/assets/images/:title"
-    height: 400
-    resize_style: "cover"
