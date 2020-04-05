@@ -64,6 +64,7 @@ _options:
   content:
     uploads_dir: "/assets/images/:title"
     height: 400
+    width: 500
     resize_style: "cover"
   # block:
   #   format: p h1 h2 h3 h4 h5 h6 pre address
