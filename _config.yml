@@ -65,19 +65,19 @@ _options:
     uploads_dir: "/assets/images/:title"
     height: 400
     resize_style: "cover"
-  block:
-    format: p h1 h2 h3 h4 h5 h6 pre address
-    bold: true
-    italic: true
-    removeformat: true
-    link: true
-    underline: true
-    bulletedlist: true
-    numberedlist: true
-    table: true
-    right: text-right
-    # styles: /_sass/_content-typography.scss
-    embed: true
-    undo: true
-    redo: true
-    image: true
+  # block:
+  #   format: p h1 h2 h3 h4 h5 h6 pre address
+  #   bold: true
+  #   italic: true
+  #   removeformat: true
+  #   link: true
+  #   underline: true
+  #   bulletedlist: true
+  #   numberedlist: true
+  #   table: true
+  #   right: text-right
+  #   # styles: /_sass/_content-typography.scss
+  #   embed: true
+  #   undo: true
+  #   redo: true
+  #   image: true
