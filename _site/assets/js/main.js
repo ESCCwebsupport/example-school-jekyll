@@ -184,3 +184,7 @@ $( document ).ready(function() {
   $('a[href$="xls"]').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
   $('a[href$="xlsx"]').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
 });
+
+$( document ).ready(function() {
+  $( "table" ).addClass("table table-bordered table-hover");
+});

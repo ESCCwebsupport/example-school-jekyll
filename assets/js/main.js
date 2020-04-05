@@ -186,5 +186,5 @@ $( document ).ready(function() {
 });
 
 $( document ).ready(function() {
-  $('<table>').addClass("table");
+  $( "table" ).addClass("table table-bordered table-hover");
 });
