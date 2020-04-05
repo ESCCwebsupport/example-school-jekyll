@@ -12,11 +12,11 @@
         <div class="container pb-2">
             {% if page.header_image %}
             {% else %}
-            <h1> {{ page.title}} </h1>
+            <h1> {{ page.page_name}} </h1>
             {% endif %}
         </div>
         {{ content }}
-        {% if page.button %}
+        {% if page.button.button_link %}
         {% include link-button.html %}
         {% endif %}
         {% include footer.html %}
