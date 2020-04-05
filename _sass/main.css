@@ -729,4 +729,19 @@ table {
     width: 100%;
     margin-bottom: 1rem;
     background-color: transparent;
+    border: 1px solid #dee2e6;
+}
+
+thead th, thead td {
+    border-bottom-width: 2px;
+}
+
+thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: .75rem;
 }
