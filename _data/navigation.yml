@@ -1,5 +1,5 @@
-- name: Our school
-  link: /about/
+- name: School information
+  link: /school-information/
 - name: SEND
   link: /send/
 - name: School life
