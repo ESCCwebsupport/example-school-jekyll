@@ -1,49 +1,52 @@
 ---
-layout: test
-page_name: Test elements
+layout: content-page
+title: Test elements
 header_image:
 button:
-  button_link:
-  button_text:
+button_link:
+button_text:
 description:
 slug: test elements
 published: true
 ---
 
-<div class="container editable">
-            <p><a href="/assets/images/headteacher-meeting-dates-2019-20.pdf">Link to a PDF here</a></p>
-            <p><a href="/assets/images/headteacher-meeting-dates-2019-20.doc">Link to a doc here</a></p>
-            <p><a href="/assets/images/headteacher-meeting-dates-2019-20.docx">Link to a docx here</a></p>
-            <p><a href="/assets/images/headteacher-meeting-dates-2019-20.xlsx">Link to a xlsx file here</a></p>
-            <p>Normal again</p>
-            <h3>A table</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col">Heading 1</th>
-                        <th scope="col">Heading 2</th>
-                        <th scope="col">Heading 3</th>
-                        <th scope="col">Heading 4</th>
-                        <th scope="col">Heading 5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Something here</td>
-                        <td>Something there</td>
-                        <td>Something everywhere - bit more wording</td>
-                        <td>Nothing to see here</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="cms-embed" data-cms-embed="PGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MDAiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvRlRWNlVDaC15aHMiIGZyYW1lYm9yZGVyPSIwIiBhbGxvdz0iYWNjZWxlcm9tZXRlcjsgYXV0b3BsYXk7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj48L2lmcmFtZT4="><iframe width="100%" height="500" src="https://www.youtube.com/embed/FTV6UCh-yhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-            <p>&nbsp;</p>
-        </div>
+<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
+  <p><a href="/assets/images/headteacher-meeting-dates-2019-20.pdf">Link to a PDF here</a></p>
+  <p><a href="/assets/images/headteacher-meeting-dates-2019-20.doc">Link to a doc here</a></p>
+  <p><a href="/assets/images/headteacher-meeting-dates-2019-20.docx">Link to a docx here</a></p>
+  <p><a href="/assets/images/headteacher-meeting-dates-2019-20.xlsx">Link to a xlsx file here</a></p>
+  <p>Normal again</p>
+  <h3>A table</h3>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Heading 1</th>
+        <th scope="col">Heading 2</th>
+        <th scope="col">Heading 3</th>
+        <th scope="col">Heading 4</th>
+        <th scope="col">Heading 5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Something here</td>
+        <td>Something there</td>
+        <td>Something everywhere - bit more wording</td>
+        <td>Nothing to see here</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="cms-embed"
+    data-cms-embed="PGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MDAiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvRlRWNlVDaC15aHMiIGZyYW1lYm9yZGVyPSIwIiBhbGxvdz0iYWNjZWxlcm9tZXRlcjsgYXV0b3BsYXk7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj48L2lmcmFtZT4=">
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/FTV6UCh-yhs" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+  <p>&nbsp;</p>
+</div>

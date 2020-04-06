@@ -1,15 +1,15 @@
 ---
 layout: content-page
-page_name:
+title:
+slug:
 header_image:
 button:
   button_link:
   button_text:
 description:
-slug:
 published: false
 ---
 
-<div class="container editable" data-i18n="{{ page.title }}">
+<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
     Content here.
 </div>

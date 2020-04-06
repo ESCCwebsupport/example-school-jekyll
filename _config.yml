@@ -16,10 +16,10 @@ plugins:
 collections:
   governors:
   teachers:
-  about:
+  school-information:
     _hide_content: true
     output: true
-    permalink: /about/:title/
+    permalink: /school-information/:title/
   school-life:
     _hide_content: true
     output: true
