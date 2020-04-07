@@ -61,7 +61,7 @@ _array_structures:
 
 
 _options:
-  content:
+  _block:
     height: 400
     width: 500
     resize_style: "cover"
@@ -83,7 +83,7 @@ _options:
     undo: true
     redo: true
     image: true
-  _block:
+  content:
     height: 400
     width: 500
     resize_style: "cover"
@@ -96,10 +96,6 @@ _options:
     bulletedlist: true
     numberedlist: true
     table: true
-    left: text-left
-    center: text-center
-    right: text-right
-    justify: text-justify
     # styles: /_sass/_content-typography.scss
     embed: true
     undo: true
