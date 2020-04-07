@@ -83,3 +83,25 @@ _options:
     undo: true
     redo: true
     image: true
+  _block:
+    height: 400
+    width: 500
+    resize_style: "cover"
+    format: p h3 h4 h5 h6
+    bold: true
+    italic: true
+    removeformat: true
+    link: true
+    underline: true
+    bulletedlist: true
+    numberedlist: true
+    table: true
+    left: text-left
+    center: text-center
+    right: text-right
+    justify: text-justify
+    # styles: /_sass/_content-typography.scss
+    embed: true
+    undo: true
+    redo: true
+    image: true
