@@ -8,4 +8,10 @@ description: A news article which includes a table in the content.
 published: true
 ---
 
-<table><tbody><tr><td>Not a heading</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody><caption>Table name</caption><thead><tr><th scope="col">Heading</th><th scope="col">Heading again</th><th scope="col">Another heading</th><th scope="col">Nothing here</th><th scope="col">What's this?</th></tr></thead></table>
+| Not a heading | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| Heading | Heading again | Another heading | Nothing here | What's this? |
+| --- | --- | --- | --- | --- |
+
+![Classroom scene](/assets/images/classroom2.jpg "Classroom scene"){: width="2000" height="1333"}
