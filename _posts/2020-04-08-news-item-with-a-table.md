@@ -9,7 +9,9 @@ published: true
 ---
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| &nbsp; | some text | &nbsp; | &nbsp; |
+| &nbsp; | &nbsp; | Does it work? | &nbsp; |
+| Put a header in | &nbsp; | &nbsp; | &nbsp; |
+| --- | --- | --- | --- |
 
 &nbsp;
