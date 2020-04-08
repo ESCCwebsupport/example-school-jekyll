@@ -8,10 +8,6 @@ description: A news article which includes a table in the content.
 published: true
 ---
 
-| Not a heading | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| Heading | Heading again | Another heading | Nothing here | What's this? |
-| --- | --- | --- | --- | --- |
+\| Not a heading \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| Heading \| Heading again \| Another heading \| Nothing here \| What's this? \| \| — \| — \| — \| — \| — \|
 
-![Classroom scene](/assets/images/classroom2.jpg "Classroom scene"){: width="2000" height="1333"}
+&nbsp;
