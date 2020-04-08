@@ -33,6 +33,7 @@ collections:
     output: true
     permalink: /send/sen-policies/:title/
   posts:
+    _hide_content: true
     output: true
     permalink: /news/:year/:month/:day/:title/
 
