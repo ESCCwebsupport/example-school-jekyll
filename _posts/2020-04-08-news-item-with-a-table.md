@@ -8,6 +8,10 @@ description: A news article which includes a table in the content.
 published: true
 ---
 
-\| Not a heading \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| &nbsp; \| \| Heading \| Heading again \| Another heading \| Nothing here \| What's this? \| \| — \| — \| — \| — \| — \|
+| Text in here | And here | &nbsp; | &nbsp; |
+| &nbsp; | Some more | Not much | &nbsp; |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| Heading 1 | Heading 2 | Another heading | Four headings\! |
+| --- | --- | --- | --- |
 
 &nbsp;
