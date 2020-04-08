@@ -96,7 +96,7 @@ _options:
     underline: true
     bulletedlist: true
     numberedlist: true
-    table: true
+    table: false
     # styles: /_sass/_content-typography.scss
     embed: true
     undo: true
