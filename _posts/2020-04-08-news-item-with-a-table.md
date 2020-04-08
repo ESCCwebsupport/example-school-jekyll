@@ -8,6 +8,8 @@ description: A news article which includes a table in the content.
 published: true
 ---
 
-&nbsp;
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
 &nbsp;
