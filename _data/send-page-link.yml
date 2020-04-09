@@ -1,4 +1,4 @@
 - name: Back to home
   link: /
-- name: Test a SEN policy
-  link: /send/sen-policies/whats-the-url/
+- name: Second link
+  link: /

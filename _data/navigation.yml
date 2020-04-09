@@ -1,5 +1,7 @@
 - name: School information
   link: /school-information/
+- name: Staff
+  link: /staff/
 - name: SEND
   link: /send/
 - name: School life
@@ -8,5 +10,7 @@
   link: /governors/
 - name: News
   link: /news/
+- name: Policies
+  link: /policies/
 - name: Contact
   link: /contact/

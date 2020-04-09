@@ -33,9 +33,12 @@ h1 {
 }
 
 .navbar-nav li a {
-    transition: 0.4s;
-    padding: 5px 15px;
+    transition: 0.6s;
+    padding: 0px 15px;
     margin: 5px 0 0 0;
+    border-bottom: 3px;
+    border-color: transparent;
+    border-bottom-style: solid;
 }
 
 .nav-link,
@@ -55,6 +58,7 @@ h1 {
 
 .current {
     color: #4083ff;
+    border-bottom-color: #4083ff !important;
 }
 
 .navbar-brand:focus,
@@ -64,6 +68,7 @@ h1 {
 
 .nav-link:hover {
     color: #4083ff;
+    border-bottom-color: #4083ff;
 }
 
 .navbar-collapse {
@@ -78,6 +83,11 @@ h1 {
     .current {
         border-bottom: none;
     }
+
+    .navbar-nav li a {
+        border-bottom: none;
+    }
+
     .nav-search-button {
         margin: 5px 0 8px 0;
     }
@@ -620,6 +630,7 @@ section.news {
     font-weight: 600;
     font-size: 1.5em;
     line-height: 1.3em;
+    height: 4rem;
     margin-top: 0;
     margin-bottom: 5px;
     padding: 0;
@@ -631,6 +642,7 @@ section.news {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5;
+    height: 4rem;
     margin: 0px;
     margin-bottom: 20px;
     padding: 0.3rem 0 0 0;

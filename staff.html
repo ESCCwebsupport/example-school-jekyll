@@ -1,0 +1,20 @@
+---
+layout: content-page
+title: Our staff
+published: true
+description: Our staff are vital to St Invicta's. Meet our teachers and support staff.
+---
+
+<div class="landing-buttons container pt-4">
+
+    <div class="row">
+        {% for link in site.data.staff-page-link %}
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}" class="btn btn-primary btn-lg" role="button">{{ link.name }}</a>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>

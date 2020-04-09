@@ -32,6 +32,14 @@ collections:
     _hide_content: true
     output: true
     permalink: /send/sen-policies/:title/
+  staff:
+    _hide_content: true
+    output: true
+    permalink: /staff/:title/
+  policies:
+    _hide_content: true
+    output: true
+    permalink: /policies/:title/
   posts:
     output: true
     permalink: /news/:year/:month/:day/:title/
