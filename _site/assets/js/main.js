@@ -188,5 +188,4 @@ $( document ).ready(function() {
 $( document ).ready(function() {
   $( "table" ).addClass("table table-bordered table-hover");
   $( "table" ).wrap( "<div class='table-responsive'></div>" );
-  // $( "thead" ).addClass("thead-dark");
 });
