@@ -9,7 +9,8 @@
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
-        }, {% endif %}{% endfor %}{% for page in site.school-information %}{
+        }, {% endif %}{% endfor %}
+        {% for page in site.school-information %}{
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
