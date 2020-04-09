@@ -4,7 +4,7 @@ title: Markdown only?
 author: Matt
 posted_date: 2020-04-08 00:00:00 +0100
 header_image:
-description:
+description: News posts now have i18n tags in them and embedded videos format properly.
 published: true
 ---
 
