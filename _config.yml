@@ -15,6 +15,7 @@ plugins:
 
 collections:
   governors:
+    _hide_content: true
   teachers:
   school-information:
     _hide_content: true
