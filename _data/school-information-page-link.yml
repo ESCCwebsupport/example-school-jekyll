@@ -1,10 +1,4 @@
-- name: Back to home
-  link: /
-- name: Governing body
-  link: /about/governors/
+- name: Head's welcome
+  link: /school-information/welcome/
 - name: Safeguarding
-  link: /about/safeguarding/
-- name: Uniform
-  link: /about/uniform/
-- name: To the new test page
-  link: /about/new-page/
+  link: /school-information/safeguarding/
