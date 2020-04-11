@@ -13,6 +13,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+incremental: true
+
 collections:
   governors:
     _hide_content: true
