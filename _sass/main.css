@@ -750,7 +750,7 @@ div.cms-embed {
     display: block;
     width: 100%;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 div.cms-embed::before {
