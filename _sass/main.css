@@ -774,9 +774,9 @@ iframe {
 
 .responsiveCal {
     position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 85%;
     height: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .responsiveCal iframe {
