@@ -743,6 +743,7 @@ th, td {
     border: 1px solid #dee2e6;
     padding: .75rem;
 }
+/*--- media embeds ---*/
 
 div.cms-embed {
     position: relative;
@@ -758,7 +759,6 @@ div.cms-embed::before {
     content: "";
 }
 
-/*--- media embeds ---*/
 
 iframe {
     position: absolute;
