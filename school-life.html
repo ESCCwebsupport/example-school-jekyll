@@ -5,13 +5,13 @@ published: true
 description: Read information about our school.
 ---
 
-<div class="landing-buttons container pt-4">
+<div class="container pt-4">
 
     <div class="row">
         {% for link in site.data.school-life-page-link %}
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}"
-                class="btn btn-primary btn-lg" role="button">{{ link.name }}</a>
+                class="btn btn-primary btn-lg btn-block" role="link">{{ link.name }}</a>
         </div>
 
         {% endfor %}

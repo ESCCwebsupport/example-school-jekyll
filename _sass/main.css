@@ -310,16 +310,6 @@ section.team {
     padding-bottom: 0.5rem;
 }
 
-/*--- landing page buttons ---*/
-
-.landing-buttons a.btn, .block-button a.btn {
-    width: 100%;
-}
-
-.landing-buttons .col-sm-12 {
-    flex-basis: 100%;
-}
-
 /*--- general changes ---*/
 
 .visually-hidden {
@@ -699,7 +689,7 @@ p {
 
 /*--- general ---*/
 
-p a:not(.no-style) {
+li a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button) {
     background: linear-gradient(to bottom, (#4083ff) 0%, (#4083ff) 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -709,7 +699,7 @@ p a:not(.no-style) {
     transition: background-size 0.3s;
 }
 
-p a:hover:not(.no-style) {
+li a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button), p a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button) {
     background-size: 3px 1.4rem;
     color: #fff;
 }
