@@ -786,6 +786,10 @@ iframe {
     overflow: hidden;
 }
 
+.responsive-iframe-container.mob-calendar {
+    padding-bottom: 70%;
+}
+
 .responsive-iframe-container iframe, .vresponsive-iframe-container object, .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
