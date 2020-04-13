@@ -760,12 +760,11 @@ div.cms-embed::before {
     content: "";
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     div.cms-embed.calendar::before {
         padding-top: 80%;
-        height: 120%;
     }
-}
+} */
 
 iframe {
     position: absolute;
@@ -777,16 +776,17 @@ iframe {
     border: 0;
 }
 
-/*--- gcal embed ---*/
+/*--- calendar embed ---*/
 
-.responsiveCal {
+.responsive-iframe-container {
     position: relative;
-    padding-bottom: 85%;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
     height: 0;
-    overflow: visible;
+    overflow: hidden;
 }
 
-.responsiveCal iframe {
+.responsive-iframe-container iframe, .vresponsive-iframe-container object, .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
     left: 0;
