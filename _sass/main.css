@@ -760,11 +760,7 @@ div.cms-embed::before {
     content: "";
 }
 
-/* @media (max-width: 575.98px) {
-    div.cms-embed.calendar::before {
-        padding-top: 80%;
-    }
-} */
+
 
 iframe {
     position: absolute;
@@ -796,4 +792,10 @@ iframe {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .home-text {
+        text-align: left !important;
+    }
 }
