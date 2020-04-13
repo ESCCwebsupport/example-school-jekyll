@@ -750,13 +750,17 @@ div.cms-embed {
     display: block;
     width: 100%;
     padding: 0;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 div.cms-embed::before {
     padding-top: 56.25%;
     display: block;
     content: "";
+}
+
+div.cms-embed.calendar::before {
+    padding-top: 75%;
 }
 
 
