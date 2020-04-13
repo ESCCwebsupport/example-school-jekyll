@@ -763,6 +763,7 @@ div.cms-embed::before {
 @media (max-width: 575.98px) {
     div.cms-embed.calendar::before {
         padding-top: 80%;
+        overflow: scroll;
     }
 }
 
