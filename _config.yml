@@ -12,6 +12,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+uploads_dir: "/assets/media/:title"
+
+incremental: true
 
 collections:
   governors:
@@ -70,8 +73,7 @@ _array_structures:
 
 
 _options:
-  uploads_dir: "/assets/media/:title"
-  incremental: true
+
   layout:
     hidden: true
   _block:
