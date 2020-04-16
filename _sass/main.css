@@ -96,14 +96,6 @@ h1 {
 
 /*--- home header section ---*/
 
-.header {
-    background-image: url("/assets/images/classroom2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-}
-
 @media screen and (max-device-width: 1024px) {
     .header, .masthead {
         background-attachment: initial !important;
@@ -125,8 +117,8 @@ h1 {
 .description {
     left: 50%;
     position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 60%;
+    transform: translate(-50%, -60%);
     text-align: center;
 }
 
@@ -155,7 +147,6 @@ h1 {
 }
 
 section.calendar {
-    /* background-image: linear-gradient(to right, rgb(204, 236, 255), rgb(96, 193, 238)); */
     background-color: #fff;
 }
 
@@ -167,6 +158,10 @@ section.calendar {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.masthead.home {
+    height: 100vh;
 }
 
 .masthead h1, .masthead h2, .masthead h3, .masthead p {
@@ -247,7 +242,7 @@ section.calendar {
         left: 0;
         padding: 0 15px;
         position: absolute;
-        top: 15%;
+        top: 40%;
         transform: none;
         text-align: center;
     }
