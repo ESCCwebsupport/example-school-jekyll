@@ -14,7 +14,7 @@ plugins:
 
 uploads_dir: "/assets/media/:title"
 
-incremental: true
+# incremental: true
 
 collections:
   governors:
