@@ -689,7 +689,7 @@ p {
 
 /*--- general ---*/
 
-li a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button) {
+li a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image) {
     background: linear-gradient(to bottom, (#4083ff) 0%, (#4083ff) 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -699,7 +699,7 @@ li a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.na
     transition: background-size 0.3s;
 }
 
-li a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button), p a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button) {
+li a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image), p a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image) {
     background-size: 3px 1.4rem;
     color: #fff;
 }
