@@ -107,21 +107,24 @@ h1 {
     .masthead.home h1, .masthead.home h2, .masthead.home h3, .masthead.home p {
         text-align: center !important;
     }
+    .masthead.home .masthead-overlay .description {
+        position: relative !important;
+    }
 }
 
-.overlay {
+/* .overlay {
     position: absolute;
     min-height: 100%;
     min-width: 100%;
     left: 0;
     top: 0;
     background: rgba(46, 46, 46, 0.6);
-}
+} */
 
 .description {
     left: 50%;
-    position: relative;
     top: 50%;
+    position: relative;
     transform: translate(-50%, -60%);
     text-align: center;
     width: 75%;
@@ -246,8 +249,8 @@ section.calendar {
     .description {
         left: 0;
         padding: 0 15px;
-        position: absolute;
-        top: 40%;
+        position: relative;
+        top: 20%;
         transform: none;
         text-align: center;
         width: unset;
