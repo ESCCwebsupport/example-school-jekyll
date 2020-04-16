@@ -2,7 +2,7 @@
 layout: default
 title: Home
 button_link: /school-information/welcome/
-header_image: /assets/images/classroom2.jpg
+header_image: /assets/images/news-radio.jpg
 ---
 
 <!-- <header class="page-header header container-fluid"> -->
@@ -28,9 +28,9 @@ header_image: /assets/images/classroom2.jpg
                 <div class="card-content">
                     <div class="card-img">
                         {% if post.header_image %}
-                        <img src="{{ post.header_image }}" alt="{{ post.title }}">
+                        <img src="{{ post.header_image }}" alt="{{ post.title }}" />
                         {% else %}
-                        <img src="/assets/images/news-radio.jpg" alt="{{ post.title }}">
+                        <img src="/assets/images/news-radio.jpg" alt="{{ post.title }}" />
                         {% endif %}
                         <span>
                             <h4>Posted {{ post.posted_date | date_to_string }}</h4>
@@ -45,7 +45,7 @@ header_image: /assets/images/classroom2.jpg
             </div>
             {% endfor %}
         </div>
-</section>
+</div></section>
 
 <section class="pt-5 pt-3 calendar">
     <div class="container">
@@ -54,15 +54,11 @@ header_image: /assets/images/classroom2.jpg
                 <h5 class="mb-4">School calendar</h5>
 
                 <div class="responsive-iframe-container d-none d-sm-block">
-                    <iframe
-                        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23c4e9ff&amp;ctz=Europe%2FLondon&amp;src=MmcyaWJ0YW12dml1NmpjdGdsNmo2c3UzNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;color=%233F51B5&amp;showNav=1&amp;showTabs=1&amp;mode=MONTH&amp;showPrint=0&amp;showTitle=0&amp;showTz=0&amp;hl=en_GB"
-                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23c4e9ff&amp;ctz=Europe%2FLondon&amp;src=MmcyaWJ0YW12dml1NmpjdGdsNmo2c3UzNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;color=%233F51B5&amp;showNav=1&amp;showTabs=1&amp;mode=MONTH&amp;showPrint=0&amp;showTitle=0&amp;showTz=0&amp;hl=en_GB" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
 
                 <div class="responsive-iframe-container d-sm-none mob-calendar">
-                    <iframe
-                        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23c4e9ff&amp;ctz=Europe%2FLondon&amp;src=MmcyaWJ0YW12dml1NmpjdGdsNmo2c3UzNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;color=%233F51B5&amp;showNav=1&amp;showTabs=0&amp;mode=AGENDA&amp;showPrint=0&amp;showTitle=0&amp;showTz=0&amp;hl=en_GB&amp;showDate=0"
-                        style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23c4e9ff&amp;ctz=Europe%2FLondon&amp;src=MmcyaWJ0YW12dml1NmpjdGdsNmo2c3UzNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;color=%233F51B5&amp;showNav=1&amp;showTabs=0&amp;mode=AGENDA&amp;showPrint=0&amp;showTitle=0&amp;showTz=0&amp;hl=en_GB&amp;showDate=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-12 editable">
@@ -73,4 +69,4 @@ header_image: /assets/images/classroom2.jpg
                 </div>
             </div>
         </div>
-</section>
+</div></section>
