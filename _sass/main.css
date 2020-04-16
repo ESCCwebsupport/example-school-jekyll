@@ -120,8 +120,8 @@ h1 {
 
 .description {
     left: 50%;
-    position: absolute;
-    top: 60%;
+    position: relative;
+    top: 50%;
     transform: translate(-50%, -60%);
     text-align: center;
     width: 75%;
