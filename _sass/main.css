@@ -104,7 +104,7 @@ h1 {
         text-align: left !important;
     }
 
-    .masthead.home h1 {
+    .masthead.home h1, .masthead.home h2, .masthead.home h3, .masthead.home p {
         text-align: center !important;
     }
 }
