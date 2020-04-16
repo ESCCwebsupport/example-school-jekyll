@@ -103,6 +103,10 @@ h1 {
     .masthead h1, .masthead h2, .masthead h3, .masthead p {
         text-align: left !important;
     }
+
+    .masthead.home {
+        text-align: center !important;
+    }
 }
 
 .overlay {
