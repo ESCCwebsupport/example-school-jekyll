@@ -120,6 +120,7 @@ h1 {
     top: 60%;
     transform: translate(-50%, -60%);
     text-align: center;
+    width: 75%;
 }
 
 .description h1 {
@@ -245,6 +246,7 @@ section.calendar {
         top: 40%;
         transform: none;
         text-align: center;
+        width: unset;
     }
     .navbar-brand img {
         max-height: 45px;
