@@ -103,7 +103,6 @@ h1 {
     .masthead h1, .masthead h2, .masthead h3, .masthead p {
         text-align: left !important;
     }
-
     .masthead.home h1, .masthead.home h2, .masthead.home h3, .masthead.home p {
         text-align: center !important;
     }
@@ -111,15 +110,6 @@ h1 {
         position: relative !important;
     }
 }
-
-/* .overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(46, 46, 46, 0.6);
-} */
 
 .description {
     left: 50%;
@@ -156,6 +146,12 @@ h1 {
 
 section.calendar {
     background-color: #fff;
+}
+
+/*--- home calendar section ---*/
+
+section.calendar {
+    background-color: #dfdfdf;
 }
 
 /*--- masthead ---*/
@@ -693,7 +689,7 @@ p {
 
 /*--- general ---*/
 
-li a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image) {
+li:not(.lunrsearchresult) a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
     background: linear-gradient(to bottom, (#4083ff) 0%, (#4083ff) 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -703,7 +699,7 @@ li a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.na
     transition: background-size 0.3s;
 }
 
-li a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image), p a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(li.lunrsearchresult):not(.lightbox-image) {
+li:not(.lunrsearchresult) a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
     background-size: 3px 1.4rem;
     color: #fff;
 }
@@ -743,6 +739,16 @@ th, td {
     padding: .75rem;
 }
 
+div#breadcrumbs {
+    font-size: 1rem;
+}
+
+.breadcrumb-header {
+    margin-bottom: 0;
+    padding: 0.3rem 0 0 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 /*--- media embeds ---*/
 
 div.cms-embed {
@@ -758,8 +764,6 @@ div.cms-embed::before {
     display: block;
     content: "";
 }
-
-
 
 iframe {
     position: absolute;

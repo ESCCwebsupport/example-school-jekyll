@@ -5,14 +5,14 @@
         <span class="visually-hidden">Navbar toggle</span>
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="main-navigation">
+    <div class="collapse navbar-collapse nav-right" id="main-navigation">
 
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
             {% for item in site.data.navigation %}
 
             <li class="nav-item">
-                <a {% if page.url contains item.link %} class="nav-link current" %} class="nav-link current" {% endif %} class="nav-link"
-                    href="{{ item.link }}">{{ item.name }}</a>
+                <a {% if page.url contains item.link %} class="nav-link current" class="nav-link current" {% endif %}
+                    class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
             </li>
             {% endfor %}
 
@@ -22,5 +22,5 @@
             <span class="sr-only">Search</span>
             <i class="fa fa-search img-responsive"></i>
         </a>
-        </div>
+    </div>
 </nav>
