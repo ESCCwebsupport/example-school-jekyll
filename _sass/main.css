@@ -749,6 +749,10 @@ div#breadcrumbs {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+#breadcrumbs i.fa-arrow-right {
+    padding: 0 3px;
+}
+
 /*--- media embeds ---*/
 
 div.cms-embed {
