@@ -1,29 +1,26 @@
-<header><nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a href="/" class="navbar-brand"><img src="/assets/images/wst-logo.png" alt="Web Support Team logo"
-                class="img-responsive"></a>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
-            <span class="visually-hidden">Navbar toggle</span>
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-right" id="main-navigation">
+<nav class="navbar navbar-expand-lg">
+    <a href="/" class="navbar-brand"><img src="/assets/images/wst-logo.png" alt="Web Support Team logo"
+            class="img-responsive"></a>
+    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="visually-hidden">Navbar toggle</span>
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
 
-            <ul class="navbar-nav">
-                {% for item in site.data.navigation %}
+        <ul class="navbar-nav nav nav-right">
+            {% for item in site.data.navigation %}
 
-                <li class="nav-item">
-                    <a {% if page.url contains item.link %} class="nav-link current" class="nav-link current"
-                        {% endif %} class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
-                </li>
-                {% endfor %}
+            <li class="nav-item">
+                <a {% if page.url contains item.link %} class="nav-link current" class="nav-link current" {% endif %}
+                    class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
 
-            </ul>
+        </ul>
 
-            <a href="/search" class="btn btn-outline-secondary border-left-0 border nav-search-button" role="link">
-                <span class="sr-only">Search</span>
-                <i class="fa fa-search img-responsive"></i>
-            </a>
-        </div>
+        <a href="/search" class="btn btn-outline-secondary border-left-0 border nav-search-button" role="link">
+            <span class="sr-only">Search</span>
+            <i class="fa fa-search img-responsive"></i>
+        </a>
     </div>
 </nav>
-</header>
