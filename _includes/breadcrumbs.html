@@ -1,12 +1,24 @@
 <div class="pb-2" id="breadcrumbs">
+  {% if page.url contains "news" %}
+  <a href="/">Home</a>
+  <i class="fas fa-arrow-right"></i>
+  {% if page.url == "/news/" %}
+  {{ page.title   }}
+  {% else %}
+  <a href="/news/">Latest news</a>
+  <i class="fas fa-arrow-right"></i>
+  {{ page.title }}
+  {% endif %}
+  {% else %}
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
   <a href="/">Home</a>
   {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
-  <i class="fas fa-arrow-right"></i> {{ page.title }}
+  <i class="fas fa-arrow-right"></i> {{ page.title | capitalize }}
   {% else %}
   <i class="fas fa-arrow-right"></i> <a
     href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
   {% endif %}
   {% endfor %}
+  {% endif %}
 </div>
