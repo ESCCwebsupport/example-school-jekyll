@@ -46,8 +46,8 @@ collections:
     permalink: /policies/:title/
   posts:
     _enabled_editors:
+      - conent
       - visual
-      - content
     output: true
     permalink: /news/:year/:month/:day/:title/
 
