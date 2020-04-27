@@ -114,6 +114,10 @@ _options:
     bulletedlist: true
     numberedlist: true
     table: true
+    left: text-left
+    center: text-center
+    right: text-right
+    justify: text-justify
     # styles: /_sass/_content-typography.scss
     embed: true
     undo: true
