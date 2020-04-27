@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jazz event a great success
+title: Jazz event
 author: St Invicta's
 posted_date: 2020-03-18 00:00:00
 header_image: /uploads/jazz-1415982-1920.jpg
