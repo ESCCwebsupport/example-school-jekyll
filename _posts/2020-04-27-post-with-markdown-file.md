@@ -10,6 +10,7 @@ published: true
 ---
 
 Hello there
+{: .text-right}
 
 | a | b | c | d |
 | --- | --- | --- | --- |
