@@ -13,7 +13,7 @@ Hello there
 
 | a | b | c | d |
 | --- | --- | --- | --- |
-| e | f | g | h |
+| e | &nbsp; | g | h |
 | i | j | k | l |
 
 &nbsp;
