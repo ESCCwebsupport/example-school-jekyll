@@ -9,13 +9,13 @@ button:
   button_text:
 description:
 section:
-  - header: one
-    content: Something Something
-  - header: two
-    content: Something else
+  - header:
+    content:
 ---
-
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
-    Content here.
-    {% include accordion.html %}
+  Introductory text.
 </div>
+{% if page.section }
+<div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
+{% else %}
+{% endif %}

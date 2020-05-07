@@ -10,12 +10,12 @@ button:
 description:
 section:
   - header: one
-    content: Something Something
+    content: This is the first bit of accordion content. Just got to work out how to get it so editors can add an accordion themselves.
   - header: two
     content: Something else
 ---
 
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
-    Content here.
-    {% include accordion.html %}
+  Content here.
 </div>
+<div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
