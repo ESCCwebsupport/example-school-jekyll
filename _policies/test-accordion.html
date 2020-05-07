@@ -14,12 +14,11 @@ section:
   - header: two
     content: Something else
 ---
-
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
   Content here.
-  {% for section in page.section %}
-  {% if section[0] == blank %}
-  {% else %}
-  <div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
-  {% endif %}
-  {% endfor %}
+</div>
+{% assign section = page.section %}
+{% if section[0] == blank %}
+{% else %}
+<div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
+{% endif %}
