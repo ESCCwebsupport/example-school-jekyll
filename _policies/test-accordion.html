@@ -19,7 +19,7 @@ section:
   Content here.
   {% for section in page.section %}
   {% if section[0] == blank %}
-  <div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
   {% else %}
+  <div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
   {% endif %}
   {% endfor %}
