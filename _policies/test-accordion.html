@@ -17,7 +17,9 @@ section:
 
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
   Content here.
-  {% if page.section == true %}
+  {% for section in page.section %}
+  {% if section[0] !== blank %}
   <div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
   {% else %}
   {% endif %}
+  {% endfor %}
