@@ -1,6 +1,6 @@
 ---
 layout: content-page
-title: Another accordtion
+title: Another accordion
 slug:
 header_image:
 file_path:
@@ -16,7 +16,7 @@ section:
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
   Introductory text.
 </div>
-{% if page.section }
+{% if page.section %}
 <div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
 {% else %}
 {% endif %}
