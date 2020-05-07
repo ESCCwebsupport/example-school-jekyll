@@ -1,0 +1,22 @@
+---
+layout: content-page
+title: Another accordion
+slug:
+header_image:
+file_path:
+button:
+  button_link:
+  button_text:
+description:
+section:
+  - header:
+    content:
+---
+
+<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
+  Introductory text.
+</div>
+{% if page.section %}
+<div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
+{% else %}
+{% endif %}
