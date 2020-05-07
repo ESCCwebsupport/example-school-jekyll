@@ -17,8 +17,5 @@ section:
 
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
     Content here.
-    {% for section in page.section %}
-    <p>{{ section }}</p>
-    {% endfor %}
     {% include accordion.html %}
 </div>
