@@ -1,5 +1,19 @@
-<ul class="jekyllcodex_accordion">
-    {% for item in page.expandable-section %}
-        <li><input id="accordion{{ forloop.index }}" type="checkbox" /><label for="accordion{{ forloop.index }}">{{ item.header }}</label><div>{{ item.content_markdown | markdownify }}</div></li>
-    {% endfor %}
-</ul>
+<div class="bs-accordion py-3">
+    <div class="accordion" id="{{ page.title }}_accordion">
+      {% for accordion in page.expandable-section %}
+        <div class="card">
+            <div class="card-header" id="{{ accordion.header | slugify }}">
+                <h2 class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse{{ forloop.index }}"><i class="fa"></i> {{ accordion.header }}</button>									
+                </h2>
+            </div>
+            <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}">
+  
+                <div class="card-body">
+                  {{ accordion.content_markdown | markdownify }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
