@@ -8,7 +8,8 @@ button:
   button_link:
   button_text:
 description:
-section:
+display_expandable-section: false
+expandable-section:
   - header: one
     content: This is the first bit of accordion content. Just got to work out how to get it so editors can add an accordion themselves.
   - header: two
@@ -17,8 +18,7 @@ section:
 <div class="container editable" data-i18n="{{ page.title | slugify }}_content">
   Content here.
 </div>
-{% assign section = page.section %}
-{% if section[0] == blank %}
-{% else %}
+{% if page.display_expandable-section %}
 <div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
+{% else %}
 {% endif %}
