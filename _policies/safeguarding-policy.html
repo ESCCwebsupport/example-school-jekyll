@@ -1,0 +1,34 @@
+---
+layout: content-page
+title: Safeguarding policy
+slug:
+header_image:
+file_path:
+button:
+  button_link:
+  button_text:
+description:
+display_expandable-section: true
+expandable-section:
+  - header: Section 1 - Introduction
+    content_markdown: |-
+      Here's some introduction text.
+
+      * Bullet points
+
+      **Bold this too.**
+  - header: Section 2 - Some words
+    content_markdown: >-
+      Block of text with some information about safeguarding. Block of text with
+      some information about safeguarding.
+
+
+      Block of text with some information about safeguarding.
+---
+
+<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
+  Introductory text.
+</div>
+{% if page.display_expandable-section %}
+<div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
+{% endif %}
