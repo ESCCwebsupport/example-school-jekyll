@@ -9,7 +9,7 @@ description: Description goes in here which shows in search results on site.
 button:
   button_link:
   button_text:
-display_expandable-section: true
+display_expandable-section: false
 expandable-section:
   - header:
     content_markdown:
