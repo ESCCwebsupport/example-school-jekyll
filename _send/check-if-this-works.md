@@ -2,7 +2,7 @@
 layout: content-page
 title: Check if this works
 slug: check works
-published: false
+published: true
 header_image:
 file_path:
 button:
