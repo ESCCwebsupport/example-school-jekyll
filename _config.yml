@@ -11,6 +11,7 @@ url: https://puny-caribou.cloudvent.net
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-loading-lazy
 
 uploads_dir: "/assets/media/:title"
 
