@@ -2,6 +2,7 @@
 layout: content-page
 title:
 slug:
+published: false
 header_image:
 file_path:
 button:
@@ -9,7 +10,3 @@ button:
   button_text:
 description:
 ---
-
-<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
-    Content here.
-</div>
