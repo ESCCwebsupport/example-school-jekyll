@@ -2,8 +2,8 @@
 layout: landing
 _hide_content: true
 published: true
-title: Our staff
-description: Find, read download and print all our policies.
+title: SEND
+description: Read about our SEND policy and how we work with Special Educational Needs.
 page-links:
   - name: First link
     link: /

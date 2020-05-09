@@ -7,4 +7,7 @@ description: Our staff are vital to St Invicta's. Meet our teachers and support 
 page-links:
   - name: First link
     link: /
+  - name: This link here is newly added
+    link: /send/
 ---
+
