@@ -16,6 +16,9 @@
             {% endif %}
         </div>
         <div class="container" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+        {% if page.display_expandable-section %}
+        {% include accordion.html %}
+        {% endif %}
         {% if page.button.button_link %}
         {% include link-button.html %}
         {% endif %}
