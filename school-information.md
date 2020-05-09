@@ -1,7 +1,7 @@
 ---
 layout: content-page
 title: School information
-published: true
+published: false
 description: Read information about our school.
 page-links:
   - name: Head's welcome
