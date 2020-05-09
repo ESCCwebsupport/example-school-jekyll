@@ -3,7 +3,7 @@ layout: landing
 _hide_content: true
 published: true
 title: SEND
-description: 'Find, read download and print all our policies.'
+description: Read about our SEND policy and how we work with Special Educational Needs.
 page-links:
   - name: First link
     link: /
