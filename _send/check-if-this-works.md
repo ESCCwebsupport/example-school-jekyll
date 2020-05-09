@@ -7,12 +7,16 @@ header_image:
 file_path:
 description: Description goes in here which shows in search results on site.
 button:
-  button_link:
-  button_text:
-display_expandable-section: false
+  button_link: /contact/
+  button_text: Where does this show up?
+display_expandable-section: true
 expandable-section:
-  - header:
-    content_markdown:
+  - header: Where does this show up?
+    content_markdown: |-
+      Check search for this content.
+
+      * bullet points
+      * *italic bullet*
 ---
 
 Content goes in here eh?
