@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    {% include navigation.html %}
+    {% if page.header_image %}
+    {% include hero-image.html %}
+    {% endif %}
+    <section class="py-3">
+        <div class="container pb-2">
+            {% if page.header_image %}
+            {% else %}
+            {% include breadcrumbs.html %}
+            <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
+            {% endif %}
+        </div>
+
+        <div class="container pt-2">
+
+            <div class="row">
+                {% for link in page.page-links %}
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}"
+                        class="btn btn-primary btn-lg btn-block" role="link">{{ link.name }}</a>
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+
+
+</body>
+
+</html>
