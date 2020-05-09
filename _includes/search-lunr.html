@@ -6,7 +6,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endif %}{% endfor %}
@@ -14,7 +14,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -22,7 +22,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -30,7 +30,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -38,7 +38,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -46,7 +46,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -54,7 +54,7 @@
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
