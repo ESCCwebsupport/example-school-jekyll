@@ -15,6 +15,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
+        "accordion": "{{ page.expandable-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | replace: '*', ' ' }}", 
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -23,6 +24,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
+        "accordion": "{{ page.expandable-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | replace: '*', ' ' }}", 
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -31,6 +33,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
+        "accordion": "{{ page.expandable-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | replace: '*', ' ' }}", 
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -39,6 +42,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
+        "accordion": "{{ page.expandable-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | replace: '*', ' ' }}", 
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -47,6 +51,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
+        "accordion": "{{ page.expandable-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | replace: '*', ' ' }}", 
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -55,6 +60,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
+        "accordion": "{{ page.expandable-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | replace: '=', '' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | replace: '*', ' ' }}",
         "description": "{{ page.description }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
@@ -71,6 +77,7 @@
         this.ref('id')
         this.field('title', { boost: 10 })
         this.field('body', { boost: 5 })
+        this.field('accordion')
         this.field('description')
         console.log(documents);
     

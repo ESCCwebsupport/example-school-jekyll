@@ -16,9 +16,4 @@ expandable-section:
     content_markdown: Something else
 ---
 
-<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
-  Content here.
-</div>
-{% if page.display_expandable-section %}
-<div class="container" data-i18n="{{ page.title | slugify }}_accordion">{% include accordion.html %}</div>
-{% endif %}
+Introductory text for the accordion here.
