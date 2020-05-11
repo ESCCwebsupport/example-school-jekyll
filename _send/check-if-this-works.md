@@ -21,7 +21,7 @@ expandable-section:
 
 Content goes in here eh?
 
-Didn’t know this would open up…
+Didn’t know this would open up… But you can edit this section in visual editor.
 
 * Hi there
 * And hi also
