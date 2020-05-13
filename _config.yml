@@ -42,7 +42,7 @@ collections:
     output: true
     permalink: /staff/:title/
   policies:
-    _hide_content: true
+    _hide_content: false
     output: true
     permalink: /policies/:title/
   posts:
