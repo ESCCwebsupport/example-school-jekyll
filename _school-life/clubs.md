@@ -2,7 +2,7 @@
 layout: content-page
 title: Clubs
 slug:
-published: true
+published: false
 header_image: /uploads/jazz-1415982-1920.jpg
 file_path:
 description: >-
