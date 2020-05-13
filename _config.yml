@@ -119,7 +119,7 @@ _options:
     center: text-center
     right: text-right
     justify: text-justify
-    # styles: /_sass/_content-typography.scss
+    styles: /_sass/main.css
     embed: true
     undo: true
     redo: true
