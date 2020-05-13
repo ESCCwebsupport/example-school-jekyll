@@ -2,7 +2,7 @@
 layout: content-page
 title: Report an absence
 slug: report-absence
-published: false
+published: true
 header_image: /assets/media/report-absence/absence.jpg
 file_path:
 description: Report an absence.
@@ -14,3 +14,4 @@ expandable-section:
   - header:
     content_markdown:
 ---
+
