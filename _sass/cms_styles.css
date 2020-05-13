@@ -1,3 +1,7 @@
-.text-left {
+p.text-left {
     text-align: left;
+}
+
+p.text-right {
+    text-align: right;
 }
