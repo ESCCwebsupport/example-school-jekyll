@@ -96,7 +96,7 @@ _options:
     left: text-left
     center: text-center
     right: text-right
-    justify: text-justify
+    justify: false
     # styles: /_sass/_content-typography.scss
     embed: true
     undo: true
@@ -118,7 +118,7 @@ _options:
     left: text-left
     center: text-center
     right: text-right
-    justify: text-justify
+    justify: false
     styles: /_sass/cms_styles.css
     embed: true
     undo: true

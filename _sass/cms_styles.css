@@ -1,3 +1,4 @@
+
 p.text-left {
     text-align: left;
 }
@@ -8,8 +9,4 @@ p.text-right {
 
 p.text-center {
     text-align: center;
-}
-
-p.text-justify {
-    text-align: justify;
 }
