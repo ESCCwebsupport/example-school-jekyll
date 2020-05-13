@@ -119,7 +119,7 @@ _options:
     center: text-center
     right: text-right
     justify: text-justify
-    styles: /_sass/main.css
+    styles: /_sass/cms_styles.css
     embed: true
     undo: true
     redo: true
