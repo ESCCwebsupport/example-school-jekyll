@@ -5,3 +5,11 @@ p.text-left {
 p.text-right {
     text-align: right;
 }
+
+p.text-centre {
+    text-align: center;
+}
+
+p.text-justify {
+    text-align: justify;
+}
