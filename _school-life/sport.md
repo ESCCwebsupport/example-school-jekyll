@@ -16,12 +16,11 @@ expandable-section:
   - header:
     content_markdown:
 ---
+
 Sport is a big deal here at St Invicta's. We want our pupils to have fun and compete should they wish.
 
-Some recent school successes are:
-Year 4s were runners-up in the yearly school cricket tournament.
-Harley from Year 3 won her cross-country run and qualified for a Sussex race.
+Some recent school successes are: Year 4s were runners-up in the yearly school cricket tournament. Harley from Year 3 won her cross-country run and qualified for a Sussex race.
 
-Sport premium
-Schools receive funding to help with the provision of PE and sport, but we have some freedom to choose how we spend it.
-Link see how we spend our premium.
+Sport premium Schools receive funding to help with the provision of PE and sport, but we have some freedom to choose how we spend it.
+
+[See how we spend our premium](/assets/media/document-uploader/ticket-id-174-print--20-07-2018--200540--hastings-united-football-club.pdf).
