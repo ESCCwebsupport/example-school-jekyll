@@ -4,7 +4,7 @@ title: Sport
 slug: sport
 published: true
 header_image: /assets/media/sport/miguel-teirlinck-12ozc-vg9pq-unsplash.jpg
-file_path:
+file_path: /assets/media/sport/woodys-website.pdf
 description: >-
   Read how important sport is to us as St Invicta's and learn about the sport
   premium.
