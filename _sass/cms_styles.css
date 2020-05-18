@@ -11,7 +11,7 @@ p.text-center {
     text-align: center;
 }
 
-blockquote {
+p.blockquote {
     background: var(--school-primary-colour-light);
     font-size: 1.2rem;
     border-left: 10px solid var(--school-primary-colour);
