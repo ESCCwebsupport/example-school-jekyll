@@ -13,7 +13,9 @@ p.text-center {
 
 p.callout {
     background: var(--school-primary-colour-light);
+    font-size: 1.2rem;
     border-left: 10px solid var(--school-primary-colour);
+    padding: 0.5em 1.5em;
 }
 
 p.callout p {
