@@ -13,7 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-loading-lazy
 
-uploads_dir: "/assets/media/:collection/:title"
+uploads_dir: "/assets/media/:title"
 
 # incremental: true
 
