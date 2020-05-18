@@ -327,7 +327,7 @@ section.team {
 
 /*--- blockquotes ---*/
 
-blockquote {
+.callout {
     background: var(--school-primary-colour-light);
     font-size: 1.2rem;
     border-left: 10px solid var(--school-primary-colour);
@@ -335,7 +335,7 @@ blockquote {
     padding: 0.5em 1.5em;
 }
 
-blockquote p {
+.callout p {
     display: inline;
 }
 
