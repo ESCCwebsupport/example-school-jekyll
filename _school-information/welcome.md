@@ -15,3 +15,13 @@ expandable-section:
     content_markdown:
 ---
 
+Our school is built upon certain foundations and principles. We strive for success. Something about the religious aspects as well.
+
+* Here's a bullet&nbsp;[point](http://127.0.0.1:4000/contact/)
+* Another one
+
+1. **Ordered**&nbsp;list as well.
+
+Bigger
+
+##### Smaller h5
