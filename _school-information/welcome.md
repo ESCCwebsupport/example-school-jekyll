@@ -29,5 +29,8 @@ Our school is built upon certain foundations and principles. We strive for succe
 Callout block
 {: .callout}
 
-Hi
+Hi there I'm another callout block.
+{: .callout}
+
+Back to regular text.
 {: .text-left}
