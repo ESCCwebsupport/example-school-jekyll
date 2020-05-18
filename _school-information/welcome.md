@@ -25,3 +25,6 @@ Our school is built upon certain foundations and principles. We strive for succe
 ### Bigger h3
 
 ##### Smaller h5
+
+Callout block
+{: .blockquote}
