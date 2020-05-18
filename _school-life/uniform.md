@@ -4,11 +4,11 @@ title: Uniform
 slug: uniform
 published: false
 header_image:
-file_path: /assets/media/uniform/woodys-website.docx
-description:
+file_path:
+description: Read our uniform policy and find out where to buy it from.
 button:
-  button_link:
-  button_text:
+  button_link: /school-life/uniform/
+  button_text: Buy uniform from our online shop
 display_expandable-section: false
 expandable-section:
   - header:
@@ -32,4 +32,4 @@ Boys:
 * No trainers
 * Smart, black shoes
 
-See our uniform policy.
+[See our uniform policy](/assets/media/uniform/woodys-website.docx).
