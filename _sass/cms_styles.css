@@ -10,3 +10,11 @@ p.text-right {
 p.text-center {
     text-align: center;
 }
+
+blockquote {
+    background: var(--school-primary-colour-light);
+    font-size: 1.2rem;
+    border-left: 10px solid var(--school-primary-colour);
+    margin: 1.5em 2em;
+    padding: 0.5em 1.5em;
+}

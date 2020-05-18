@@ -10,9 +10,6 @@ slug: test elements
 published: true
 ---
 
-{% include breadcrumbs.html %}
-
-<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12">
             <p><a href="/assets/images/headteacher-meeting-dates-2019-20.pdf">Link to a PDF here</a></p>
@@ -20,6 +17,9 @@ published: true
             <p><a href="/assets/images/headteacher-meeting-dates-2019-20.docx">Link to a docx here</a></p>
             <p><a href="/assets/images/headteacher-meeting-dates-2019-20.xlsx">Link to a xlsx file here</a></p>
             <p>Normal again</p>
+            <blockquote>
+                <p>Hello. This is a section taken from the website that is deemed to be important. If it's long enough it'll wrap onto the next line.</p>
+            </blockquote>
             <p><img width="707" height="400"
                     srcset="/assets/media/test elements/imag0217.jpg 707w, /assets/media/test elements/imag0217@2x.jpg 1414w"
                     src="/assets/media/test elements/imag0217.jpg" /></p>
@@ -62,3 +62,4 @@ published: true
         <div class="boxout col-lg-4 col-md-4 col-sm-12">
             <h3>Box content</h3>
         </div>
+    </div>
