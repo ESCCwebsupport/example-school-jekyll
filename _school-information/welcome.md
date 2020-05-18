@@ -22,6 +22,6 @@ Our school is built upon certain foundations and principles. We strive for succe
 
 1. **Ordered**&nbsp;list as well.
 
-Bigger
+### Bigger h3
 
 ##### Smaller h5
