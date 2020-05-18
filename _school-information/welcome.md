@@ -17,7 +17,7 @@ expandable-section:
 
 Our school is built upon certain foundations and principles. We strive for success. Something about the religious aspects as well.
 
-* Here's a bullet&nbsp;[point](http://127.0.0.1:4000/contact/)
+* Here’s a bullet&nbsp;[point](http://127.0.0.1:4000/contact/){: .cc-active}
 * Another one
 
 1. **Ordered**&nbsp;list as well.
@@ -27,4 +27,7 @@ Our school is built upon certain foundations and principles. We strive for succe
 ##### Smaller h5
 
 Callout block
-{: .blockquote}
+{: .callout}
+
+Hi
+{: .text-left}
