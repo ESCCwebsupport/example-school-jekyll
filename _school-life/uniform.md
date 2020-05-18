@@ -2,7 +2,7 @@
 layout: content-page
 title: Uniform
 slug: uniform
-published: false
+published: true
 header_image:
 file_path:
 description: Read our uniform policy and find out where to buy it from.
