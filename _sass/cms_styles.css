@@ -11,11 +11,11 @@ p.text-center {
     text-align: center;
 }
 
-.callout {
+p.callout {
     background: var(--school-primary-colour-light);
     border-left: 10px solid var(--school-primary-colour);
 }
 
-.callout p {
+p.callout p {
     display: inline;
 }
