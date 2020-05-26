@@ -38,3 +38,4 @@ Text in the middle.
 1. Numbered
 
 This is a callout block of text to highlight an important piece of information.
+{: .callout}
