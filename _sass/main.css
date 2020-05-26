@@ -80,6 +80,20 @@ h1 {
     margin: 0 7px 0 0;
 }
 
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+}
+
+.fa-times {
+    font-size: 1.5em;
+    color: rgb(123, 123, 123);
+    margin-right: 0.2rem;
+}
+
 @media (max-width: 992px) {
     .current {
         border-bottom: none;
@@ -819,11 +833,16 @@ div.accordion .btn-link {
 
 div.accordion .btn-link:focus {
     text-decoration: underline;
+    background-color: yellow;
 }
 
 div.accordion .card-body {
     padding: 1rem 1rem 1rem 2rem;
 }
+
+/* div.accordion .btn-link:not(.collapsed) {
+    background-color: yellow;
+} */
 
 .accordion i.fa {
     font-size: 1.2rem;
@@ -833,6 +852,7 @@ div.accordion .card-body {
 [data-toggle="collapse"] .fa:before {
     content: "\f146";
 }
+
 
 [data-toggle="collapse"].collapsed .fa:before {
     content: "\f0fe";
