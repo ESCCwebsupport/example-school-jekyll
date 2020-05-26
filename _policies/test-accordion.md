@@ -36,3 +36,5 @@ Text in the middle.
 {: .text-center}
 
 1. Numbered
+
+This is a callout block of text to highlight an important piece of information.
