@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i|Oxygen:400,700&display=swap");
 :root {
-    --main-bg-colour: #f6f9f1;
+    --main-bg-colour: #fff;
     --second-bg-colour: rgb(223, 223, 223);
     --school-primary-colour: #1e4ff0;
     --school-primary-colour-light: #dcedff;
@@ -36,7 +36,6 @@ h1 {
 }
 
 .navbar-nav li a {
-    transition: 0.6s;
     padding: 0px 15px;
     margin: 5px 0 2px 0;
     border-bottom: 3px;
@@ -53,6 +52,10 @@ h1 {
     max-height: 60px;
 }
 
+a.navbar-brand:focus {
+    outline: 3px solid #ffdd00;
+}
+
 .nav-link {
     font-size: 1rem;
     margin-right: 0.6em !important;
@@ -63,9 +66,6 @@ h1 {
     border-bottom-color: var(--school-primary-colour) !important;
 }
 
-.navbar-brand:focus, .navbar-brand:hover {
-    color: rgb(184, 182, 182);
-}
 
 .nav-link:hover {
     color: var(--school-primary-colour);
@@ -78,6 +78,11 @@ h1 {
 
 .nav-search-button {
     margin: 0 7px 0 0;
+    transition: none;
+}
+
+.nav-search-button:focus {
+    outline: 3px solid #ffdd00;
 }
 
 .navbar-toggler.collapsed .close-icon {
@@ -92,6 +97,14 @@ h1 {
     font-size: 1.5em;
     color: rgb(123, 123, 123);
     margin-right: 0.2rem;
+}
+
+a.nav-link:focus {
+    outline: 3px solid transparent;
+    background-color: #ffdd00;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    transition: none;
+    border-bottom-style: none;
 }
 
 @media (max-width: 992px) {
@@ -196,7 +209,7 @@ section.calendar {
 
 .masthead-overlay {
     min-width: 100%;
-    background: rgba(46, 46, 46, 0.6);
+    background: rgba(43, 43, 43, 0.65);
 }
 
 /*--- Lunr search ---*/
@@ -235,7 +248,23 @@ section.calendar {
 .page-footer {
     background-color: rgb(160, 160, 160);
     color: var(--footer-text-colour);
-    padding: 60px 0 5px;
+    padding: 60px 0 0 0;
+}
+
+.page-footer a {
+    color: white;
+    padding: 0 0.2rem 0;
+}
+
+.page-footer div.bg-dark a:focus {
+    outline: 3px solid transparent;
+    background-color: #ffdd00;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    color: black;
+}
+
+.footer-brand:focus {
+    outline: 3px solid #ffdd00;
 }
 
 .footer-copyright {
@@ -700,20 +729,15 @@ p {
 }
 
 /*--- general ---*/
-
-li:not(.lunrsearchresult) a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
-    background: linear-gradient(to bottom, (#4083ff) 0%, (#4083ff) 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 3px 3px;
-    padding: 0 4px 2px 4px;
-    text-decoration: none;
-    transition: background-size 0.3s;
+a.cc-active {
+    text-decoration: underline;
 }
 
-li:not(.lunrsearchresult) a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:hover:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
-    background-size: 3px 1.4rem;
-    color: #fff;
+a.cc-active:focus {
+    background-color: #ffdd00;
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    text-decoration: none;
 }
 
 p img {
@@ -753,6 +777,13 @@ th, td {
 
 div#breadcrumbs {
     font-size: 1rem;
+}
+
+#breadcrumbs a:focus {
+    background-color: #ffdd00;
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    text-decoration: none;
 }
 
 .breadcrumb-header {
