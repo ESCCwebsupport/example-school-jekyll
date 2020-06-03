@@ -2,7 +2,7 @@
 layout: default
 title: Our governors
 slug: governors
-published: true
+_published: true
 description: St. Invicta's governors are very important to our school. They do some things.
 header_image: /uploads/foto-sushi-6anudmpilw4-unsplash.jpg
 governors:
@@ -50,24 +50,24 @@ governors:
 </div>
 </section>
 <section class="team py-4">
-    <h3 class="container py-3">
-        Meet our governors
-    </h3>
-    <div class="team container">
+  <h3 class="container py-3">
+    Meet our governors
+  </h3>
+  <div class="team container">
 
-        <div class="row">
-            {% for governor in page.governors %}
-            <div class="col-xl-4 col-md-6 mb-4 mx-auto">
-                <div class="card border-0 shadow">
-                    <img src="{{ governor.image }}" class="card-img-top" alt="{{ governor.name }}" />
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-0">{{ governor.name }}</h5>
-                        <div class="card-text text-black-50">{{ governor.job }}</div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-
+    <div class="row">
+      {% for governor in page.governors %}
+      <div class="col-xl-4 col-md-6 mb-4 mx-auto">
+        <div class="card border-0 shadow">
+          <img src="{{ governor.image }}" class="card-img-top" alt="{{ governor.name }}" />
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">{{ governor.name }}</h5>
+            <div class="card-text text-black-50">{{ governor.job }}</div>
+          </div>
         </div>
+      </div>
+      {% endfor %}
+
     </div>
+  </div>
 </section>

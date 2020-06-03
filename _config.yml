@@ -18,9 +18,6 @@ uploads_dir: "/assets/media/:title"
 # incremental: true
 
 collections:
-  governors:
-    _hide_content: true
-  teachers:
   school-information:
     _hide_content: false
     output: true
