@@ -15,7 +15,7 @@
             <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
             {% endif %}
         </div>
-        <div class="container" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+        <div id="content" class="container" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
         {% if page.display_expandable-section %}
         {% include accordion.html %}
         {% endif %}

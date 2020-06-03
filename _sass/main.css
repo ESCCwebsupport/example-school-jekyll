@@ -31,6 +31,23 @@ h1 {
     font-size: 2.2rem;
 }
 
+/* --- skip content ---*/
+
+.skip-container {
+    position: absolute;
+    z-index: 10;
+    margin: 0.2em 0 0 5.5em;
+}
+
+.skip-container a {
+    text-decoration: none;
+}
+.skip-container a:focus {
+    background-color: var(--govuk-highlight-colour);
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
+}
+
 /*--- navigation bar ---*/
 
 .navbar {
