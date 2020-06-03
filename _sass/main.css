@@ -54,6 +54,8 @@ h1 {
 
 a.navbar-brand:focus {
     outline: 3px solid #ffdd00;
+    border-bottom-style: none;
+    background: none;
 }
 
 .nav-link {
@@ -372,7 +374,7 @@ section.team {
     background: var(--school-primary-colour-light);
     font-size: 1.1rem;
     border-left: 10px solid var(--school-primary-colour);
-    margin: 3% 10% 3% 10%;
+    margin: 3% 10% 4% 10%;
     padding: 0.5em 1.5em;
 }
 
@@ -730,10 +732,10 @@ p {
 /*--- general ---*/
 
 a.cc-active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-a.cc-active:focus {
+li:not(.lunrsearchresult) a:focus:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:focus:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
     background-color: #ffdd00;
     outline: 3px solid transparent;
     box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
