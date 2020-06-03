@@ -1,5 +1,5 @@
 ---
-layout: content-page
+layout: default
 title: Our governors
 slug: governors
 published: true
@@ -22,21 +22,31 @@ governors:
     image: /assets/images/head.jpg
     job: Parent governor
 ---
+{% if page.header_image %}
+{% include hero-image.html %}
+{% endif %}
+{% if page.header_image %}
+{% else %}
+<div class="container pb-2">
+    {% include breadcrumbs.html %}
+    <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
+    {% endif %}
+</div>
 
-    <div class="py-3 editable">
-        <p>Our governors are a hugely important part of St. Invicta's. They keep us in check, on track and provide
-            support
-            to our teachers. Here's what they do:</p>
-        <ul>
-            <li>Some things</li>
-            <li>Another one</li>
-        </ul>
-        <ol>
-            <li><strong>Ordered</strong> list as well.</li>
-        </ol>
-        <h2>Bigger</h2>
-        <h5>Smaller h5</h5>
-    </div>
+<div class="py-3 container editable">
+    <p>Our governors are a hugely important part of St. Invicta's. They keep us in check, on track and provide
+        support
+        to our teachers. Here's what they do:</p>
+    <ul>
+        <li>Some things</li>
+        <li>Another one</li>
+    </ul>
+    <ol>
+        <li><strong>Ordered</strong> list as well.</li>
+    </ol>
+    <h2>Bigger</h2>
+    <h5>Smaller h5</h5>
+</div>
 </div>
 </section>
 <section class="team py-4">
