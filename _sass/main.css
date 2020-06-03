@@ -372,7 +372,7 @@ section.team {
     background: var(--school-primary-colour-light);
     font-size: 1.1rem;
     border-left: 10px solid var(--school-primary-colour);
-    margin: 3% 20% 3% 10%;
+    margin: 3% 10% 3% 10%;
     padding: 0.5em 1.5em;
 }
 
