@@ -4,7 +4,10 @@
     --second-bg-colour: rgb(223, 223, 223);
     --school-primary-colour: #1e4ff0;
     --school-primary-colour-light: #dcedff;
+    --footer-bg-colour: rgb(160, 160, 160);
     --footer-text-colour: rgb(40, 40, 40);
+    --govuk-highlight-colour: #fd0;
+    --navbar-text-colour: rgb(29, 29, 29);
 }
 
 html {
@@ -44,7 +47,7 @@ h1 {
 }
 
 .nav-link, .navbar-brand {
-    color: rgb(29, 29, 29);
+    color: var(--navbar-text-colour);
     cursor: pointer;
 }
 
@@ -53,7 +56,7 @@ h1 {
 }
 
 a.navbar-brand:focus {
-    outline: 3px solid #ffdd00;
+    outline: 3px solid var(--govuk-highlight-colour);
     border-bottom-style: none;
     background: none;
 }
@@ -83,7 +86,7 @@ a.navbar-brand:focus {
 }
 
 .nav-search-button:focus {
-    outline: 3px solid #ffdd00;
+    outline: 3px solid var(--govuk-highlight-colour);
     box-shadow: none;
 }
 
@@ -103,8 +106,8 @@ a.navbar-brand:focus {
 
 a.nav-link:focus {
     outline: 3px solid transparent;
-    background-color: #ffdd00;
-    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    background-color: var(--govuk-highlight-colour);
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     transition: none;
     border-bottom-style: none;
 }
@@ -158,11 +161,11 @@ a.nav-link:focus {
 }
 
 .description h1 {
-    color: #ffffff;
+    color: var(--main-bg-colour);
 }
 
 .description p {
-    color: #fff;
+    color: var(--main-bg-colour);
     font-size: 1.3rem;
     line-height: 1.5;
 }
@@ -171,24 +174,21 @@ a.nav-link:focus {
     border: 1px solid var(--school-primary-colour);
     background: var(--school-primary-colour);
     border-radius: 0.5em;
-    color: #fff;
+    color: var(--main-bg-colour);
 }
 
 .description a.btn:hover {
     transition: 0.6s;
-    border: 1px solid #fff;
-    background: #fff;
+    border: 1px solid var(--main-bg-colour);
+    background: var(--main-bg-colour);
     color: var(--school-primary-colour);
 }
 
-section.calendar {
-    background-color: #fff;
-}
 
 /*--- home calendar section ---*/
 
 section.calendar {
-    background-color: var(--main-bg-colour);
+    background-color: var(--second-bg-colour);
 }
 
 /*--- masthead ---*/
@@ -206,7 +206,7 @@ section.calendar {
 }
 
 .masthead h1, .masthead h2, .masthead h3, .masthead p {
-    color: #fff;
+    color: var(--main-bg-colour);
 }
 
 .masthead-overlay {
@@ -248,25 +248,25 @@ section.calendar {
 /*--- Footer ---*/
 
 .page-footer {
-    background-color: rgb(160, 160, 160);
+    background-color: var(--footer-bg-colour);
     color: var(--footer-text-colour);
     padding: 60px 0 0 0;
 }
 
 .page-footer a {
-    color: white;
+    color: var(--main-bg-colour);
     padding: 0 0.2rem 0;
 }
 
 .page-footer div.bg-dark a:focus {
     outline: 3px solid transparent;
-    background-color: #ffdd00;
-    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    background-color: var(--govuk-highlight-colour);
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     color: black;
 }
 
 .footer-brand:focus {
-    outline: 3px solid #ffdd00;
+    outline: 3px solid var(--govuk-highlight-colour);
 }
 
 .footer-copyright {
@@ -282,7 +282,7 @@ section.calendar {
 /*--- sidebox ---*/
 
 .boxout {
-    background-color: rgb(201, 201, 201);
+    background-color: var(--second-bg-colour);
 }
 
 .boxout h3 {
@@ -609,9 +609,9 @@ section.news {
 }
 
 .card-content:hover, .card-content:focus-within {
-    background-color: #ffdd00;
+    background-color: var(--govuk-highlight-colour);
     outline: 3px solid transparent;
-    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     text-decoration: none;
 }
 
@@ -744,9 +744,9 @@ a.cc-active {
 }
 
 li:not(.lunrsearchresult) a:focus:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:focus:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
-    background-color: #ffdd00;
+    background-color: var(--govuk-highlight-colour);
     outline: 3px solid transparent;
-    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     text-decoration: none;
 }
 
@@ -794,14 +794,14 @@ div#breadcrumbs {
 }
 
 #breadcrumbs a:focus {
-    background-color: #ffdd00;
+    background-color: var(--govuk-highlight-colour);
     outline: 3px solid transparent;
-    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     text-decoration: none;
 }
 
 #breadcrumbs a.cc-active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .breadcrumb-header {
@@ -909,7 +909,7 @@ div.accordion .card-body {
 /* --- forms --- */
 
 .form-control:focus {
-    outline: 3px solid #ffdd00;
+    outline: 3px solid var(--govuk-highlight-colour);
     border-bottom-style: none;
     background: none;
     border: none;
