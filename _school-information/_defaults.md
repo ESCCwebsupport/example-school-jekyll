@@ -2,15 +2,15 @@
 layout: content-page
 title:
 slug:
+published: false
 header_image:
 file_path:
+description:
 button:
   button_link:
   button_text:
-description:
-published: true
+display_expandable-section: false
+expandable-section:
+  - header:
+    content_markdown:
 ---
-
-<div class="container editable" data-i18n="{{ page.title | slugify }}_content">
-    Content here.
-</div>
