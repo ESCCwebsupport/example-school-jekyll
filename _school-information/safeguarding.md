@@ -2,7 +2,7 @@
 layout: content-page
 title: Safeguarding
 slug:
-published: false
+published: true
 header_image:
 file_path:
 description:
