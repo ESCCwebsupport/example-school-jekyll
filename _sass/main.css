@@ -793,14 +793,19 @@ div#breadcrumbs {
     font-size: 1rem;
 }
 
+
+#breadcrumbs a {
+    text-decoration: none;
+}
+
+#breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
 #breadcrumbs a:focus {
     background-color: var(--govuk-highlight-colour);
     outline: 3px solid transparent;
     box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
-    text-decoration: none;
-}
-
-#breadcrumbs a.cc-active {
     text-decoration: none;
 }
 
