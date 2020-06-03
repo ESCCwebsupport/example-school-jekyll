@@ -66,7 +66,6 @@ a.navbar-brand:focus {
     border-bottom-color: var(--school-primary-colour) !important;
 }
 
-
 .nav-link:hover {
     color: var(--school-primary-colour);
     border-bottom-color: var(--school-primary-colour);
@@ -373,7 +372,7 @@ section.team {
     background: var(--school-primary-colour-light);
     font-size: 1.1rem;
     border-left: 10px solid var(--school-primary-colour);
-    margin: 1.5em 5em 1.5em 2.5em;
+    margin: 3% 20% 3% 10%;
     padding: 0.5em 1.5em;
 }
 
@@ -729,6 +728,7 @@ p {
 }
 
 /*--- general ---*/
+
 a.cc-active {
     text-decoration: underline;
 }
@@ -883,7 +883,6 @@ div.accordion .card-body {
 [data-toggle="collapse"] .fa:before {
     content: "\f146";
 }
-
 
 [data-toggle="collapse"].collapsed .fa:before {
     content: "\f0fe";
