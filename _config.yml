@@ -5,7 +5,7 @@ permalink: pretty
 lang: en_GB
 timezone: Europe/London
 
-url: https://puny-caribou.cloudvent.net
+url:
 
 
 plugins:
@@ -48,30 +48,6 @@ collections:
       - visual
     output: true
     permalink: /news/:year/:month/:day/:title/
-
-
-page_blocks: []
-_array_structures:
-  style: modal
-  page_blocks:
-    - label: Introduction Text
-      icon: text
-      value:
-        _id: introduction_text
-        content_markdown:
-    - label: Text Block
-      icon: content
-      value:
-        _id: text_block
-        header:
-        content_markdown:
-    - label: Link Button
-      icon: link
-      value:
-        _id: link_button
-        link_text:
-        link:
-
 
 _options:
 
