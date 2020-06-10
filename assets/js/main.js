@@ -189,3 +189,8 @@ $( document ).ready(function() {
   $( "table" ).addClass("table table-bordered table-hover");
   $( "table" ).wrap( "<div class='table-responsive'></div>" );
 });
+
+// scrollspy //
+$( document ).ready(function() {
+  $('body').scrollspy({ target: '#list' })
+});

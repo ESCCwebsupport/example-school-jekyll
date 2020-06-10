@@ -937,3 +937,16 @@ div.accordion .card-body {
     border: none;
     box-shadow: none;
 }
+
+/* --- scrollspy --- */
+
+.left-list {
+    padding: 0.5em 0em 1em 0em;
+    position: sticky;
+    top: 10px;
+  
+  }
+
+.scrollspy {
+    margin-top: .5rem;
+}
