@@ -3,10 +3,16 @@ layout: home
 title: Home
 button_link: /school-information/welcome/
 button_text: Read our head's welcome
-header_image: /assets/images/classroom2.jpg
+carousel:
+  - image: /assets/images/classroom2.jpg
+    alt-text: Classroom scene
+  - image: /assets/media/sport/miguel-teirlinck-12ozc-vg9pq-unsplash.jpg
+    alt-text: Tennis player hitting a shot
+  - image: /uploads/jazz-1415982-1920.jpg
+    alt-text: Music club
 ---
-<header class="masthead home" style="background-image:url('{{ page.header_image }}');">
-    <div class="container h-100 masthead-overlay">
+<header class="masthead home h-90">
+    <div id="homepage-images" class="carousel slide" data-ride="carousel">
         <div class="description">
             <h1>Welcome to St. Invicta's!</h1>
             <p>A warm welcome to all prospective students, parents and staff members from everyone here at St.
@@ -14,7 +20,34 @@ header_image: /assets/images/classroom2.jpg
             </p>
             <a href="{{ page.button_link }}" class="btn btn-primary btn-lg" role="button">{{ page.button_text }}</a>
         </div>
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          {% for image in page.carousel %}
+            <li data-target="#homepage-images" data-slide-to="{{ forloop.index | minus: 1 }}" {% if forloop.index == 1 %}class="active"{% endif %}></li>
+            {% endfor %}
+        </ul>
+    
+        <!-- The slideshow -->
+        <div class="carousel-inner" role="listbox">
+          {% for image in page.carousel %}
+            <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" style="background-image:url('{{ image.image }}')" role="img" aria-label="{{ image.alt-text }}">
+            <div class="black-overlay"></div>
+            </div>
+            {% endfor %}
+        </div>
+        
+    
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#homepage-images" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#homepage-images" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
     </div>
+
 </header>
 <section class="pt-5 pb-2 news">
     <div class="container">
@@ -43,7 +76,6 @@ header_image: /assets/images/classroom2.jpg
             </div>
             {% endfor %}
         </div>
-    </div>
 </section>
 
 <section class="py-3 calendar">
