@@ -156,6 +156,7 @@ a.nav-link:focus {
 @media screen and (max-device-width: 1024px) {
     .header, .masthead {
         background-attachment: initial !important;
+        height: 80vh;
     }
     .masthead h1, .masthead h2, .masthead h3, .masthead p {
         text-align: left !important;
