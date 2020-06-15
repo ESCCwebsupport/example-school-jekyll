@@ -647,9 +647,9 @@ section.news {
 }
 
 .card-content:hover, .card-content:focus-within {
-    background-color: var(--govuk-highlight-colour);
+    background-color: var(--school-primary-colour-light);
     outline: 3px solid transparent;
-    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
+    outline-color: var(--govuk-highlight-colour);
     text-decoration: none;
 }
 
