@@ -14,7 +14,7 @@ carousel:
     alt-text: Taking the temperature
 ---
 
-<header class="masthead home h-90">
+<header class="masthead home h-100">
     <div id="homepage-images" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="6000">
         <div class="description">
             <h1>Welcome to St. Invicta's!</h1>
@@ -35,7 +35,6 @@ carousel:
         <div class="carousel-inner" role="listbox">
           {% for image in page.carousel %}
             <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" style="background-image:url('{{ image.image }}')" role="img" aria-label="{{ image.alt-text }}">
-            <div class="black-overlay"></div>
             </div>
             {% endfor %}
         </div>

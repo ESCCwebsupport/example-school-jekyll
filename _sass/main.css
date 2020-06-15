@@ -173,12 +173,14 @@ a.nav-link:focus {
 
 .description {
     left: 50%;
-    top: 50%;
+    top: 75%;
     position: absolute;
     transform: translate(-50%, -60%);
     text-align: center;
-    width: 75%;
+    width: 100%;
     z-index: 1000;
+    background-color: rgba(1, 50, 67, 0.65);
+    padding: 1rem;
 }
 
 .description h1 {
@@ -335,9 +337,8 @@ section.calendar {
     } */
     .description {
         left: 0;
-        padding: 0 15px;
         position: absolute;
-        top: 20%;
+        top: 50%;
         transform: none;
         text-align: center;
         width: unset;
