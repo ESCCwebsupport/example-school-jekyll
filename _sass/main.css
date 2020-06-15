@@ -154,7 +154,7 @@ a.nav-link:focus {
 /*--- home header section ---*/
 
 @media screen and (max-device-width: 1024px) {
-    .header, .masthead {
+    .header, .masthead, .carousel-item {
         background-attachment: initial !important;
     }
     .masthead h1, .masthead h2, .masthead h3, .masthead p {
@@ -239,9 +239,14 @@ section.calendar {
 
 .carousel-item {
     height: 100%;
-    min-height: 90vh;
+    min-height: 95vh;
     background: no-repeat center center scroll;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-indicators {
+    margin-bottom: 5%;
 }
 
 .black-overlay {
@@ -366,7 +371,7 @@ section.calendar {
 /*--- buttons ---*/
 
 @media screen and (min-width: 0\0) and (min-resolution:+72dpi) {
-    .header, .masthead {
+    .header, .masthead, .carousel-item {
         background-attachment: scroll !important;
     }
 }
