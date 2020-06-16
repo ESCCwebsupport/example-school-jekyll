@@ -1,0 +1,10 @@
+<div class="mt-3" data-i18n="{{ page.title | slugify }}_scroll-content">
+    <div data-target="#list" data-offset="0" class="scrollspy">
+        {% for scrollspy in page.scroll-section %}
+        <h4 id="{{ scrollspy.header | slugify }}">{{ scrollspy.header }}</h4>
+        <div class="scroll-content">
+            {{ scrollspy.content_markdown | markdownify }}
+        </div>
+        {% endfor %}
+    </div>
+</div>

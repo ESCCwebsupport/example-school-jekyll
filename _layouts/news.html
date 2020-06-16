@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+<body>
+    {% include navigation.html %}
+    {% if page.header_image %}
+    {% include hero-image.html %}
+    {% endif %}
+    <section class="container py-3">
+        {% if page.header_image %}
+        {% else %}
+        <div class="pb-2">
+            {% include breadcrumbs.html %}
+            <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
+            {% endif %}
+        <div id="content" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+        {% if page.display_expandable-section %}
+        {% include accordion.html %}
+        {% endif %}
+        {% if page.button.button_link %}
+        {% include link-button.html %}
+        {% endif %}
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+
+
+</body>
+
+</html>

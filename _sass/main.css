@@ -42,6 +42,7 @@ h1 {
 .skip-container a {
     text-decoration: none;
 }
+
 .skip-container a:focus {
     background-color: var(--govuk-highlight-colour);
     outline: 3px solid transparent;
@@ -206,7 +207,6 @@ a.nav-link:focus {
     background: var(--main-bg-colour);
     color: var(--school-primary-colour);
 }
-
 
 /*--- home calendar section ---*/
 
@@ -841,7 +841,6 @@ div#breadcrumbs {
     font-size: 1rem;
 }
 
-
 #breadcrumbs a {
     text-decoration: none;
 }
@@ -967,4 +966,29 @@ div.accordion .card-body {
     background: none;
     border: none;
     box-shadow: none;
+}
+
+/* --- scrollspy --- */
+
+.left-list {
+    padding: 0.5em 0em 1em 0em;
+    position: sticky;
+    top: 10px;
+}
+
+.scrollspy {
+    margin-top: .5rem;
+}
+
+.list-group-item.active {
+    background-color: var(--school-primary-colour);
+    border-color: var(--school-primary-colour);
+}
+
+.list-group-item:focus {
+    outline-color: var(--govuk-highlight-colour);
+}
+
+.list-group-item {
+    background-color: var(--second-bg-colour);
 }

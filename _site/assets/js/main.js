@@ -194,3 +194,9 @@ $( document ).ready(function() {
 $( document ).ready(function() {
   $('body').scrollspy({ target: '#list' })
 });
+
+$( document ).hasClass("scrollspy"); {
+  $( '#main-section' ).addClass('col-8').removeClass('col-sm-12').removeClass('col-lg-8');
+  $( '#right-section' ).addClass('col-4').removeClass('col-sm-12').removeClass('col-lg-4');
+}
+
