@@ -18,6 +18,8 @@ expandable-section:
 
       Right
 
+      {: .text-right}
+
 
       ### Header inside this block
 
