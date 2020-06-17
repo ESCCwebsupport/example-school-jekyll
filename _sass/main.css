@@ -663,7 +663,7 @@ section.news {
     text-decoration: none;
 }
 
-.card-content a:focus {
+.card-desc:focus {
     background-color: var(--school-primary-colour-light);
 }
 
