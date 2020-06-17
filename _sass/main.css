@@ -663,7 +663,7 @@ section.news {
     text-decoration: none;
 }
 
-.news .card-content .card-desc:hover {
+.news .card-content .card-desc:hover:focus {
     background-color: var(--govuk-highlight-colour);
 }
 
