@@ -663,6 +663,10 @@ section.news {
     text-decoration: none;
 }
 
+.card-content a:focus {
+    background-color: var(--school-primary-colour-light);
+}
+
 .card-img {
     position: relative;
     overflow: hidden;
