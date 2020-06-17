@@ -83,8 +83,8 @@
         this.ref('id')
         this.field('title', { boost: 10 })
         this.field('body', { boost: 5 })
-        this.field('accordion')
-        this.field('scrollspy')
+        this.field('accordion', { boost: 5 })
+        this.field('scrollspy', { boost: 5 })
         this.field('description')
         console.log(documents);
     
