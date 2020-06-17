@@ -49,6 +49,11 @@ scroll-section:
       Suspendisse at augue est.
 
 
+      Important bit of text.<br>\- *Teacher of Class 4*
+
+      {: .callout}
+
+
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus
       facilisis mollis. Nunc rhoncus tempus odio ut dictum. Aliquam sit amet
       tellus tincidunt, lobortis augue non, aliquam metus. Maecenas euismod
@@ -57,6 +62,9 @@ scroll-section:
       nunc elementum libero, sed suscipit purus enim in odio. Fusce sapien erat,
       porta lacinia feugiat eget, feugiat a diam. Aliquam vel mollis nulla.
       Suspendisse at augue est.
+
+
+      [A link can go here too](/school-information/welcome/).
   - header: Section 3
     content_markdown: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus
@@ -67,6 +75,17 @@ scroll-section:
       nunc elementum libero, sed suscipit purus enim in odio. Fusce sapien erat,
       porta lacinia feugiat eget, feugiat a diam. Aliquam vel mollis nulla.
       Suspendisse at augue est.
+
+
+      | Heading 1 | Heading 2 | Something here | More data |
+
+      | --- | --- | --- | --- |
+
+      | See | &nbsp; | &nbsp; | &nbsp; |
+
+      | &nbsp; | &nbsp; | You | &nbsp; |
+
+      | &nbsp; | &nbsp; | &nbsp; | There |
 
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus
@@ -87,6 +106,10 @@ scroll-section:
       nunc elementum libero, sed suscipit purus enim in odio. Fusce sapien erat,
       porta lacinia feugiat eget, feugiat a diam. Aliquam vel mollis nulla.
       Suspendisse at augue est.
+
+
+      ![Classroom scene at school](/assets/images/classroom.jpg){: width="2000"
+      height="1333"}
 ---
 
 Introduction text to the page goes in here. Something about introducting what's to come in the scrolling pages underneath.

@@ -16,10 +16,20 @@ expandable-section:
       get it so editors can add an accordion themselves.
 
 
+      Right
+
+      {: .text-right}
+
+
       ### Header inside this block
 
 
       Regular text again.
+
+
+      Does a callout work?
+
+      {: .callout}
   - header: Section 1.1 - The rules
     content_markdown: |-
       Something else
