@@ -664,8 +664,7 @@ section.news {
 }
 
 .news .card-content:hover {
-    outline-color: var(--govuk-highlight-colour);
-    margin-top: 1rem;
+    border-color: var(--govuk-highlight-colour);
 }
 
 .card-img {
