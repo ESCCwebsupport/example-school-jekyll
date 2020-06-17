@@ -20,6 +20,11 @@ expandable-section:
 
 
       Regular text again.
+
+
+      Does a callout work?
+
+      {: .callout}
   - header: Section 1.1 - The rules
     content_markdown: |-
       Something else
