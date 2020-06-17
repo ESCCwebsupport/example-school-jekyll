@@ -97,3 +97,6 @@ _options:
     undo: true
     redo: true
     image: true
+  content_markdown:
+    bold: false
+    table: true
