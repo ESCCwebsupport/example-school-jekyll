@@ -61,6 +61,7 @@ carousel:
             {% for post in posts limit:3 %}
             <div class="col-md-6 col-lg-4 mb-4">
                 <div tabindex="0" class="card-content">
+                    <a href="{{ post.url }}" class="stretched-link"></a>
                     <div class="card-img">
                         {% if post.header_image %}
                         <img src="{{ post.header_image }}" alt="{{ post.title }}" />
@@ -74,7 +75,7 @@ carousel:
                     <div class="card-desc">
                         <h3>{{ post.title }}</h3>
                         <p>{{ post.description | truncatewords: 15 }}</p>
-                        <a href="{{ post.url }}" class="stretched-link"></a>
+                        
                     </div>
                 </div>
             </div>
