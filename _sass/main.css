@@ -667,7 +667,7 @@ section.news {
     background-color: var(--school-primary-colour-light);
 }
 
-.news .stretched-link:focus {
+.news a:focus {
     background-color: var(--school-primary-colour-light);
 }
 
