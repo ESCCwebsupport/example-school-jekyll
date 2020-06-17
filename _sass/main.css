@@ -663,8 +663,8 @@ section.news {
     text-decoration: none;
 }
 
-.card-desc:focus {
-    background-color: var(--school-primary-colour-light);
+.news .card-content:hover {
+    outline-color: var(--govuk-highlight-colour);
 }
 
 .card-img {
