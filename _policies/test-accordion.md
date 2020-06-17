@@ -16,6 +16,11 @@ expandable-section:
       get it so editors can add an accordion themselves.
 
 
+      Right
+
+      {: .text-right}
+
+
       ### Header inside this block
 
 
