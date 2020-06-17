@@ -665,6 +665,9 @@ section.news {
 
 .news .card-content .card-desc:hover, .news .card-content .card-desc:focus {
     background-color: var(--school-primary-colour-light);
+    outline: 3px solid transparent;
+    outline-color: var(--govuk-highlight-colour);
+    text-decoration: none;
 }
 
 .card-img {
