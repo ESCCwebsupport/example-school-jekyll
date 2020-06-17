@@ -49,7 +49,7 @@ scroll-section:
       Suspendisse at augue est.
 
 
-      Important bit of text.<br>\- Teacher of Class 4
+      Important bit of text.<br>\- *Teacher of Class 4*
 
       {: .callout}
 
