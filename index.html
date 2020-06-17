@@ -59,9 +59,9 @@ carousel:
         <div class="row">
             {% assign posts = site.posts | sort: 'posted_date' | reverse %}
             {% for post in posts limit:3 %}
-            <div tabindex="0" class="col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card-content">
-                    <div class="card-img">
+                    <div tabindex="0" class="card-img">
                         {% if post.header_image %}
                         <img src="{{ post.header_image }}" alt="{{ post.title }}" />
                         {% else %}
