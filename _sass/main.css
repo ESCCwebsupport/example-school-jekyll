@@ -981,7 +981,7 @@ div.accordion .card-body {
     padding: 0.5em 0em 1em 0em;
     position: sticky;
     top: 10px;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .scrollspy {
