@@ -344,6 +344,9 @@ section.calendar {
     /* body {
         padding: 60px 0 0 0;
     } */
+    .masthead.home {
+        height: 90vh;
+    }
     .description {
         left: 0;
         position: absolute;
