@@ -168,7 +168,7 @@ a.nav-link:focus {
         position: relative !important;
     }
     .carousel-indicators {
-        margin-bottom: 20% !important;
+        margin-bottom: 25% !important;
     }
 }
 
@@ -347,7 +347,7 @@ section.calendar {
     .description {
         left: 0;
         position: absolute;
-        top: 0%;
+        top: 35%;
         transform: none;
         text-align: center;
         width: unset;
