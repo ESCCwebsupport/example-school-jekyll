@@ -347,7 +347,7 @@ section.calendar {
     .description {
         left: 0;
         position: absolute;
-        top: 50%;
+        top: 30%;
         transform: none;
         text-align: center;
         width: unset;
@@ -377,6 +377,7 @@ section.calendar {
 @media screen and (min-width: 0\0) and (min-resolution:+72dpi) {
     .header, .masthead, .carousel-item {
         background-attachment: scroll !important;
+
     }
 }
 

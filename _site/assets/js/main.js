@@ -206,9 +206,9 @@ if (document.querySelector('.scrollspy') !== null) {
 $(window).on('resize', function () {
   if (window.matchMedia('screen and (max-width: 768px)').matches) {
     if (document.querySelector('.scrollspy') !== null) {
-      var height = $("#list").height() + 10;
+      var height = $("#list").height() + 8;
       $('h4').addClass('scroll-header');
-      $('.scroll-header').css('padding-top', height).css('margin-top', -10 - height);
+      $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
     }
   }
   else {
@@ -222,8 +222,8 @@ $(window).on('resize', function () {
 
 if (window.matchMedia('screen and (max-width: 768px)').matches) {
   if (document.querySelector('.scrollspy') !== null) {
-      var height = $("#list").height() + 10;
+      var height = $("#list").height() + 8;
       $('h4').addClass('scroll-header');
-      $('.scroll-header').css('padding-top', height).css('margin-top', -10 - height);
+      $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
     };
 };
