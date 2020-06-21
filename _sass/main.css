@@ -344,13 +344,10 @@ section.calendar {
     /* body {
         padding: 60px 0 0 0;
     } */
-    .masthead.home {
-        height: 90vh;
-    }
     .description {
         left: 0;
         position: absolute;
-        top: 30%;
+        top: 0%;
         transform: none;
         text-align: center;
         width: unset;
