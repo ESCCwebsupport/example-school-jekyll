@@ -1002,9 +1002,8 @@ div.accordion .card-body {
 }
 
 @media (max-width: 575.98px) {
-    .list-group-item {
-        padding-left: 0.1rem;
-        padding-right: 0.1rem;
+    .left-list {
+        padding-top: 0;
     }
 }
 
