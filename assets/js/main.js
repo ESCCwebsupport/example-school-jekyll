@@ -198,4 +198,29 @@ $( document ).ready(function() {
 if (document.querySelector('.scrollspy') !== null) {
   $( '#main-section' ).addClass('col-8').removeClass('col-sm-12').removeClass('col-lg-8');
   $( '#right-section' ).addClass('col-4').removeClass('col-sm-12').removeClass('col-lg-4');
+  $( document ).ready(function() {
+    $('body').scrollspy({ target: '#list' })
+  });
 }
+
+$(window).on('resize', function () {
+  if (window.matchMedia('screen and (max-width: 768px)').matches) {
+    if (document.querySelector('.scrollspy') !== null) {
+      var height = $("#list").height();
+      $('h4').addClass('scroll-header');
+    }
+  }
+  else {
+    if (document.querySelector('.scrollspy') !== null) {
+      var height = $("#list").height();
+      $('h4').removeClass('scroll-header');
+    };
+  }
+});
+
+if (window.matchMedia('screen and (max-width: 768px)').matches) {
+  if (document.querySelector('.scrollspy') !== null) {
+      var height = $("#list").height();
+      $('h4').addClass('scroll-header');
+    };
+};

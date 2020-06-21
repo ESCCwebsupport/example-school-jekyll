@@ -980,7 +980,7 @@ div.accordion .card-body {
 .left-list {
     padding: 0.5em 0em 1em 0em;
     position: sticky;
-    top: 10px;
+    top: 0px;
     overflow-wrap: break-word;
 }
 
@@ -999,4 +999,21 @@ div.accordion .card-body {
 
 .list-group-item {
     background-color: var(--second-bg-colour);
+}
+
+@media (max-width: 575.98px) {
+    .list-group-item {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+}
+
+.scroll-container {
+    position: sticky;
+    top: 0;
+}
+
+.scroll-header {
+    padding-top: 250px;
+    margin-top: -250px;
 }
