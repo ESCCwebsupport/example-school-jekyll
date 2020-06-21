@@ -347,7 +347,7 @@ section.calendar {
     .description {
         left: 0;
         position: absolute;
-        top: 35%;
+        top: 30%;
         transform: none;
         text-align: center;
         width: unset;
