@@ -1006,6 +1006,10 @@ div.accordion .card-body {
     .left-list {
         padding-top: 0;
     }
+    .list-group-item {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
 }
 
 .scroll-container {
