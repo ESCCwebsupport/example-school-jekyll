@@ -191,18 +191,15 @@ $( document ).ready(function() {
 });
 
 // scrollspy //
-$( document ).ready(function() {
-  $('body').scrollspy({ target: '#list' })
-});
 
+// reorder the two layout sections  and start spying if page has a scrollspy class on it
 if (document.querySelector('.scrollspy') !== null) {
-  $( '#main-section' ).addClass('col-8').removeClass('col-sm-12').removeClass('col-lg-8');
-  $( '#right-section' ).addClass('col-4').removeClass('col-sm-12').removeClass('col-lg-4');
-  $( document ).ready(function() {
-    $('body').scrollspy({ target: '#list' })
-  });
+  $('body').scrollspy({ target: '#list' });
+  $( '#main-section' ).addClass('col-sm-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
+  $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').addClass('scroll-container').removeClass('col-sm-12').removeClass('col-lg-4');
 }
 
+// on resize of window, add padding the size of scrollspy list to mobile screens, or remove styling if sizing up to laptop screen
 $(window).on('resize', function () {
   if (window.matchMedia('screen and (max-width: 768px)').matches) {
     if (document.querySelector('.scrollspy') !== null) {
@@ -220,6 +217,7 @@ $(window).on('resize', function () {
   }
 });
 
+// if mobile screen size, add padding styling as above
 if (window.matchMedia('screen and (max-width: 768px)').matches) {
   if (document.querySelector('.scrollspy') !== null) {
       var height = $("#list").height() + 8;
