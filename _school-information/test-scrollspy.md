@@ -4,7 +4,7 @@ title: Test scrollspy
 slug: test-scrollspy
 published: true
 header_image:
-file_path: /assets/media/test-scrollspy/marsh1.jpg
+file_path:
 description: >-
   Read how important sport is to us as St Invicta's and learn about the sport
   premium.
@@ -61,8 +61,8 @@ scroll-section:
       id quam scelerisque interdum.
 
 
-      ![Buffalo](/assets/media/test-scrollspy/buffalo1.jpg){: width="600"
-      height="450"}
+      ![Marshland reeds](/assets/media/test-scrollspy/marsh1.jpg){: width="4000"
+      height="3000"}
 
 
       Nunc finibus, dui et varius posuere, lacus nunc elementum libero, sed
