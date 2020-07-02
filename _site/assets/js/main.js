@@ -2,8 +2,14 @@ $(document).ready(function() {
     $('.header').height($(window).height());
   });
   
+function formControls() {
+
   const myForm = document.getElementById('contactForm');
+
   function resetForm() {
+    if (!myForm) {
+      return;
+    }
     myForm.reset();
   }
   
@@ -33,6 +39,7 @@ $(document).ready(function() {
       false
     );
   })();
+}
   
   function is_youtubelink(url) {
     var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
