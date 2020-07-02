@@ -61,10 +61,6 @@ scroll-section:
       id quam scelerisque interdum.
 
 
-      ![Marshland reeds](/assets/media/test-scrollspy/marsh1.jpg){: width="4000"
-      height="3000"}
-
-
       Nunc finibus, dui et varius posuere, lacus nunc elementum libero, sed
       suscipit purus enim in odio. Fusce sapien erat, porta lacinia feugiat
       eget, feugiat a diam. Aliquam vel mollis nulla. Suspendisse at augue est.
