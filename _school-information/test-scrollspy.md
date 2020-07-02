@@ -58,10 +58,16 @@ scroll-section:
       facilisis mollis. Nunc rhoncus tempus odio ut dictum. Aliquam sit amet
       tellus tincidunt, lobortis augue non, aliquam metus. Maecenas euismod
       fermentum lacus, id finibus diam dignissim non. Praesent bibendum lectus
-      id quam scelerisque interdum. Nunc finibus, dui et varius posuere, lacus
-      nunc elementum libero, sed suscipit purus enim in odio. Fusce sapien erat,
-      porta lacinia feugiat eget, feugiat a diam. Aliquam vel mollis nulla.
-      Suspendisse at augue est.
+      id quam scelerisque interdum.
+
+
+      ![Marsh reeds](/assets/media/test-scrollspy/marsh4.jpg){: width="600"
+      height="450"}
+
+
+      Nunc finibus, dui et varius posuere, lacus nunc elementum libero, sed
+      suscipit purus enim in odio. Fusce sapien erat, porta lacinia feugiat
+      eget, feugiat a diam. Aliquam vel mollis nulla. Suspendisse at augue est.
 
 
       [A link can go here too](/school-information/welcome/).
