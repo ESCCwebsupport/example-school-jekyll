@@ -17,7 +17,7 @@ expandable-section:
     content_markdown:
 display_scroll_section: true
 scroll-section:
-  - header: Section 1
+  - header: Section 1 - introduction
     content_markdown: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus
       facilisis mollis. Nunc rhoncus tempus odio ut dictum. Aliquam sit amet
