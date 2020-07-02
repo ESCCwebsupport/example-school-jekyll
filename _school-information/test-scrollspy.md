@@ -119,3 +119,5 @@ scroll-section:
 ---
 
 Introduction text to the page goes in here. Something about introducting what's to come in the scrolling pages underneath.
+
+![Buffalo](/assets/media/test-scrollspy/buffalo-herd.jpg){: width="600" height="450"}
