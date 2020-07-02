@@ -300,17 +300,33 @@ section.calendar {
 
 /*--- Footer ---*/
 
+footer a {
+    color: var(--footer-text-colour);
+    text-decoration: underline;
+}
+
+footer a:focus {
+    background-color: var(--govuk-highlight-colour);
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
+    text-decoration: none;
+}
+
 .page-footer {
     background-color: var(--footer-bg-colour);
     color: var(--footer-text-colour);
     padding: 60px 0 0 0;
 }
 
-.page-footer a {
+.text-white a {
     color: var(--main-bg-colour);
     padding: 0 0.2rem 0;
+    text-decoration: none;
 }
 
+.text-white a:hover {
+    text-decoration: underline;
+}
 .page-footer div.bg-dark a:focus {
     outline: 3px solid transparent;
     background-color: var(--govuk-highlight-colour);
