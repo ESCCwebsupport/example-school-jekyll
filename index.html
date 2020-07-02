@@ -30,7 +30,7 @@ carousel:
         </ul>
     
         <!-- The slideshow -->
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox" aria-label="image slider">
           {% for image in page.carousel %}
             <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" style="background-image:url('{{ image.image }}')" role="img" aria-label="{{ image.alt-text }}">
             </div>
