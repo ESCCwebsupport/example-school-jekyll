@@ -61,6 +61,10 @@ scroll-section:
       id quam scelerisque interdum.
 
 
+      ![Buffalo](/assets/media/test-scrollspy/buffalo1.jpg){: width="600"
+      height="450"}
+
+
       Nunc finibus, dui et varius posuere, lacus nunc elementum libero, sed
       suscipit purus enim in odio. Fusce sapien erat, porta lacinia feugiat
       eget, feugiat a diam. Aliquam vel mollis nulla. Suspendisse at augue est.
@@ -115,5 +119,3 @@ scroll-section:
 ---
 
 Introduction text to the page goes in here. Something about introducting what's to come in the scrolling pages underneath.
-
-&nbsp;
