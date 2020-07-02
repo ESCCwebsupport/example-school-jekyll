@@ -4,7 +4,7 @@ title: Test scrollspy
 slug: test-scrollspy
 published: true
 header_image:
-file_path:
+file_path: /assets/media/test-scrollspy/marsh1.jpg
 description: >-
   Read how important sport is to us as St Invicta's and learn about the sport
   premium.
