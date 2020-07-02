@@ -803,17 +803,17 @@ a.cc-active {
     text-decoration: none;
 }
 
-li:not(.lunrsearchresult) a:focus:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:focus:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
-    background-color: var(--govuk-highlight-colour);
-    outline: 3px solid transparent;
-    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
-    text-decoration: none;
-}
 
 li:not(.lunrsearchresult) a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
     text-decoration: underline;
 }
 
+li:not(.lunrsearchresult) a:focus:not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:focus:not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
+    background-color: var(--govuk-highlight-colour);
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
+    text-decoration: none;
+}
 p img {
     max-width: 100%;
     height: auto;
@@ -946,16 +946,12 @@ div.accordion .btn-link {
 
 div.accordion .btn-link:focus {
     text-decoration: underline;
-    background-color: yellow;
+    background-color: var(--govuk-highlight-colour);
 }
 
 div.accordion .card-body {
     padding: 1rem 1rem 1rem 2rem;
 }
-
-/* div.accordion .btn-link:not(.collapsed) {
-    background-color: yellow;
-} */
 
 .accordion i.fa {
     font-size: 1.2rem;
