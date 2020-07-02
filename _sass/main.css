@@ -327,6 +327,7 @@ footer a:focus {
 .text-white a:hover {
     text-decoration: underline;
 }
+
 .page-footer div.bg-dark a:focus {
     outline: 3px solid transparent;
     background-color: var(--govuk-highlight-colour);
