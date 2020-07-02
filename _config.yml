@@ -54,9 +54,9 @@ _options:
   layout:
     hidden: true
   _block:
-    height: 450
-    width: 550
-    resize_style: "cover"
+    # height: 450
+    # width: 550
+    # resize_style: "cover"
     format: p h3 h4 h5
     bold: true
     italic: true
@@ -76,9 +76,9 @@ _options:
     redo: true
     image: true
   content:
-    height: 450
-    width: 550
-    resize_style: "cover"
+    # height: 450
+    # width: 550
+    # resize_style: "cover"
     format: p h3 h4 h5
     bold: true
     italic: true
@@ -98,9 +98,9 @@ _options:
     redo: true
     image: true
   content_markdown:
-    height: 450
-    width: 550
-    resize_style: "cover"
+    # height: 450
+    # width: 550
+    # resize_style: "cover"
     format: p h3 h4 h5
     bold: true
     italic: true
