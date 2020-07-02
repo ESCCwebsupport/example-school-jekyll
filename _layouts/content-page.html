@@ -14,10 +14,10 @@
         <div class="pb-2">
             {% include breadcrumbs.html %}
             {% endif %}
+            <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
             <div class="row">
                 {% if page.display_scroll_section %}
-                <div id="content" class="col-lg-8 col-sm-12 data-i18n=" {{ page.title | slugify }}_content">
-                    {{ content }}</div>
+                <div id="content" class="col-lg-8 col-sm-12" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
                 {% endif %}
                 <div class="col-lg-8 col-sm-12" id="main-section">
                     {% if page.display_scroll_section %}
