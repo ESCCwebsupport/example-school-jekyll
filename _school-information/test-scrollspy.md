@@ -61,10 +61,6 @@ scroll-section:
       id quam scelerisque interdum.
 
 
-      ![Marsh reeds at school](/assets/media/test-scrollspy/marsh4.jpg){:
-      width="600" height="450"}
-
-
       Nunc finibus, dui et varius posuere, lacus nunc elementum libero, sed
       suscipit purus enim in odio. Fusce sapien erat, porta lacinia feugiat
       eget, feugiat a diam. Aliquam vel mollis nulla. Suspendisse at augue est.
