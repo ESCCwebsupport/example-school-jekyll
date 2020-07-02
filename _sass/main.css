@@ -358,6 +358,7 @@ section.calendar {
     }
     .navbar-brand img {
         max-height: 45px;
+        width: auto;
     }
     .description h1 {
         font-size: 2em;
