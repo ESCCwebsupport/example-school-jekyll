@@ -118,4 +118,6 @@ scroll-section:
       height="1333"}
 ---
 
-Introduction text to the page goes in here. Something about introducting what's to come in the scrolling pages underneath.
+Introduction text to the page goes in here. Something about introducing what's to come in the scrolling pages underneath.
+
+![Buffalo also](/assets/media/test-scrollspy/buffalo2.jpg){: width="4608" height="3456"}
