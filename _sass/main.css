@@ -903,6 +903,7 @@ div.cms-embed {
     display: block;
     width: 100%;
     padding: 0;
+    margin-bottom: 4%;
     overflow: hidden;
 }
 
@@ -1000,7 +1001,7 @@ div.accordion .card-body {
     padding: 0.5em 0em 1em 0em;
     position: sticky;
     top: 0px;
-    overflow-wrap: break-word;
+    bottom: 100%;
 }
 
 .scrollspy {
@@ -1033,9 +1034,5 @@ div.accordion .card-body {
 .scroll-container {
     position: sticky;
     top: 0;
-}
-
-.scroll-header {
-    padding-top: 250px;
-    margin-top: -250px;
+    bottom: 100%;
 }

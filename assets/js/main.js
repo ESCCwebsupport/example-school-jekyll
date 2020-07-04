@@ -203,16 +203,19 @@ $( document ).ready(function() {
 if (document.querySelector('.scrollspy') !== null) {
   $('body').scrollspy({ target: '#list' });
   $( '#main-section' ).addClass('col-sm-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
-  $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').addClass('scroll-container').removeClass('col-sm-12').removeClass('col-lg-4');
-}
+  $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').removeClass('col-sm-12').removeClass('col-lg-4');
+  if (window.matchMedia('screen and (max-width: 575px)').matches) {
+    $( '#right-section' ).addClass('scroll-container');
+}};
 
 // on resize of window, add padding the size of scrollspy list to mobile screens, or remove styling if sizing up to laptop screen
 $(window).on('resize', function () {
-  if (window.matchMedia('screen and (max-width: 768px)').matches) {
+  if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
     if (document.querySelector('.scrollspy') !== null) {
       var height = $("#list").height() + 8;
       $('h4').addClass('scroll-header');
       $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
+      $( '#right-section' ).addClass('scroll-container');
     }
   }
   else {
@@ -220,12 +223,13 @@ $(window).on('resize', function () {
       var height = 0;
       $('h4').removeClass('scroll-header');
       $("[style]").removeAttr("style");
+      $( '#right-section' ).removeClass('scroll-container');
     };
   }
 });
 
 // if mobile screen size, add padding styling as above
-if (window.matchMedia('screen and (max-width: 768px)').matches) {
+if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
   if (document.querySelector('.scrollspy') !== null) {
       var height = $("#list").height() + 8;
       $('h4').addClass('scroll-header');
