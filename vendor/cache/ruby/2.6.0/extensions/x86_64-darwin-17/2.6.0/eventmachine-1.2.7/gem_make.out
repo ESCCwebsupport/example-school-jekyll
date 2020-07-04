@@ -1,0 +1,16 @@
+current directory: /Users/mattdomm/Sites/example-school-jekyll/vendor/cache/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/mattdomm/.rbenv/versions/2.6.2/bin/ruby -I /Users/mattdomm/.rbenv/versions/2.6.2/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200509-26202-2lgv01.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mattdomm/Sites/example-school-jekyll/vendor/cache/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/mattdomm/Sites/example-school-jekyll/vendor/cache/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/mattdomm/Sites/example-school-jekyll/vendor/cache/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20200509-26202-189wi5a
