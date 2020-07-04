@@ -7,7 +7,7 @@ Gemfile.lock
 
 ### Bundler ###
 .bundle/
-vendor/bundle
+vendor/
 
 ### Gulp ###
 package.json
