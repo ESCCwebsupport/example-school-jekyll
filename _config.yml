@@ -7,7 +7,6 @@ timezone: Europe/London
 
 url:
 
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
