@@ -5,7 +5,7 @@ permalink: pretty
 lang: en_GB
 timezone: Europe/London
 
-url:
+url: https://www.puny-caribou.cloudvent.net
 
 plugins:
   - jekyll-sitemap
