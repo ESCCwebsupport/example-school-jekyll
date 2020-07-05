@@ -735,6 +735,10 @@ section.news {
     padding: 1.25rem;
 }
 
+.card-desc a {
+    color: #000;
+}
+
 .card-desc h3 {
     color: #000000;
     font-weight: 600;
