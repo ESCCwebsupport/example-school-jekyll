@@ -7,6 +7,11 @@ timezone: Europe/London
 
 url:
 
+sass:
+  load_paths:
+    - _sass
+    - /Users/mattdomm/Sites/example-school-jekyll/vendor/cache/ruby/2.6.0/gems/bootstrap-4.3.1/assets/stylesheets
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
