@@ -2,7 +2,7 @@
 layout: content-page
 title:
 slug:
-published: false
+published: true
 header_image:
 file_path:
 description:

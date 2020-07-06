@@ -8,5 +8,5 @@ page-links:
   - name: First link
     link: /
   - name: Second link
-    link: /image-gallery-test/
+    link: /send/
 ---
