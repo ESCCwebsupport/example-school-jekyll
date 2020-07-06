@@ -5,12 +5,12 @@
 
 <body>
     {% include navigation.html %}
-    <section class="py-5">
-        <div class="container" id="content">
+    <section class="py-3">
+        <div class="container">
             {% include breadcrumbs.html %}
-            <h1> {{ page.title}} </h1>
+            <h1 class="mt-2"> {{ page.title}} </h1>
             {{ content }}
-            {% include search-lunr.html %}
+            <div id="content">{% include search-lunr.html %}</div>
         </div>
     </section>
 
