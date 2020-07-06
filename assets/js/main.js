@@ -204,7 +204,7 @@ if (document.querySelector('.scrollspy') !== null) {
   $('body').scrollspy({ target: '#list' });
   $( '#main-section' ).addClass('col-sm-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
   $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').removeClass('col-sm-12').removeClass('col-lg-4');
-  if (window.matchMedia('screen and (max-width: 575px)').matches) {
+  if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
     $( '#right-section' ).addClass('scroll-container');
 }};
 
