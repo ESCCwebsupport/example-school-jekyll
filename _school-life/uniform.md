@@ -32,4 +32,4 @@ Boys:
 * No trainers
 * Smart, black shoes
 
-[See our uniform policy](/assets/media/uniform/woodys-website.docx).
+[See our uniform policy](https://www.eastsussex.gov.uk).
