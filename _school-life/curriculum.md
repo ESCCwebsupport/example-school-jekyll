@@ -93,3 +93,4 @@ scroll-section:
       quis. Praesent ultrices gravida ante.
 ---
 
+This is the introduction to the curriculum page, and might explain what comes in the sections underneath.
