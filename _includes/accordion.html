@@ -1,10 +1,11 @@
-<div class="container bs-accordion py-3" data-i18n="{{ page.title | slugify }}_accordion">
+<button class="btn btn-outline-success openall">open all sections</button> <button class="btn btn-outline-danger closeall">close all sections</button>
+<div class="bs-accordion py-3" data-i18n="{{ page.title | slugify }}_accordion">
   <div class="accordion" id="{{ page.title }}_accordion">
     {% for accordion in page.expandable-section %}
     <div class="card">
       <div class="card-header" id="{{ accordion.header | slugify }}">
         <h2 class="mb-0">
-          <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+          <button type="button" class="btn btn-link collapsed text-left" data-toggle="collapse"
             data-target="#collapse{{ forloop.index }}"><i class="fa"></i>{{ accordion.header }}</button>
         </h2>
       </div>
