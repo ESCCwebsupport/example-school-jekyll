@@ -3,6 +3,7 @@
     --main-bg-colour: #fff;
     --second-bg-colour: rgb(223, 223, 223);
     --school-primary-colour: #1e4ff0;
+    --school-primary-colour-lighterbg: #1e4ff0e3;
     --school-primary-colour-light: #dcedff;
     --footer-bg-colour: rgb(160, 160, 160);
     --footer-text-colour: rgb(40, 40, 40);
@@ -237,10 +238,23 @@ section.calendar {
     color: var(--main-bg-colour);
 }
 
-/* .masthead-overlay {
-    min-width: 100%;
-    background: rgba(43, 43, 43, 0.65);
-} */
+/* --- landing pages --- */
+
+div .btn-school-main {
+    background-color: var(--school-primary-colour);
+    border-color: var(--school-primary-colour);
+}
+
+div .btn-school-main:hover {
+    background-color: var(--school-primary-colour-lighterbg);
+    border-color: var(--school-primary-colour-lighterbg);
+}
+
+div .btn-school-main:focus {
+    background-color: var(--school-primary-colour-lighterbg);
+    border-color: var(--school-primary-colour-lighterbg);
+    box-shadow: 0 0 0 0.2rem var(--govuk-highlight-colour);
+}
 
 /* --- carousel ---*/
 
