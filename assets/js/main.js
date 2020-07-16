@@ -252,3 +252,4 @@ $('.closeall').click(function () {
     $('.card .collapse').collapse('hide');
 });
 }
+

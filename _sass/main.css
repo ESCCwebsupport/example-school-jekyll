@@ -478,16 +478,12 @@ section.team {
 
 /*--- blockquotes ---*/
 
-.callout {
+blockquote {
     background: var(--school-primary-colour-light);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-left: 10px solid var(--school-primary-colour);
     margin: 3% 10% 4% 10%;
     padding: 0.5em 1.5em;
-}
-
-.callout p {
-    display: inline;
 }
 
 /*--- Lightbox ---*/
