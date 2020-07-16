@@ -21,6 +21,12 @@ Sport is a big deal here at St Invicta's. We want our pupils to have fun and com
 
 Some recent school successes are: Year 4s were runners-up in the yearly school cricket tournament. Harley from Year 3 won her cross-country run and qualified for a Sussex race.
 
+> "Quote here"
+>
+>
+> \- who said it?
+> {: .text-right}
+
 Sport premium Schools receive funding to help with the provision of PE and sport, but we have some freedom to choose how we spend it.
 
 [See how we spend our premium](/assets/media/sport/woodys-website.pdf).
