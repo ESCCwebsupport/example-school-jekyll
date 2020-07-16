@@ -24,7 +24,7 @@ Some recent school successes are: Year 4s were runners-up in the yearly school c
 > "Quote here"
 >
 >
-> \- who said it?
+> *\- who said it?*
 > {: .text-right}
 
 Sport premium Schools receive funding to help with the provision of PE and sport, but we have some freedom to choose how we spend it.
