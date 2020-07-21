@@ -209,17 +209,19 @@ if (document.querySelector('.scrollspy') !== null) {
   // add a back to top button
 }};
 
-$(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > $('#contents').offset().top) {
+$(document).ready(function () {
+  if (document.querySelector('.scrollspy') !== null) {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > $('#contents').offset().top) {
         $('#back-to-top').fadeIn();
         $('#back-to-top').addClass('show');
-        $("#back-to-top"). removeAttr("style");
-			} else {
+        $("#back-to-top").removeAttr("style");
+      } else {
         $('#back-to-top').fadeOut();
         $('#back-to-top').removeClass('show');
-			}
-		});
+      }
+    });
+  }
 });
 
 
