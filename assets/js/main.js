@@ -204,19 +204,22 @@ if (document.querySelector('.scrollspy') !== null) {
   $('body').scrollspy({ target: '#list' });
   $( '#main-section' ).addClass('col-sm-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
   $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').removeClass('col-sm-12').removeClass('col-lg-4');
-  if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
-    // $( '#right-section' ).addClass('scroll-container');
-  // add a back to top button
-}};
+};
+
+// back to top button
 
 $(document).ready(function () {
+  // check if scrollspy is on page
   if (document.querySelector('.scrollspy') !== null) {
+    // when user scrolls
     $(window).scroll(function () {
+      // fade in button when users scrolls below the contents
       if ($(this).scrollTop() > $('#contents').offset().top) {
         $('#back-to-top').fadeIn();
         $('#back-to-top').addClass('show');
         $("#back-to-top").removeAttr("style");
       } else {
+        // fade out button when above the contents
         $('#back-to-top').fadeOut();
         $('#back-to-top').removeClass('show');
       }
