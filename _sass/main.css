@@ -109,11 +109,12 @@ a.navbar-brand:focus {
 
 .nav-search-button {
     margin: 0 7px 0 0;
+    padding: .4rem .3rem .3rem .75rem;
     transition: none;
 }
 
 .btn-outline-secondary {
-    color: var(--main-bg-colour);
+    color: var(--navbar-text-colour);
 }
 
 .border.nav-search-button {
@@ -135,7 +136,7 @@ a.navbar-brand:focus {
 
 .fa-times {
     font-size: 1.5em;
-    color: rgb(123, 123, 123);
+    color: var(--navbar-text-colour);
     margin-right: 0.2rem;
 }
 
@@ -725,6 +726,14 @@ section.news {
     text-decoration: none;
 }
 
+.card-desc a.stretched-link:focus {
+    background-color: var(--govuk-highlight-colour);
+    outline: 3px solid transparent;
+    outline-color: var(--govuk-highlight-colour);
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 8px #0b0c0c;
+    text-decoration: none;
+}
+
 .card-img {
     position: relative;
     overflow: hidden;
@@ -1093,7 +1102,7 @@ div.accordion .card-body {
     z-index: 1030;
     border-radius: 0;
     padding: 10px 0 10px 0;
-    background-color: #fff;
+    background-color: var(--second-bg-colour);
     display: none;
 }
 
@@ -1109,7 +1118,7 @@ div.accordion .card-body {
 }
 
 .back-to-top:hover {
-    background-color: #fff;
+    background-color: var(--second-bg-colour);
     text-decoration: underline;
 }
 
