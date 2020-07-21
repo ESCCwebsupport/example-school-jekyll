@@ -205,41 +205,59 @@ if (document.querySelector('.scrollspy') !== null) {
   $( '#main-section' ).addClass('col-sm-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
   $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').removeClass('col-sm-12').removeClass('col-lg-4');
   if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
-    $( '#right-section' ).addClass('scroll-container');
+    // $( '#right-section' ).addClass('scroll-container');
+  // add a back to top button
 }};
 
-// on resize of window, add padding the size of scrollspy list to mobile screens, or remove styling if sizing up to laptop screen
-$(window).on('resize', function () {
-  if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
-    if (document.querySelector('.scrollspy') !== null) {
-      var height = $("#list").height() + 8;
-      $('h4').addClass('scroll-header');
-      $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
-      $( '#right-section' ).addClass('scroll-container');
-    }
-  }
-  else {
-    if (document.querySelector('.scrollspy') !== null) {
-      var height = 0;
-      if (document.querySelector('.masthead')) {
-        $( '#right-section' ).removeClass('scroll-container');
-        $('.scroll-header').css('padding-top', 0).css('margin-top', 0);
-      } else {
-      $('h4').removeClass('scroll-header');
-      $("[style]").removeAttr("style");
-      $( '#right-section' ).removeClass('scroll-container');
-    }};
-  }
+$(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > $('#contents').offset().top) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		// $('#back-to-top').click(function () {
+		// 	$('body,html').animate({
+		// 		scrollTop: 0
+		// 	}, 400);
+		// 	return false;
+		// });
 });
 
+// on resize of window, add padding the size of scrollspy list to mobile screens, or remove styling if sizing up to laptop screen
+// $(window).on('resize', function () {
+//   if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
+//     if (document.querySelector('.scrollspy') !== null) {
+//       // var height = $("#list").height() + 8;
+//       // $('h4').addClass('scroll-header');
+//       // $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
+//       // $( '#right-section' ).addClass('scroll-container');
+//     }
+//   }
+//   else {
+//     if (document.querySelector('.scrollspy') !== null) {
+//       // var height = 0;
+//       if (document.querySelector('.masthead')) {
+//         $( '#right-section' ).removeClass('scroll-container');
+//         // $('.scroll-header').css('padding-top', 0).css('margin-top', 0);
+//       } else {
+//       $('h4').removeClass('scroll-header');
+//       // $("[style]").removeAttr("style");
+//       $( '#right-section' ).removeClass('scroll-container');
+//     }};
+//   }
+// });
+
 // if mobile screen size, add padding styling as above
-if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
-  if (document.querySelector('.scrollspy') !== null) {
-      var height = $("#list").height() + 8;
-      $('h4').addClass('scroll-header');
-      $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
-    };
-};
+// if (window.matchMedia('screen and (max-width: 575.98px)').matches) {
+//   if (document.querySelector('.scrollspy') !== null) {
+//       var height = $("#list").height() + 8;
+//       $('h4').addClass('scroll-header');
+//       $('.scroll-header').css('padding-top', height).css('margin-top', -8 - height);
+//     };
+// };
 
 // accordion open and collapse all
 

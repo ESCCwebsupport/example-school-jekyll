@@ -1085,3 +1085,31 @@ div.accordion .card-body {
     bottom: 100%;
     z-index: 1030;
 }
+
+.back-to-top {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    z-index: 1030;
+    border-radius: 0;
+    padding: 10px 0 10px 0;
+    background-color: #fff;
+}
+
+.back-to-top:focus {
+    background-color: var(--govuk-highlight-colour);
+    color: #0b0c0c;
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;   
+}
+
+.back-to-top:hover {
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+a {
+    i.fa, i.fas, i.far {
+        margin-right: 8px;
+    }
+}
