@@ -2,9 +2,9 @@
 :root {
     --main-bg-colour: #fff;
     --second-bg-colour: rgb(223, 223, 223);
-    --school-primary-colour: #1e4ff0;
-    --school-primary-colour-lighterbg: #1e4ff0e3;
-    --school-primary-colour-light: #dcedff;
+    --school-primary-colour: rgba(30, 79, 240, 1);
+    --school-primary-colour-lighterbg: rgba(30, 79, 240, 0.9);
+    --school-primary-colour-light: rgba(220, 237, 255, 1);
     --footer-bg-colour: rgb(160, 160, 160);
     --footer-text-colour: rgb(40, 40, 40);
     --govuk-highlight-colour: #fd0;
