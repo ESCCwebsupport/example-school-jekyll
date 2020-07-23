@@ -214,19 +214,24 @@ $(document).ready(function () {
     // when user scrolls
     $(window).scroll(function () {
       // fade in button when users scrolls below the contents
-      if ($(this).scrollTop() > $('#contents').offset().top) {
-        $('#back-to-top').fadeIn();
+      if (($(this).scrollTop() > $('#contents').offset().top) && (!$('.to-top-anchor').visible())) {
+        $('#back-to-top').show();
         $('#back-to-top').addClass('show');
         $("#back-to-top").removeAttr("style");
-      } else {
-        // fade out button when above the contents
-        $('#back-to-top').fadeOut();
+
+        // fade out button when button on page is visible
+      } else if ($('.to-top-anchor').visible()) {
+        $('#back-to-top').hide();
+        $('#back-to-top').removeClass('show');
+
+        // hide button when page button is not visible or above the contents section
+      } else if (!($('.to-top-anchor').visible())) {
+        $('#back-to-top').hide();
         $('#back-to-top').removeClass('show');
       }
     });
   }
 });
-
 
 // accordion open and collapse all
 
@@ -238,5 +243,4 @@ if (document.querySelector('.openall') !== null) {
 $('.closeall').click(function () {
     $('.card .collapse').collapse('hide');
 });
-}
-
+};

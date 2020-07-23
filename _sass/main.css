@@ -349,7 +349,7 @@ footer a:focus {
 .page-footer {
     background-color: var(--footer-bg-colour);
     color: var(--footer-text-colour);
-    padding: 60px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .text-white a {
@@ -1096,9 +1096,9 @@ div.accordion .card-body {
 }
 
 .back-to-top {
-    position: sticky;
-    bottom: 0;
-    top: 0;
+    position: fixed;
+    bottom: -1px;
+    left: 0;
     z-index: 1030;
     border-radius: 0;
     padding: 10px 0 10px 0;
@@ -1126,4 +1126,13 @@ a {
     i.fa, i.fas, i.far {
         margin-right: 8px;
     }
+}
+
+
+.to-top-anchor:focus {
+    background-color: var(--govuk-highlight-colour);
+    color: #0b0c0c;
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
+    text-decoration: none;  
 }
