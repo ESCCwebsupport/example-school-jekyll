@@ -14,7 +14,7 @@ governors:
     term-start_date: 2017-02-12 00:00:00
     term-end_date: 2020-05-10 01:00:00 +0100
     declare-interests_text: >-
-      I run a demolitions company that gets paid every time a school is knocked
+      Runs a demolitions company that gets paid every time a school is knocked
       down.
     governor-elsewhere_text: Staff governor at Cavendish school.
   - name: Sarah Jones
