@@ -33,3 +33,6 @@ governors:
 ---
 
 Our governors are a hugely important part of St. Invicta's. They keep us in check, on track and provide support to our teachers. Here's what they do:
+
+* lots of important things
+* keep everything ticking over.
