@@ -445,6 +445,8 @@ section.team {
 .team .card {
     border: none;
     border-radius: 1rem;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
@@ -730,7 +732,7 @@ section.news {
     background-color: var(--govuk-highlight-colour);
     outline: 3px solid transparent;
     outline-color: var(--govuk-highlight-colour);
-    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 8px #0b0c0c;
+    box-shadow: 0 2px var(--govuk-highlight-colour), 0 8px #0b0c0c;
     text-decoration: none;
 }
 
@@ -883,6 +885,7 @@ p img {
     height: auto;
     border-radius: 4px;
     display: block;
+    margin: auto;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 

@@ -9,6 +9,9 @@ governors:
   - name: James Governor
     image: /assets/images/head.jpg
     job: Chair
+    appointed_date: 4 January 2017
+    term-start_date: 12 February 2017
+    term-end_date: 10 May 2020
   - name: Sarah Jones
     image: /assets/images/head.jpg
     job: Parent governor
@@ -21,6 +24,9 @@ governors:
   - name: Sonia Governor
     image: /assets/images/head.jpg
     job: Parent governor
+  - name: Another Governor
+    image:
+    job: Staff governor
 ---
 
 {% if page.header_image %}
@@ -57,10 +63,17 @@ governors:
       {% for governor in page.governors %}
       <div class="col-xl-4 col-md-6 mb-4 mx-auto">
         <div class="card border-0 shadow">
-          <img src="{{ governor.image }}" class="card-img-top profile-img" alt="{{ governor.name }}" width="300" height="300"/>
-          <div class="card-body text-center">
-            <h5 class="card-title mb-0">{{ governor.name }}</h5>
-            <div class="card-text text-black-50">{{ governor.job }}</div>
+          <img src={% if governor.image %}"{{ governor.image }}" {% else %}"/assets/images/silhouette.png" {% endif %} class="card-img-top profile-img" alt="{{ governor.name }}" width="300" height="300"/>
+          <div class="card-body text-left accordion">
+            <h5 class="card-title mb-0">
+              <button type="button" class="btn btn-link collapsed text-left" data-toggle="collapse"
+                data-target="#collapse{{ forloop.index }}"><i class="fa"></i>{{ governor.name }}</button>
+              </h5>
+              <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}">
+                <div class="card-text text-black-50"><b>Role</b>: {{ governor.job }}</div>
+                <div class="card-text text-black-50"><b>Appointed on</b>: {{ governor.appointed_date | date_to_string }}</div>
+                <div class="card-text text-black-50"><b>Term</b>: {{ governor.term-start_date | date_to_string }} to {{ governor.term-end_date | date_to_string }}</div>
+              </div>
           </div>
         </div>
       </div>
