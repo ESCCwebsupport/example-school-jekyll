@@ -33,7 +33,7 @@
                                 {{ governor.term-end_date | date_to_string }}</div>
                             {% if governor.declare-interests_text %}
                             <div class="card-text text-black-50"><b>Business, pecuniary or personal interests</b>:
-                                {{ governor.job }}</div>
+                                {{ governor.declare-interests_text }}</div>
                             {% endif %}
                             {% if governor.governor-elsewhere_text %}
                             <div class="card-text text-black-50"><b>Other governance role</b>:
