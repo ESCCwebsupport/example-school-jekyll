@@ -13,8 +13,8 @@ governors:
     appointing-body:
     term-start_date: 12 February 2017
     term-end_date: 10 May 2020
-    business-pecuniary-personal-interests:
-    governor-elsewhere:
+    declare-interests_text:
+    governor-elsewhere_text:
   - name: Sarah Jones
     image: /assets/images/head.jpg
     job: Parent governor
