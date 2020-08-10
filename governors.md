@@ -9,11 +9,13 @@ governors:
   - name: James Governor
     image: /assets/images/head.jpg
     job: Chair
-    appointed_date: 4 January 2017
+    appointed_date: 2017-01-04 00:00:00
     appointing-body: Not sure
-    term-start_date: 12 February 2017
-    term-end_date: 10 May 2020
-    declare-interests_text:
+    term-start_date: 2017-02-12 00:00:00
+    term-end_date: 2020-05-10 01:00:00 +0100
+    declare-interests_text: >-
+      I run a demolitions company that gets paid every time a school is knocked
+      down.
     governor-elsewhere_text: Staff governor at Cavendish school.
   - name: Sarah Jones
     image: /assets/images/head.jpg
