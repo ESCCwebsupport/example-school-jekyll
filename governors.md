@@ -40,21 +40,7 @@ governors:
     <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
 </div>
 
-<div class="container editable" id="content">
-    <p>Our governors are a hugely important part of St. Invicta's. They keep us in check, on track and provide
-        support
-        to our teachers. Here's what they do:</p>
-    <ul>
-        <li>Some things</li>
-        <li>Another one</li>
-    </ul>
-    <ol>
-        <li><strong>Ordered</strong> list as well.</li>
-    </ol>
-    <h2>Bigger</h2>
-    <h5>Smaller h5</h5>
-</div>
-
+Our governors are a hugely important part of St. Invicta's. They keep us in check, on track and provide support to our teachers. Here's what they do:
 
 <section class="team py-4">
   <h3 class="container py-3">
