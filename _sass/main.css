@@ -1046,6 +1046,11 @@ div.accordion .card-body {
     transition-duration: 0.15s;
 }
 
+.team .card .collapsing {
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
 /* --- forms --- */
 
 .form-control:focus {

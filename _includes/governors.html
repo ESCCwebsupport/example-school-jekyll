@@ -7,7 +7,7 @@
         <div class="row">
             {% for governor in page.governors %}
             <div class="col-xl-4 col-md-6 mb-4 mx-auto">
-                <div class="card border-0 shadow">
+                <div class="card border-0 shadow text-left">
                     {% if governor.image %}
                     <img src="{{ governor.image }}" class="card-img-top profile-img" alt="{{ governor.name }}"
                         width="300" height="300" />
@@ -16,7 +16,7 @@
                         width="300" height="300" />
                     {% endif %}
                     <div class="bs-accordion">
-                        <div class="card-body text-left">
+                        <div class="card-body">
                             <h5 class="mb-0">
                                 <button type="button" class="btn btn-link collapsed" data-toggle="collapse" aria-expanded="false"
                                     data-target="#collapse{{ forloop.index }}"><i
