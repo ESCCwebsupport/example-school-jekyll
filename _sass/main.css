@@ -1042,6 +1042,9 @@ div.accordion .card-body {
 }
 
 .card .collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
     -webkit-transition-duration: 0.15s;
     transition-duration: 0.15s;
 }
