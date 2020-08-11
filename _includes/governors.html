@@ -2,7 +2,7 @@
     <h3 class="container py-3">
         Meet our governors
     </h3>
-    <div class="team container">
+    <div class="team container accordion">
 
         <div class="row">
             {% for governor in page.governors %}
@@ -15,7 +15,7 @@
                     <img src="/assets/images/silhouette.png" class="card-img-top profile-img" alt="{{ governor.name }}"
                         width="300" height="300" />
                     {% endif %}
-                    <div class="card-body text-left accordion">
+                    <div class="card-body text-left">
                         <h5 class="card-title mb-0">
                             <button type="button" class="btn btn-link collapsed text-left" data-toggle="collapse"
                                 data-target="#collapse{{ forloop.index }}"><i
