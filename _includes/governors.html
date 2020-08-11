@@ -2,7 +2,7 @@
     <h3 class="container py-3">
         Meet our governors
     </h3>
-    <div class="team container bs-accordion">
+    <div class="team container accordion">
 
         <div class="row">
             {% for governor in page.governors %}
@@ -15,14 +15,13 @@
                     <img src="/assets/images/silhouette.png" class="card-img-top profile-img" alt="{{ governor.name }}"
                         width="300" height="300" />
                     {% endif %}
-                    <div class="accordion">
-                        <div class="card-body">
-                            <h5 class="card-title mb-0 text-left">
-                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                    <div class="bs-accordion">
+                        <div class="card-body text-left">
+                            <h5 class="card-title mb-0">
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" aria-expanded="false"
                                     data-target="#collapse{{ forloop.index }}"><i
                                         class="fa"></i>{{ governor.name }}</button>
                             </h5>
-                            <div>
                             <div id="collapse{{ forloop.index }}" class="collapse"
                                 aria-labelledby="heading{{ forloop.index }}">
                                 <div class="card-text text-black-50"><b>Role</b>: {{ governor.job }}</div>
@@ -42,7 +41,6 @@
                                     {{ governor.governor-elsewhere_text }}</div>
                                 {% endif %}
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
