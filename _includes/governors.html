@@ -15,30 +15,32 @@
                     <img src="/assets/images/silhouette.png" class="card-img-top profile-img" alt="{{ governor.name }}"
                         width="300" height="300" />
                     {% endif %}
-                    <div class="card-body text-left">
-                        <h5 class="card-title mb-0">
-                            <button type="button" class="btn btn-link collapsed text-left" data-toggle="collapse"
-                                data-target="#collapse{{ forloop.index }}"><i
-                                    class="fa"></i>{{ governor.name }}</button>
-                        </h5>
-                        <div id="collapse{{ forloop.index }}" class="collapse"
-                            aria-labelledby="heading{{ forloop.index }}">
-                            <div class="card-text text-black-50"><b>Role</b>: {{ governor.job }}</div>
-                            <div class="card-text text-black-50"><b>Appointed on</b>:
-                                {{ governor.appointed_date | date_to_string }}</div>
-                            <div class="card-text text-black-50"><b>Appointing body</b>:
-                                {{ governor.appointing-body }}</div>
-                            <div class="card-text text-black-50"><b>Term</b>:
-                                {{ governor.term-start_date | date_to_string }} to
-                                {{ governor.term-end_date | date_to_string }}</div>
-                            {% if governor.declare-interests_text %}
-                            <div class="card-text text-black-50"><b>Business, pecuniary or personal interests</b>:
-                                {{ governor.declare-interests_text }}</div>
-                            {% endif %}
-                            {% if governor.governor-elsewhere_text %}
-                            <div class="card-text text-black-50"><b>Other governance role</b>:
-                                {{ governor.governor-elsewhere_text }}</div>
-                            {% endif %}
+                    <div class="acc-wrapper">
+                        <div class="card-body text-left">
+                            <h5 class="card-title mb-0">
+                                <button type="button" class="btn btn-link collapsed text-left" data-toggle="collapse"
+                                    data-target="#collapse{{ forloop.index }}"><i
+                                        class="fa"></i>{{ governor.name }}</button>
+                            </h5>
+                            <div id="collapse{{ forloop.index }}" class="collapse"
+                                aria-labelledby="heading{{ forloop.index }}">
+                                <div class="card-text text-black-50"><b>Role</b>: {{ governor.job }}</div>
+                                <div class="card-text text-black-50"><b>Appointed on</b>:
+                                    {{ governor.appointed_date | date_to_string }}</div>
+                                <div class="card-text text-black-50"><b>Appointing body</b>:
+                                    {{ governor.appointing-body }}</div>
+                                <div class="card-text text-black-50"><b>Term</b>:
+                                    {{ governor.term-start_date | date_to_string }} to
+                                    {{ governor.term-end_date | date_to_string }}</div>
+                                {% if governor.declare-interests_text %}
+                                <div class="card-text text-black-50"><b>Business, pecuniary or personal interests</b>:
+                                    {{ governor.declare-interests_text }}</div>
+                                {% endif %}
+                                {% if governor.governor-elsewhere_text %}
+                                <div class="card-text text-black-50"><b>Other governance role</b>:
+                                    {{ governor.governor-elsewhere_text }}</div>
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
                 </div>
