@@ -19,10 +19,12 @@ display_scroll_section: true
 scroll-section:
   - header: Autumn term
     content_markdown: >-
-      **Class texts**
+      **Class texts**\:
 
 
-      Where the Wild Things Are<br>The Lonely Beast
+      * Where the Wild Things Are
+
+      * The Lonely Beast
 
 
       ##### English
