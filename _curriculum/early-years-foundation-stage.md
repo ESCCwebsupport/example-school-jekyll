@@ -1,7 +1,7 @@
 ---
 layout: content-page
-title: Early years foundation stage
-slug: early years
+title: Year 1
+slug: year-1
 published: true
 header_image:
 file_path:
