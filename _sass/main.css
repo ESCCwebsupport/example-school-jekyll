@@ -978,6 +978,11 @@ iframe {
     border: 0;
 }
 
+div.audio {
+    height: auto;
+    width: 300px;
+}
+
 /*--- calendar embed ---*/
 
 .responsive-iframe-container {

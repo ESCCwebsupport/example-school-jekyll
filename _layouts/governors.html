@@ -12,7 +12,8 @@
         {% include breadcrumbs.html %}
         <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
     </div>
-    <div class="container" id="content" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>    {% include governors.html %}
+    <div class="container" id="content" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+    {% include governors.html %}
     {% include footer.html %}
     {% include scripts.html %}
 
