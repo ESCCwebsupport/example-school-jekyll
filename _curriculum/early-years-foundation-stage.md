@@ -2,7 +2,7 @@
 layout: content-page
 title: Early years foundation stage
 slug: early years
-published: false
+published: true
 header_image:
 file_path:
 description: >-
