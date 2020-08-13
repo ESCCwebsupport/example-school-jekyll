@@ -18,3 +18,5 @@ page-links:
   - name: Uniform
     link: /school-life/uniform/
 ---
+
+Some content here now appears on the page.
