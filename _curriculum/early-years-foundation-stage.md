@@ -215,7 +215,226 @@ scroll-section:
 
       * Nativity production
   - header: Spring term
-    content_markdown:
+    content_markdown: >-
+      **Class texts:**
+
+
+      * Toby and the Great Fire of London
+
+      * Claude in the City
+
+
+      ##### English
+
+
+      Poetry
+
+
+      In term 3, children recite familiar poems by heart.
+
+
+      In term 4, they read, write and perform free verse.
+
+
+      Captions
+
+
+      This includes learning how to write labels and sentences for displays.
+
+
+      Narrative
+
+
+      We focus on learning to read, understand and discuss contemporary fiction.
+
+
+      ##### Maths
+
+
+      Number work includes:
+
+
+      * learning about the place value of digits in numbers up to 50
+
+      * practising addition and subtraction using numbers up to 20
+
+      * finding and recalling multiples of 2, 5 and 10
+
+
+      Measurement includes:
+
+
+      * length and height
+
+      * weight&nbsp;
+
+      * volume
+
+
+      ##### Science
+
+
+      Our topics for the term are:
+
+
+      * everyday materials
+
+      * seasons
+
+
+      ##### Geography
+
+
+      The children develop their map skills. They explore the question, ‘What is
+      a map?’
+
+
+      They take a close look at where they live and the local area. The question
+      raised is, ‘What is the geography of where I live?’
+
+
+      ##### History
+
+
+      The Great Fire of London
+
+
+      The children are asked to consider, ‘Why was this a significant event?’
+
+
+      ##### Art
+
+
+      Art and design skills:
+
+
+      * introduction to sketchbooks
+
+      * Lego printing
+
+      * printing on the theme of the Great Fire of London
+
+      * drawing inspired by Kandinsky
+
+
+      Study of the artist Louis Wain.
+
+
+      Landscapes using different media:
+
+
+      * seaside landscape composition
+
+      * beach textures collage
+
+      * shades and colours of the sea using watercolours
+
+
+      ##### Design technology
+
+
+      The children learn about the mechanisms of wheels and axles. This
+      includes:
+
+
+      * how wheels move
+
+      * fixing broken wheels
+
+      * designing a vehicle
+
+      * building and testing for the Whacky Races\!
+
+
+      ##### Music
+
+
+      ‘In the groove’
+
+
+      This explores:
+
+
+      * styles (Blues, Latin, Funk, Folk, Baroque and Bhangra)
+
+      * pitch
+
+      * tempo
+
+
+      Round and round
+
+
+      Children learn about the styles of:
+
+
+      * Latin bossa nova
+
+      * film music
+
+      * big band jazz
+
+      * mash-up
+
+      * Latin fusion
+
+      * Improvisation
+
+
+      ##### PE
+
+
+      Gymnastics
+
+
+      &nbsp;Children practise:
+
+
+      * sequences
+
+      * partner work
+
+      * using apparatus
+
+
+      Dance
+
+
+      ##### RE
+
+
+      This focuses on two big questions:
+
+
+      * What do Christians believe God is like?
+
+      * Why does Easter matter to Christians?
+
+
+      ##### Computing
+
+
+      Internet safety
+
+
+      Common uses of technology
+
+
+      ##### PSHE (Personal, social and health education)
+
+
+      From the Jigsaw scheme of work the topics are:
+
+
+      * Dreams and goals
+
+      * Healthy me
+
+
+      ##### Visits and events
+
+
+      Mother’s Day express
   - header: Summer term
     content_markdown:
 ---
