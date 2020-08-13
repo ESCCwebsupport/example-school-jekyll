@@ -5,7 +5,7 @@ title: Curriculum
 description: Read information about daily school life.
 page-links:
   - name: Early years
-    link:
+    link: /school-life/curriculum/early-years/
   - name: Year 3
     link:
 ---
