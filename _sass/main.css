@@ -455,6 +455,26 @@ section.team {
     object-fit: cover;
 }
 
+@media (max-width: 575.98px) {
+    .profile-img {
+        object-fit: contain;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.staff-profile-img {
+    object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.staff-profile-img-contain {
+    object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (min-width: 992px) {
     .team .card:hover {
         margin-top: -0.25rem;
@@ -1079,6 +1099,12 @@ div.accordion .card-body {
     margin-top: .5rem;
 }
 
+.scrollspy h4 {
+    background-color: var(--second-bg-colour);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
 .list-group-item.active {
     background-color: var(--school-primary-colour);
     border-color: var(--school-primary-colour);
@@ -1092,7 +1118,7 @@ div.accordion .card-body {
     background-color: var(--second-bg-colour);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
     .left-list {
         padding-top: 0;
     }

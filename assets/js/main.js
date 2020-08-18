@@ -202,8 +202,8 @@ $( document ).ready(function() {
 // reorder the two layout sections  and start spying if page has a scrollspy class on it
 if (document.querySelector('.scrollspy') !== null) {
   $('body').scrollspy({ target: '#list' });
-  $( '#main-section' ).addClass('col-sm-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
-  $( '#right-section' ).addClass('col-sm-4').addClass('col-xs-12').addClass('order-sm-1').removeClass('col-sm-12').removeClass('col-lg-4');
+  $( '#main-section' ).addClass('col-md-8').addClass('col-xs-12').addClass('order-1').removeClass('col-sm-12').removeClass('col-lg-8');
+  $( '#right-section' ).addClass('col-md-4').addClass('col-xs-12').addClass('order-md-1').removeClass('col-sm-12').removeClass('col-lg-4');
 };
 
 // back to top button
