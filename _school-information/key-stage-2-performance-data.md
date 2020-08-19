@@ -16,3 +16,7 @@ expandable-section:
 ---
 
 Content here.
+
+Link here.
+
+![](/assets/media/ks2 performance/siteicon.png){: width="371" height="369"}
