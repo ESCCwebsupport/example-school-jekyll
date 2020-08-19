@@ -19,4 +19,6 @@ Content here.
 
 Link here.
 
-![](/assets/media/ks2 performance/siteicon.png){: width="371" height="369"}Hello there. Where does this text come up on the page?
+![Pevensey school logo](/assets/media/ks2 performance/siteicon.png){: width="371" height="369"}
+
+Hello there. Where does this text come up on the page?
