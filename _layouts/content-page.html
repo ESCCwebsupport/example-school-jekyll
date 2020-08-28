@@ -19,7 +19,10 @@
                 <div class="col-lg-8 col-sm-12" id="main-section">
                     {% if page.display_scroll_section %}
                     {% else %}
-                    <div id="content" class="editable" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+                    <div id="content" class="editable" data-i18n="{{ page.title | slugify }}_content">
+                        <p>Test page</p>
+                        <p>Edit this.</p>
+                    </div>
                     {% endif %}
                     {% if page.display_scroll_section %}
                     {% include scrollspy-content.html %}
