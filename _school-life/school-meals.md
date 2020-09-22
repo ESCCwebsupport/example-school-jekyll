@@ -22,8 +22,6 @@ We provide a regularly updated menu to ensure students have a rounded diet at St
 
 To find out if you're eligible for free school meals, check on East Sussex's website.
 
-&nbsp;
-
 ![](/assets/media/school meals/ase-logo-colour-text-outlined.jpg){: .float-md-right width="400" height="243"}
 
 Hello. This is some content next to a floated left image.
