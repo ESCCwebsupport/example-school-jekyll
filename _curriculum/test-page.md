@@ -1,7 +1,7 @@
 ---
 layout: content-page
-title: Key stage 2 performance data
-slug: ks2 performance
+title: test page
+slug:
 published: true
 header_image:
 file_path:
@@ -13,8 +13,10 @@ display_expandable-section: false
 expandable-section:
   - header:
     content_markdown:
+display_scroll_section: false
+scroll-section:
+  - header:
+    content_markdown:
 ---
 
-Content here.
-
-Link here.
+Test page
