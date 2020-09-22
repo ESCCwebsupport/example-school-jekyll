@@ -17,6 +17,9 @@ expandable-section:
   - header:
     content_markdown:
 ---
+
 We provide a regularly updated menu to ensure students have a rounded diet at St Invicta's.
 
 To find out if you're eligible for free school meals, check on East Sussex's website.
+
+![](/assets/images/escc-logo-large.png){: .float-left width="93" height="67"}Hello
