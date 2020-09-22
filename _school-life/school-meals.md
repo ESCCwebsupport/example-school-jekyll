@@ -22,7 +22,7 @@ We provide a regularly updated menu to ensure students have a rounded diet at St
 
 To find out if you're eligible for free school meals, check on East Sussex's website.
 
-![](/assets/images/escc-logo-large.png){: .centred width="93" height="67"}
+![](/assets/images/escc-logo-large.png){: .align-right width="93" height="67"}
 
 Hello. This is some content next to a floated left image.
 
