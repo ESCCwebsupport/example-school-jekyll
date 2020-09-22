@@ -11,6 +11,19 @@ p.text-center {
     text-align: center;
 }
 
+img.align-left {
+    margin-right: auto;
+}
+
+img.centred {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.align-right {
+    margin-left: auto;
+}
+
 img.float-sm-left{}
 
 img.float-sm-right{}
