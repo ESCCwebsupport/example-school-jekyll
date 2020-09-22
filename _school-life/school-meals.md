@@ -24,7 +24,7 @@ To find out if you're eligible for free school meals, check on East Sussex's web
 
 &nbsp;
 
-![](/assets/media/school meals/ase-logo-colour-text-outlined.jpg){: .float-sm-left width="400" height="243"}
+![](/assets/media/school meals/ase-logo-colour-text-outlined.jpg){: .float-md-left width="400" height="243"}
 
 Hello. This is some content next to a floated left image.
 
