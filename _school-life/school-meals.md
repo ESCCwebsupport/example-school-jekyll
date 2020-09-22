@@ -24,10 +24,12 @@ To find out if you're eligible for free school meals, check on East Sussex's web
 
 ![](/assets/media/school meals/ase-logo-colour-text-outlined.jpg){: .float-md-right width="400" height="243"}
 
-Hello. This is some content next to a floated left image.
+Hello. This is some content next to a floated image. On small to medium screens I:
 
-* Bullets look weird.
+* go into a single column
+* with the text below
 
-Overflow on bullets normally:
+But on larger screen sizes I:
 
-* look like this
+* move alongside the text
+* left or right depending what side is chosen.
