@@ -11,6 +11,11 @@ p.text-center {
     text-align: center;
 }
 
-img.float-left {
-    
+img.float-sm-left {
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+img.float-sm-right {
+    margin-left: 0.75rem;
+    margin-bottom: 0.75rem;
 }
