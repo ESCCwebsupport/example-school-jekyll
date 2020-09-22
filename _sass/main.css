@@ -493,16 +493,6 @@ section.team {
     padding-bottom: 0.5rem;
 }
 
-/*--- general changes ---*/
-
-.visually-hidden {
-    display: none;
-}
-
-ul {
-    overflow: hidden;
-}
-
 /*--- blockquotes ---*/
 
 blockquote {
@@ -892,6 +882,14 @@ a.cc-active {
     text-decoration: none;
 }
 
+.visually-hidden {
+    display: none;
+}
+
+ul {
+    overflow: hidden;
+}
+
 
 li:not(.lunrsearchresult) a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
     text-decoration: underline;
@@ -931,11 +929,11 @@ p img {
     margin-right: 0;
 }
 
-.float-sm-left {
+.float-md-left {
     margin-right: 0.75rem;
     margin-bottom: 0.75rem;
 }
-.float-sm-right {
+.float-md-right {
     margin-left: 0.75rem;
     margin-bottom: 0.75rem;
 }
