@@ -2,7 +2,7 @@
 layout: post
 title: Jazz event a great success
 author: St Invicta's
-date: 2020-04-27 00:00:00 +0100
+date: 2020-03-18 00:00:00
 header_image: /uploads/jazz-1415982-1920.jpg
 description: >-
   I've put the date in the past for this one so that it appears on the second
