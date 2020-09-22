@@ -12,10 +12,16 @@ button:
 button_link: >-
   https://www.eastsussex.gov.uk/educationandlearning/schools/school-life/meals/free/
 button_text: Am I eligible for free school meals?
-display_expandable-section: false
+display_expandable-section: true
 expandable-section:
-  - header:
-    content_markdown:
+  - header: New image test
+    content_markdown: >-
+      ![](/assets/media/school meals/90s.jpg){: .float-md-left width="413"
+      height="305"}
+
+
+      Does this wrap around as well. This image of a niche 1990s music
+      reference.
 ---
 
 We provide a regularly updated menu to ensure students have a rounded diet at St Invicta's.
