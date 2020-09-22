@@ -236,12 +236,12 @@ section.calendar {
 /*--- masthead ---*/
 
 .masthead {
-    height: 60vh;
+    height: 65vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .masthead.home {
@@ -282,7 +282,6 @@ div .btn-school-main:not(:disabled):not(.disabled):active {
     min-height: 95vh;
     background: no-repeat center center scroll;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .carousel-indicators {
@@ -344,6 +343,7 @@ footer a:focus {
     outline: 3px solid transparent;
     box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     text-decoration: none;
+    color: #0b0c0c;
 }
 
 .page-footer {
@@ -996,6 +996,7 @@ iframe {
     width: 100%;
     height: 100%;
     border: 0;
+    border-radius: 20px;
 }
 
 div.audio {
@@ -1045,8 +1046,10 @@ div.accordion .btn-link {
 }
 
 div.accordion .btn-link:focus {
-    text-decoration: underline;
     background-color: var(--govuk-highlight-colour);
+    color: #0b0c0c;
+    outline: 3px solid transparent;
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c; 
 }
 
 div.accordion .card-body {
@@ -1054,16 +1057,35 @@ div.accordion .card-body {
 }
 
 .accordion i.fa {
-    font-size: 1.2rem;
-    padding: 0 0.5rem 0 0;
+    font-size: 1.5rem;
 }
 
 [data-toggle="collapse"] .fa:before {
-    content: "\f146";
+    content: "\f106";
+    position: absolute;
+    right: 1rem;
+    top: 0.25rem;
+    padding: 1rem;
+    padding-right: 0.5rem;
 }
 
 [data-toggle="collapse"].collapsed .fa:before {
-    content: "\f0fe";
+    content: "\f107";
+    position: absolute;
+    right: 1rem;
+    top: 0.25rem;
+    padding: 1rem;
+    padding-right: 0.5rem;    
+}
+
+.accordion h2 {
+    padding-right: 2rem;
+}
+.accordion .btn {
+    border: none;
+    border-radius: 0;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .card .collapsing {

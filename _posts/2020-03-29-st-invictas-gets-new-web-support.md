@@ -2,7 +2,7 @@
 layout: post
 title: St Invicta's gets new web support
 author:
-posted_date: 2020-03-27 00:00:00
+date: 2020-03-27 00:00:00
 header_image:
 description: We are now using ESCC's Web Support Service to manage our website.
 published: true

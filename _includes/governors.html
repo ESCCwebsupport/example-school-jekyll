@@ -1,6 +1,6 @@
 <section class="team py-4">
     <h3 class="container py-3">
-        Meet our governors
+        Meet our current governors
     </h3>
     <div class="team container accordion">
 
@@ -18,28 +18,30 @@
                     <div class="bs-accordion">
                         <div class="card-body">
                             <h5 class="mb-0">
-                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" aria-expanded="false"
-                                    data-target="#collapse{{ forloop.index }}"><i
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                    aria-expanded="false" data-target="#collapse{{ forloop.index }}"><i
                                         class="fa"></i>{{ governor.name }}</button>
                             </h5>
-                            <div id="collapse{{ forloop.index }}" class="collapse"
-                                aria-labelledby="heading{{ forloop.index }}">
-                                <div class="card-text text-black-50"><b>Role</b>: {{ governor.job }}</div>
-                                <div class="card-text text-black-50"><b>Appointed on</b>:
+                            <div id="collapse{{ forloop.index }}" class="collapse">
+                                <div class="card-text text-black-50"><strong>Role</strong>: {{ governor.job }}</div>
+                                <div class="card-text text-black-50"><strong>Appointed on</strong>:
                                     {{ governor.appointed_date | date_to_string }}</div>
-                                <div class="card-text text-black-50"><b>Appointing body</b>:
+                                <div class="card-text text-black-50"><strong>Appointing body</strong>:
                                     {{ governor.appointing-body }}</div>
-                                <div class="card-text text-black-50"><b>Term</b>:
+                                <div class="card-text text-black-50"><strong>Term</strong>:
                                     {{ governor.term-start_date | date_to_string }} to
                                     {{ governor.term-end_date | date_to_string }}</div>
-                                {% if governor.declare-interests_text %}
-                                <div class="card-text text-black-50"><b>Business, pecuniary or personal interests</b>:
-                                    {{ governor.declare-interests_text }}</div>
+                                {% if governor.declare-interests_markdown %}
+                                <div class="card-text text-black-50"><strong>Business, pecuniary or personal interests</strong>:
+                                    {{ governor.declare-interests_markdown | markdownify }}</div>
                                 {% endif %}
-                                {% if governor.governor-elsewhere_text %}
-                                <div class="card-text text-black-50"><b>Other governance role</b>:
-                                    {{ governor.governor-elsewhere_text }}</div>
+                                {% if governor.governor-elsewhere_markdown %}
+                                <div class="card-text text-black-50"><strong>Other governance role</strong>:
+                                    {{ governor.governor-elsewhere_markdown | markdownify }}</div>
                                 {% endif %}
+                                <div class="card-text text-black-50"><strong>Attendance record 2019/20</strong>:
+                                    {{ governor.attendance }}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -50,3 +52,60 @@
         </div>
     </div>
 </section>
+{% if page.governors-past %}
+<section class="py-4">
+    <h3 class="container py-3">
+        Our previous governors
+    </h3>
+    <div class="team container accordion">
+
+        <div class="row">
+            {% for governor in page.governors-past %}
+            <div class="col-lg-4 col-md-6 mb-4 col-12 mx-auto">
+                <div class="card border-0 shadow text-left">
+                    {% if governor.image %}
+                    <img src="{{ governor.image }}" class="card-img-top profile-img" alt="{{ governor.name }}"
+                        width="400" height="300" />
+                    {% else %}
+                    <img src="/assets/images/user-solid.svg" class="card-img-top staff-profile-img-contain" alt="{{ governor.name }}"
+                        width="400" height="300" />
+                    {% endif %}
+                    <div class="bs-accordion">
+                        <div class="card-body">
+                            <h5 class="mb-0">
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                    aria-expanded="false" data-target="#collapse-past{{ forloop.index }}"><i
+                                        class="fa"></i>{{ governor.name }}</button>
+                            </h5>
+                            <div id="collapse-past{{ forloop.index }}" class="collapse">
+                                <div class="card-text text-black-50"><strong>Role</strong>: {{ governor.job }}</div>
+                                <div class="card-text text-black-50"><strong>Appointed on</strong>:
+                                    {{ governor.appointed_date | date_to_string }}</div>
+                                <div class="card-text text-black-50"><strong>Appointing body</strong>:
+                                    {{ governor.appointing-body }}</div>
+                                <div class="card-text text-black-50"><strong>Term</strong>:
+                                    {{ governor.term-start_date | date_to_string }} to
+                                    {{ governor.term-end_date | date_to_string }}</div>
+                                {% if governor.declare-interests_markdown %}
+                                <div class="card-text text-black-50"><strong>Business, pecuniary or personal interests</strong>:
+                                    {{ governor.declare-interests_markdown | markdownify }}</div>
+                                {% endif %}
+                                {% if governor.governor-elsewhere_markdown %}
+                                <div class="card-text text-black-50"><strong>Other governance role</strong>:
+                                    {{ governor.governor-elsewhere_markdown | markdownify }}</div>
+                                {% endif %}
+                                <div class="card-text text-black-50"><strong>Attendance record 2019/20</strong>:
+                                    {{ governor.attendance }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+{% else %}
+{% endif %}

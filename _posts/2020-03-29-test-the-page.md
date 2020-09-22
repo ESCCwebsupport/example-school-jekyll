@@ -2,7 +2,7 @@
 layout: post
 title: Test the page
 author: St Invicta's
-posted_date: 2020-03-26 00:00:00
+ddate: 2020-03-26 00:00:00
 header_image: /uploads/foto-sushi-6anudmpilw4-unsplash.jpg
 description: >-
   This is where we will add news items, through the blog. The latest articles
