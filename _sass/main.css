@@ -904,6 +904,9 @@ li:not(.lunrsearchresult) a:focus:not(.nav-link):not(.navbar-brand):not(.footer-
     box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
     text-decoration: none;
 }
+
+/*-- image options in editor --*/
+
 p img {
     max-width: 100%;
     height: auto;
@@ -911,6 +914,19 @@ p img {
     display: block;
     margin-right: auto;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.align-left {
+    margin-right: auto;
+}
+
+.centred {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align-right {
+    margin-left: auto;
 }
 
 .float-sm-left {
