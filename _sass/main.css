@@ -913,6 +913,15 @@ p img {
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
+.float-sm-left {
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.float-sm-right {
+    margin-left: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
 table {
     width: 100%;
     margin-bottom: 1rem;
