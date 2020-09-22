@@ -918,6 +918,7 @@ p img {
 
 .align-left {
     margin-right: auto;
+    margin-left: 0;
 }
 
 .centred {
@@ -927,6 +928,7 @@ p img {
 
 .align-right {
     margin-left: auto;
+    margin-right: 0;
 }
 
 .float-sm-left {
