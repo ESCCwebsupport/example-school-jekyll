@@ -24,6 +24,8 @@ To find out if you're eligible for free school meals, check on East Sussex's web
 
 ![](/assets/images/escc-logo-large.png){: .float-sm-left width="93" height="67"}
 
+&nbsp;
+
 Hello. This is some content next to a floated left image.
 
 * Bullets look weird.
