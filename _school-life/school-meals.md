@@ -36,6 +36,7 @@ Hello. This is some content next to a floated image. On small to medium screens 
 * with the text below
 
 But on larger screen sizes I:
+{: .new-line}
 
 * move alongside the text
 * left or right depending what side is chosen.
