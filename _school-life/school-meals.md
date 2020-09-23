@@ -36,7 +36,6 @@ Hello. This is some content next to a floated image. On small to medium screens 
 * with the text below
 
 But on larger screen sizes I:
-{: .new-line}
 
 * move alongside the text
 * left or right depending what side is chosen.
@@ -53,6 +52,6 @@ Hello. This is some content next to the same image floated the other side. On sm
 But on larger screen sizes I:
 
 * move alongside the text
-* left or right depending what side is chosen.
 
-Then underneath, when there is no more image the text goes back to full width.
+New Line clears the float and starts a new paragraph.
+{: .new-line}
