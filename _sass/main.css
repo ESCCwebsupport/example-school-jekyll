@@ -876,7 +876,7 @@ p {
     color: #16c224;
 }
 
-/*--- general ---*/
+/*--- general changes ---*/
 
 a.cc-active {
     text-decoration: none;
@@ -936,6 +936,10 @@ p img {
 .float-md-right {
     margin-left: 0.75rem;
     margin-bottom: 0.75rem;
+}
+
+.new-line {
+    clear: both;
 }
 
 table {
