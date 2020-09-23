@@ -940,6 +940,7 @@ p img {
 
 .new-line {
     clear: both;
+    padding-top: 0.5rem;
 }
 
 table {
