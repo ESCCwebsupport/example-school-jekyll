@@ -49,7 +49,7 @@ Hello. This is some content next to the same image floated the other side. On sm
 * go into a single column
 * with the text below
 
-### New Line clears the float and starts a new paragraph.
+New Line clears the float and starts a new paragraph.
 {: .new-line}
 
 Normal paragraph
