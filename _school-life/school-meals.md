@@ -53,5 +53,5 @@ But on larger screen sizes I:
 
 * move alongside the text
 
-New Line clears the float and starts a new paragraph.
+### New Line clears the float and starts a new paragraph.
 {: .new-line}
