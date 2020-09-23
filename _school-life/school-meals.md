@@ -50,5 +50,6 @@ Hello. This is some content next to the same image floated the other side. On sm
 * with the text below
 
 ### New Line clears the float and starts a new paragraph.
+{: .new-line}
 
 Normal paragraph
