@@ -979,14 +979,6 @@ div#breadcrumbs {
     color: var(--school-primary-colour);
 }
 
-#breadcrumbs a {
-    text-decoration: none;
-}
-
-#breadcrumbs a:hover {
-    text-decoration: underline;
-}
-
 #breadcrumbs a:focus {
     background-color: var(--govuk-highlight-colour);
     color: #0b0c0c;
@@ -1088,6 +1080,7 @@ div.accordion .btn-link:focus {
 
 div.accordion .card-body {
     padding: 1rem 1rem 1rem 2rem;
+    position: relative;
 }
 
 .accordion i.fa {

@@ -1,7 +1,7 @@
 <div class="mt-3" data-i18n="{{ page.title | slugify }}_scroll-content">
     <div id="contents" data-target="#list" data-offset="0" class="scrollspy">
         {% for scrollspy in page.scroll-section %}
-        <h4 id="{{ scrollspy.header | slugify }}">{{ scrollspy.header }}</h4>
+        <h4 id="{{ scrollspy.header | slugify | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' }}">{{ scrollspy.header }}</h4>
         <div class="scroll-content">
             {{ scrollspy.content_markdown | markdownify }}
         </div>
