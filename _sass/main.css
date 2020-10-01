@@ -1153,6 +1153,13 @@ div.accordion .card-body {
 
 .alert-card .card-body {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-left: 3px var(--school-primary-colour) dotted;
+    margin-bottom: 1rem;
+}
+
+.alert-card .row {
+    margin-left: 0;
 }
 
 .fa-exclamation-triangle {

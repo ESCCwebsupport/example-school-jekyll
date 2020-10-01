@@ -23,11 +23,16 @@
         <div class="container">
         <div class="row">
           <div class="card-body col-lg-8 col-sm-12" id="alert-main-section">
+              <div class="alert-border">
             {{ item.content | markdownify }}
           </div>
+        </div>
             <div class="col-lg-4 col-sm-12" id="alert-right-section">
                 <div class="py-2">
+                    {% if item.button_text %}
                     <a href="{{ item.button_link }}" class="btn btn-primary btn-md btn-school-main btn-block">{{ item.button_text }}</a>
+                    {% else %}
+                    {% endif %}
                 </div>
           </div>
         </div>
