@@ -1108,7 +1108,7 @@ div.accordion .card-body {
 .accordion h2 {
     padding-right: 2rem;
 }
-.accordion .btn {
+.accordion h5 .btn {
     border: none;
     border-radius: 0;
     padding: 0.2rem;
@@ -1145,9 +1145,10 @@ div.accordion .card-body {
     padding: 0.75rem 0.25rem 0.75rem 0;
 }
 
-.alert-card .btn {
+.alert-card h2 .btn {
     font-weight: 700;
     font-size: 1.25rem;
+    border-radius: 0;   
 }
 
 .alert-card .card-body {
