@@ -1145,6 +1145,7 @@ div.accordion .card-body {
 .alert-card .card-header {
     border-bottom: 0;
     padding: 0.75rem 0.25rem 0.75rem 0;
+    background-color: unset;
 }
 
 .alert-card h2 .btn {

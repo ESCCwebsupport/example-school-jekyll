@@ -1,5 +1,5 @@
 <div id="list" class="list-group left-list" data-i18n="{{ page.title | slugify }}_scroll-links">
     {% for link in page.scroll-section %}
-    <a class="list-group-item spy-item list-group-item-action" href="#{{ link.header | slugify | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' }}">{{ link.header }}</a>
+    <a class="list-group-item spy-item list-group-item-action" href="#section{{ forloop.index }}">{{ link.header }}</a>
     {% endfor %}
 </div>
