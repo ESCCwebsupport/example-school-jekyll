@@ -17,6 +17,9 @@ uploads_dir: "/assets/media/:title"
 # incremental: true
 
 collections:
+  alerts:
+    _hide_content: false
+    output: true
   curriculum:
     _hide_content: false
     output: true

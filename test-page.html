@@ -9,6 +9,24 @@ description:
 slug: test elements
 published: true
 ---
+<div class="bs-accordion py-3" data-i18n="{{ page.title | slugify }}_accordion">
+    <div class="accordion" id="{{ page.title }}_accordion">
+      <div class="card">
+        <div class="card-header" id="{{ accordion.header | slugify }}">
+          <h2 class="mb-0">
+            <button type="button" class="btn btn-link collapsed text-left" data-toggle="collapse"
+              data-target="#collapse{{ forloop.index }}"><i class="fa"></i>THIS IS AN ALERT</button>
+          </h2>
+        </div>
+        <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}">
+  
+          <div class="card-body">
+            Some page content in here.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <div class="row">
     <div class="col-lg-8 col-md-8 col-sm-12">
         <p><a href="/assets/images/headteacher-meeting-dates-2019-20.pdf">Link to a PDF here</a></p>

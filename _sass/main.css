@@ -1079,7 +1079,7 @@ div.accordion .btn-link:focus {
 }
 
 div.accordion .card-body {
-    padding: 1rem 1rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1.5rem;
     position: relative;
 }
 
@@ -1123,6 +1123,58 @@ div.accordion .card-body {
 .team .card .collapsing {
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
+}
+
+/*--- alert banner ---*/
+
+.alert-card {
+    width: 100%;
+}
+
+.alert-card .accordion h2 {
+    padding-right: 0;
+    position: relative;
+}
+
+.alert-card .card {
+    border: 0;
+}
+
+.alert-card .card-header {
+    border-bottom: 0;
+    padding: 0.75rem 0.25rem 0.75rem 0;
+}
+
+.alert-card .btn {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.alert-card .card-body {
+    padding-top: 0 !important;
+}
+
+.fa-exclamation-triangle {
+    padding-right: 0.5rem;
+    color: red;
+}
+
+.alert-card [data-toggle="collapse"] .fa:before {
+    content: "\f106";
+    position: absolute;
+    right: 1rem;
+    top: -0.75rem;
+    padding: 1rem;
+    padding-right: 0.5rem;
+}
+
+.alert-card [data-toggle="collapse"].collapsed .fa:before {
+    content: "\f107";
+    position: absolute;
+    right: 1rem;
+    top: -0.75rem;
+    padding: 1rem;
+    padding-right: 0.5rem;    
 }
 
 /* --- forms --- */
