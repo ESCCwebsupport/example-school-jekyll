@@ -9,6 +9,7 @@
     --footer-text-colour: rgb(40, 40, 40);
     --govuk-highlight-colour: #fd0;
     --navbar-text-colour: rgb(29, 29, 29);
+    --alert-background: rgba(116, 116, 116, 0.25);
 }
 
 html {
@@ -1138,6 +1139,7 @@ div.accordion .card-body {
 
 .alert-card .card {
     border: 0;
+    background-color: var(--alert-background);
 }
 
 .alert-card .card-header {
@@ -1160,6 +1162,10 @@ div.accordion .card-body {
 
 .alert-card .row {
     margin-left: 0;
+}
+
+.alert-card hr {
+    border: 1px solid var(--alert-background);
 }
 
 .fa-exclamation-triangle {
