@@ -1,8 +1,8 @@
 ---
 title: School is closed today!
 active: true
-start-open: true
-button_link: https://www.google.com
+start-open: false
+button_link: 'https://www.google.com'
 button_text: Go to Google
 ---
 
