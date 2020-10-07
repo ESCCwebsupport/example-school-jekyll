@@ -1178,7 +1178,7 @@ div.accordion .card-body {
     content: "\f106";
     position: absolute;
     right: 1rem;
-    top: -0.75rem;
+    top: -0.5rem;
     padding: 1rem;
     padding-right: 0.5rem;
 }
@@ -1187,7 +1187,7 @@ div.accordion .card-body {
     content: "\f107";
     position: absolute;
     right: 1rem;
-    top: -0.75rem;
+    top: -0.5rem;
     padding: 1rem;
     padding-right: 0.5rem;    
 }
