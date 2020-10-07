@@ -1,4 +1,6 @@
-@import "bootstrap/variables";
+---
+---
+@include bootstrap.min.css;
 
 img.test-class {
     @extend .float-md-left;
