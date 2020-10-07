@@ -3,28 +3,28 @@
 @import "bootstrap/bootstrap";
 @import "main";
 
-img.half-width-wrap-left {
+img.half-wrap-left {
     @extend .float-md-left;
     @extend .col-md-6;
     width: unset;
     @extend .p-0;
 }
 
-img.half-width-wrap-right {
+img.half-wrap-right {
     @extend .float-md-right;
     @extend .col-md-6;
     width: unset;
     @extend .p-0;
 }
 
-img.two-third-width-wrap-right {
+img.two-third-wrap-right {
     @extend .float-md-right;
     @extend .col-md-8;
     width: unset;
     @extend .p-0;
 }
 
-img.two-third-width-wrap-left {
+img.two-third-wrap-left {
     @extend .float-md-left;
     @extend .col-md-8;
     width: unset;
