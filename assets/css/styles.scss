@@ -7,4 +7,5 @@ img.test-class {
     @extend .float-md-left;
     @extend .col-md-6;
     @extend .p-0;
+    max-width: 100%;
 }
