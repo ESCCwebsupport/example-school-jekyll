@@ -2,9 +2,3 @@
 ---
 @import "bootstrap/bootstrap";
 @import "main";
-
-img.test-class {
-    @extend .float-md-left;
-    @extend .col-md-6;
-    @extend .p-0;
-}
