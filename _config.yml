@@ -77,7 +77,7 @@ _options:
     center: text-center
     right: text-right
     justify: false
-    styles: /_sass/cms_styles.scss
+    styles: /_sass/cms_styles.css
     embed: true
     undo: true
     redo: true
@@ -100,7 +100,7 @@ _options:
     center: text-center
     right: text-right
     justify: false
-    styles: /_sass/cms_styles.scss
+    styles: /_sass/cms_styles.css
     embed: true
     undo: true
     redo: true
@@ -123,7 +123,7 @@ _options:
     center: text-center
     right: text-right
     justify: false
-    styles: /_sass/cms_styles.scss
+    styles: /_sass/cms_styles.css
     embed: true
     undo: true
     redo: true
