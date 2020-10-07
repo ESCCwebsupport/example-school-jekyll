@@ -17,4 +17,4 @@ expandable-section:
 
 Content here.
 
-![](/assets/images/escc-logo-large.png){: .test-class width="93" height="67"}Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
+![](/assets/images/escc-logo-large.png){: .float-md-left width="93" height="67"}Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
