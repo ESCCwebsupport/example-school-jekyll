@@ -6,6 +6,6 @@
 img.test-class {
     @extend .float-md-left;
     @extend .col-md-6;
+    width: unset;
     @extend .p-0;
-    max-width: 100%;
 }
