@@ -19,6 +19,6 @@ Content here.
 
 ![](/assets/images/escc-logo-large.png){: .test-class width="93" height="67"}Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
 
-![](/assets/images/classroom2.jpg){: width="2000" height="1333"}
+![](/assets/images/classroom2.jpg){: .test-class width="2000" height="1333"}
 
 Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
