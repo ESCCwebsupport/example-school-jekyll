@@ -1,6 +1,6 @@
 ---
 ---
-@include bootstrap.min.css;
+@import '/example-school-jekyll/_sass/bootstrap.min.css';
 
 img.test-class {
     @extend .float-md-left;
