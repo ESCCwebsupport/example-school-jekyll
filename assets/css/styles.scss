@@ -5,13 +5,29 @@
 
 img.half-wrap-left {
     @extend .float-md-left;
+    @extend .m-0;
+    @extend .mr-md-3;
+    @extend .mb-md-3;
     @extend .col-md-6;
+    width: unset;
+    @extend .p-0;
+}
+
+img.two-third-wrap-left {
+    @extend .float-md-left;
+    @extend .m-0;
+    @extend .mr-md-3;
+    @extend .mb-md-3;
+    @extend .col-md-8;
     width: unset;
     @extend .p-0;
 }
 
 img.half-wrap-right {
     @extend .float-md-right;
+    @extend .m-0;
+    @extend .ml-md-3;
+    @extend .mb-md-3;
     @extend .col-md-6;
     width: unset;
     @extend .p-0;
@@ -19,13 +35,9 @@ img.half-wrap-right {
 
 img.two-third-wrap-right {
     @extend .float-md-right;
-    @extend .col-md-8;
-    width: unset;
-    @extend .p-0;
-}
-
-img.two-third-wrap-left {
-    @extend .float-md-left;
+    @extend .m-0;
+    @extend .ml-md-3;
+    @extend .mb-md-3;
     @extend .col-md-8;
     width: unset;
     @extend .p-0;
