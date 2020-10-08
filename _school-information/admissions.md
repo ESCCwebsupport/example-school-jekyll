@@ -28,5 +28,6 @@ Some text here Some text hereSome text hereSome text hereSome text hereSome text
 ![](/assets/images/news-radio.jpg){: .half-wrap-left width="1920" height="1280"}
 
 Half wrap image left.
+{: .new-line}
 
 Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
