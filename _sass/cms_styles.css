@@ -25,14 +25,11 @@ img.align-right {
     margin-right: 0;
 }
 
-img.float-md-left{}
-
-img.float-md-right{}
-
 p.new-line {}
 
 img.half-wrap-left {}
-
+img.two-third-wrap-left {}
 img.half-wrap-right {}
 img.two-third-wrap-right {}
-img.two-third-wrap-left {}
+img.logo-left {}
+img.logo-right {}

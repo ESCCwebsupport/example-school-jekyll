@@ -17,11 +17,11 @@ expandable-section:
 
 Content here.
 
-![](/assets/images/escc-logo-large.png){: .half-wrap-right width="93" height="67"}
+![](/assets/images/escc-logo-large.png){: .logo-left width="93" height="67"}
 
 Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
 
-![](/assets/images/classroom2.jpg){: .two-third-wrap-left width="2000" height="1333"}
+![](/assets/images/classroom2.jpg){: .two-third-wrap-right width="2000" height="1333"}
 
 Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here.
 

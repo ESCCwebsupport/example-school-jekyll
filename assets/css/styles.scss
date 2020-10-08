@@ -42,3 +42,21 @@ img.two-third-wrap-right {
     width: unset;
     @extend .p-0;
 }
+
+img.logo-left {
+    @extend .float-left;
+    @extend .mr-3;
+    @extend .mb-md-3;
+    @extend .col-4;
+    width: unset;
+    @extend .p-0;
+}
+
+img.logo-right {
+    @extend .float-right;
+    @extend .ml-3;
+    @extend .mb-md-3;
+    @extend .col-4;
+    width: unset;
+    @extend .p-0;
+}

@@ -930,18 +930,8 @@ p img {
     margin-right: 0;
 }
 
-.float-md-left {
-    margin-right: 0.75rem;
-    margin-bottom: 0.75rem;
-}
-.float-md-right {
-    margin-left: 0.75rem;
-    margin-bottom: 0.75rem;
-}
-
 .new-line {
     clear: both;
-    padding-top: 0.5rem;
 }
 
 table {
