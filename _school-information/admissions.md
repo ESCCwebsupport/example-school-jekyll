@@ -23,4 +23,10 @@ Some text here Some text hereSome text hereSome text hereSome text hereSome text
 
 ![](/assets/images/classroom2.jpg){: .two-third-wrap-left width="2000" height="1333"}
 
+Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here.
+
+![](/assets/images/news-radio.jpg){: .half-wrap-left width="1920" height="1280"}
+
+Half wrap image left.
+
 Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
