@@ -32,3 +32,6 @@ Some text here Some text hereSome text hereSome text hereSome text hereSome text
 Half wrap image left.
 
 Some text here Some text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text hereSome text here
+
+New line text.
+{: .new-line}
