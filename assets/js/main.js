@@ -199,6 +199,7 @@ $( "table" ).addClass("table table-bordered table-hover");
 $( "table" ).wrap( "<div class='table-responsive'></div>" );
 });
 
+// wrap iframes in responsive class //
 $( document ).ready(function() {
   $( "iframe" ).wrap( "<div class='embed-responsive embed-responsive-16by9'></div>" );
 });
