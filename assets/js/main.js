@@ -199,6 +199,11 @@ $( "table" ).addClass("table table-bordered table-hover");
 $( "table" ).wrap( "<div class='table-responsive'></div>" );
 });
 
+$( document ).ready(function() {
+  $( "iframe" ).wrap( "<div class='embed-responsive embed-responsive-16by9'></div>" );
+});
+
+
 
 // scrollspy //
 
