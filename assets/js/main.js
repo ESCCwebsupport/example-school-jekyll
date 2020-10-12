@@ -201,7 +201,8 @@ $( "table" ).wrap( "<div class='table-responsive'></div>" );
 
 // wrap iframes in responsive class //
 $( document ).ready(function() {
-  $( "iframe" ).wrap( "<div class='embed-responsive embed-responsive-16by9'></div>" );
+  $( "iframe" ).wrap( "<div class='embed-responsive embed-responsive-16by9 mb-3'></div>" );
+  $( "iframe#mapcanvas" ).unwrap().wrap( "<div class='embed-responsive embed-responsive-4by3 mb-3'></div>" )
 });
 
 
