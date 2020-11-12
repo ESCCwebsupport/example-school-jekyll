@@ -47,16 +47,20 @@ img.logo-left {
     @extend .float-left;
     @extend .mr-3;
     @extend .mb-md-3;
+    @extend .mb-2;
     @extend .col-4;
     width: unset;
     @extend .p-0;
+    height: auto;
 }
 
 img.logo-right {
     @extend .float-right;
     @extend .ml-3;
     @extend .mb-md-3;
+    @extend .mb-2;
     @extend .col-4;
     width: unset;
     @extend .p-0;
+    height: auto;
 }

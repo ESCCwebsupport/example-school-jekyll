@@ -31,6 +31,7 @@ body h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     -webkit-font-smoothing: antialiased;
     clear: both;
+    padding: 0.25rem 0 0.25rem 0;
 }
 
 h1 {
@@ -1021,7 +1022,6 @@ div.audio {
 
 /*--- accordion ---*/
 
-
 div.accordion .btn-link {
     text-decoration: none;
     -webkit-touch-callout: text;
@@ -1042,6 +1042,12 @@ div.accordion .btn-link:focus {
 div.accordion .card-body {
     padding: 1rem 1rem 1rem 1.5rem;
     position: relative;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+div.accordion .card-header {
+    border-bottom: 0;
+    padding: 1rem 1rem 1rem 1.5rem;
 }
 
 .accordion i.fa {
@@ -1066,10 +1072,7 @@ div.accordion .card-body {
     padding-right: 0.5rem;    
 }
 
-.accordion h2 {
-    padding-right: 2rem;
-}
-.accordion h5 .btn {
+.accordion h5 .btn, .accordion h2 .btn {
     border: none;
     border-radius: 0;
     padding: 0.2rem;
@@ -1105,6 +1108,7 @@ div.accordion .card-body {
 .alert-card .card-header {
     border-bottom: 0;
     padding: 0.75rem 0.25rem 0.75rem 0;
+    padding-bottom: 0.25rem !important;
     background-color: unset;
 }
 
@@ -1220,6 +1224,7 @@ div.accordion .card-body {
     padding: 10px 0 10px 0;
     background-color: var(--second-bg-colour);
     display: none;
+    clear: both;
 }
 
 .show {
@@ -1244,6 +1249,13 @@ a {
     }
 }
 
+.no-float-anchor {
+    clear: both;
+}
+
+.to-top-anchor {
+    float: none;
+}
 
 .to-top-anchor:focus {
     background-color: var(--govuk-highlight-colour);

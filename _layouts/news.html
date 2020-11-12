@@ -2,6 +2,7 @@
 <html lang="en">
 
 {% include head.html %}
+
 <body>
     {% include navigation.html %}
     {% if page.header_image %}
@@ -14,13 +15,38 @@
             {% include breadcrumbs.html %}
             <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
             {% endif %}
-        <div id="content" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
-        {% if page.display_expandable-section %}
-        {% include accordion.html %}
-        {% endif %}
-        {% if page.button.button_link %}
-        {% include link-button.html %}
-        {% endif %}
+            <div class="news">
+                <div class="row">
+                    {% assign posts = site.posts | sort: 'date' | reverse %}
+                    {% for post in posts %}
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-content">
+                            <div class="card-img">
+                                {% if post.header_image %}
+                                <img src="{{ post.mobile_header_image }}" alt="{{ post.title }}">
+                                {% else %}
+                                <img src="/assets/images/news-radio.jpg" alt="{{ post.title }}">
+                                {% endif %}
+                                <span>
+                                    Posted {{ post.date | date_to_string }}
+                                </span>
+                            </div>
+                            <div class="card-desc">
+                                <h3><a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+                                <p>{{ post.description | truncatewords: 25 }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="content" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+            {% if page.display_expandable-section %}
+            {% include accordion.html %}
+            {% endif %}
+            {% if page.button.button_link %}
+            {% include link-button.html %}
+            {% endif %}
         </div>
     </section>
 

@@ -3,6 +3,8 @@ layout: none
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+noindex: /assets/
+noindex: /test-page/
 
 User-agent: PowerMapper
 Allow: /

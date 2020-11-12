@@ -1,4 +1,4 @@
-<section class="team py-4">
+<section class="team py-3">
     <h3 class="container py-3">
         Meet our current governors
     </h3>
@@ -8,21 +8,23 @@
             {% for governor in page.governors %}
             <div class="col-lg-4 col-md-6 mb-4 col-12 mx-auto">
                 <div class="card border-0 shadow text-left">
-                    {% if governor.image %}
+                    <!-- {% if governor.image %}
                     <img src="{{ governor.image }}" class="card-img-top profile-img" alt="{{ governor.name }}"
                         width="400" height="300" />
                     {% else %}
                     <img src="/assets/images/user-solid.svg" class="card-img-top staff-profile-img-contain" alt="{{ governor.name }}"
                         width="400" height="300" />
-                    {% endif %}
+                    {% endif %} -->
                     <div class="bs-accordion">
-                        <div class="card-body">
+                        <div class="card-header">
                             <h5 class="mb-0">
                                 <button type="button" class="btn btn-link btn-block text-left collapsed" data-toggle="collapse"
                                     aria-expanded="false" data-target="#collapse{{ forloop.index }}"><i
                                         class="fa"></i>{{ governor.name }}</button>
                             </h5>
+                        </div>
                             <div id="collapse{{ forloop.index }}" class="collapse">
+                                <div class="card-body">
                                 <div class="card-text text-black-50"><strong>Role</strong>: {{ governor.job }}</div>
                                 <div class="card-text text-black-50"><strong>Appointed on</strong>:
                                     {{ governor.appointed_date | date_to_string }}</div>
@@ -53,7 +55,7 @@
     </div>
 </section>
 {% if page.governors-past %}
-<section class="py-4">
+<section class="py-3">
     <h3 class="container py-3">
         Our previous governors
     </h3>
@@ -63,21 +65,23 @@
             {% for governor in page.governors-past %}
             <div class="col-lg-4 col-md-6 mb-4 col-12 mx-auto">
                 <div class="card border-0 shadow text-left">
-                    {% if governor.image %}
+                    <!-- {% if governor.image %}
                     <img src="{{ governor.image }}" class="card-img-top profile-img" alt="{{ governor.name }}"
                         width="400" height="300" />
                     {% else %}
                     <img src="/assets/images/user-solid.svg" class="card-img-top staff-profile-img-contain" alt="{{ governor.name }}"
                         width="400" height="300" />
-                    {% endif %}
+                    {% endif %} -->
                     <div class="bs-accordion">
-                        <div class="card-body">
+                        <div class="card-header">
                             <h5 class="mb-0">
                                 <button type="button" class="btn btn-link btn-block text-left collapsed" data-toggle="collapse"
                                     aria-expanded="false" data-target="#collapse-past{{ forloop.index }}"><i
                                         class="fa"></i>{{ governor.name }}</button>
                             </h5>
-                            <div id="collapse-past{{ forloop.index }}" class="collapse">
+                        </div>
+                        <div id="collapse-past{{ forloop.index }}" class="collapse">
+                        <div class="card-body">
                                 <div class="card-text text-black-50"><strong>Role</strong>: {{ governor.job }}</div>
                                 <div class="card-text text-black-50"><strong>Appointed on</strong>:
                                     {{ governor.appointed_date | date_to_string }}</div>

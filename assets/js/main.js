@@ -1,3 +1,9 @@
+document.addEventListener('click', function (event) {
+  if (event.target.matches('button')) {
+    event.target.focus()
+  }
+});
+
 $(document).ready(function() {
   $('.header').height($(window).height());
 });
@@ -191,7 +197,7 @@ $('a[href$="pdf"]:not(.no-tag)').prepend(`<i class="far fa-file-pdf"></i>`).addC
 $('a[href$="doc"]:not(.no-tag)').prepend(`<i class="far fa-file-word"></i>`).addClass("no-style");
 $('a[href$="docx"]:not(.no-tag)').prepend(`<i class="far fa-file-word"></i>`).addClass("no-style");
 $('a[href$="xls"]:not(.no-tag)').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
-$('a[href$="xlsx"]:not(.no-tag)').prepend(`<i cl ass="far fa-file-excel"></i>`).addClass("no-style");
+$('a[href$="xlsx"]:not(.no-tag)').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
 });
 
 $( document ).ready(function() {
