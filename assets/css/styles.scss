@@ -64,3 +64,27 @@ img.logo-right {
     @extend .p-0;
     height: auto;
 }
+
+body {
+    @include font-size(1.1rem);
+}
+
+h1 {
+    @include font-size(2.5rem);
+}
+
+blockquote {
+    @include font-size(1.2rem);
+}
+
+.alert-card h2 .btn {
+    @include font-size(1.25rem);
+}
+
+.card-desc h3 {
+    @include font-size(1.5rem);
+}
+
+.card-desc p {
+    @include font-size(1rem);
+}
