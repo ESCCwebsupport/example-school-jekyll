@@ -871,7 +871,15 @@ p {
     color: #16c224;
 }
 
-/*--- general changes ---*/
+/*--- general ---*/
+
+.gov-link:focus { 
+    outline: 3px solid transparent;
+    background-color: var(--govuk-highlight-colour);
+    box-shadow: 0 -2px var(--govuk-highlight-colour), 0 4px #0b0c0c;
+    color: black;
+    text-decoration: none;
+}
 
 a.cc-active {
     text-decoration: none;
@@ -884,7 +892,6 @@ a.cc-active {
 ul {
     overflow: hidden;
 }
-
 
 li:not(.lunrsearchresult) a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image), p a:not(.no-style):not(.nav-link):not(.navbar-brand):not(.footer-brand):not(.nav-search-button):not(.lightbox-image) {
     text-decoration: underline;

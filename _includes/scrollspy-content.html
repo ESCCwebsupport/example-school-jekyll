@@ -1,14 +1,14 @@
 <div data-i18n="{{ page.title | slugify }}_scroll-content">
     <div id="contents" data-target="#list" data-offset="0" class="scrollspy">
         {% for scrollspy in page.scroll-section %}
-        <h4 class="mb-md-4 mb-3"id="section{{ forloop.index }}">{{ scrollspy.header }}</h4>
+        <h4 class="mb-md-4 mb-3"id="{{ scrollspy.header | handle | slugify }}">{{ scrollspy.header }}</h4>
         <div class="scroll-content">
             {{ scrollspy.content_markdown | markdownify }}
         </div>
         {% endfor %}
     </div>
-    <div class="container"><a id="back-to-top" href="#content" class="btn btn-md btn-block btn-light back-to-top" role="button"><i class="fas fa-chevron-up"></i>Top of page</a></div>
+    <div class="container"><a id="back-to-top" href="#right-section" class="btn btn-md btn-block btn-light back-to-top" role="button"><i class="fas fa-chevron-up"></i>Back to menu</a></div>
     <div class="no-float-anchor">
-        <a class="to-top-anchor" href="#content"><i class="fas fa-chevron-up"></i>Top of page</a>
+        <a class="to-top-anchor" href="#right-section"><i class="fas fa-chevron-up"></i>Back to menu</a>
     </div>
 </div>
