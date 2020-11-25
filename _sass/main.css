@@ -1047,6 +1047,7 @@ div.accordion .card-body {
 div.accordion .card-header {
     border-bottom: 0;
     padding: 1rem 1rem 1rem 1.5rem;
+    position: relative;
 }
 
 .accordion i.fa {
