@@ -19,6 +19,7 @@ collections:
   alerts:
     _hide_content: false
     output: true
+    _icon: warning
   curriculum:
     _hide_content: false
     output: true
