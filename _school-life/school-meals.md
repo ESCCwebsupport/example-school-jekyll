@@ -28,7 +28,7 @@ We provide a regularly updated menu to ensure students have a rounded diet at St
 
 To find out if you're eligible for free school meals, check on East Sussex's website.
 
-![Adoption South East logo](/assets/media/school meals/ase-logo-colour-text-outlined.jpg "Adoption South East logo"){: .float-md-right width="400" height="243"}
+![Adoption South East logo](/assets/media/school meals/ase-logo-colour-text-outlined.jpg "Adoption South East logo"){: .two-third-wrap-right width="400" height="243"}
 
 Hello. This is some content next to a floated image. On small to medium screens I:
 
@@ -42,7 +42,7 @@ But on larger screen sizes I:
 
 Then underneath, when there is no more image the text goes back to full width.
 
-![Adoption South East logo](/assets/media/school meals/ase-logo-colour-text-outlined.jpg "Adoption South East logo"){: .float-md-left width="400" height="243"}
+![Adoption South East logo](/assets/media/school meals/ase-logo-colour-text-outlined.jpg "Adoption South East logo"){: .half-wrap-left width="400" height="243"}
 
 Hello. This is some content next to the same image floated the other side. On small to medium screens I:
 
