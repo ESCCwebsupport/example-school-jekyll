@@ -13,6 +13,15 @@ display_expandable-section: false
 expandable-section:
   - header:
     content_markdown:
+gallery:
+  Name:
+    - name:
+      introduction_text:
+  Images:
+    - image: https://unsplash.it/2500/1268.jpg?image=251
+      square_thumbnail_image:
+      caption: 
+      alt_text:
 ---
 
 Content here.
