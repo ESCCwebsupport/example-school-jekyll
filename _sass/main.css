@@ -895,22 +895,20 @@ div.accordion .card-header {
     font-size: 1.5rem;
 }
 
-[data-toggle="collapse"] .fa:before {
+.team [data-toggle="collapse"] .fa:before {
     content: "\f106";
-    position: absolute;
-    right: 1rem;
-    top: 0.25rem;
-    padding: 1rem;
-    padding-right: 0.5rem;
 }
 
-[data-toggle="collapse"].collapsed .fa:before {
+.content-accordion [data-toggle="collapse"] .fa:before {
+    content: "\f106";
+}
+
+.team [data-toggle="collapse"].collapsed .fa:before {
     content: "\f107";
-    position: absolute;
-    right: 1rem;
-    top: 0.25rem;
-    padding: 1rem;
-    padding-right: 0.5rem;    
+}
+
+.content-accordion [data-toggle="collapse"].collapsed .fa:before {
+    content: "\f107";
 }
 
 .accordion h5 .btn, .accordion h2 .btn {
@@ -981,20 +979,16 @@ div.accordion .card-header {
 
 .alert-card [data-toggle="collapse"] .fa:before {
     content: "\f106";
-    position: absolute;
-    right: 1rem;
-    top: -0.5rem;
-    padding: 1rem;
-    padding-right: 0.5rem;
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
 }
 
 .alert-card [data-toggle="collapse"].collapsed .fa:before {
     content: "\f107";
-    position: absolute;
-    right: 1rem;
-    top: -0.5rem;
-    padding: 1rem;
-    padding-right: 0.5rem;    
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem; 
 }
 
 /* --- forms --- */

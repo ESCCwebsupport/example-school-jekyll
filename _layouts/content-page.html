@@ -12,7 +12,7 @@
     <section class="container py-3">
         <div class="pb-2">
             {% include breadcrumbs.html %}
-            <h1 class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
+            <h1 id="skipto" class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
             <div class="row">
                 {% if page.display_scroll_section %}
                 <div id="content" class="col-lg-8 col-sm-12" data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>

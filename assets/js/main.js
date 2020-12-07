@@ -253,10 +253,10 @@ if (document.querySelector('.scrollspy') !== null) {
 
 if (document.querySelector('.openall') !== null) {
 $('.openall').click(function () {
-    $('.card .collapse').collapse('show');
+    $('.content-accordion .card .collapse').collapse('show');
 });
 
 $('.closeall').click(function () {
-  $('.card .collapse').collapse('hide');
+  $('.content-accordion .card .collapse').collapse('hide');
 });
 };
