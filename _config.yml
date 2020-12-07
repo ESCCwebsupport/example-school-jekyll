@@ -138,8 +138,6 @@ _array_structures:
         name:
         introduction_markdown:
         images:
-          label: Image
-          icon: add_a_photo
           image:
           thumbnail:
           caption_text:
