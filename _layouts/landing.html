@@ -17,7 +17,7 @@
         <div class="col-lg-8 col-sm-12" id="content" data-i18n="{{ page.title | slugify }}_content">{{ content }}
         </div>
         </div>
-            <div class="row mt-2">
+            <div class="d-flex flex-wrap mt-2">
                 {% for link in page.page-links %}
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-2 mb-md-3">
                     <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}"
