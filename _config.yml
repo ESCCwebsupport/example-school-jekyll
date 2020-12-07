@@ -129,7 +129,7 @@ _options:
     redo: true
     image: true
 
-gallery: []
+gallery-new: []
 _array_structures:
   gallery:
     - label: Gallery
