@@ -132,14 +132,15 @@ _options:
 _array_structures:
   gallery:
     style: modal
-    label: Gallery
     icon: collections
     values:
-      - name:
-      - introduction_markdown:
+      - label: Introduction
+        name:
+        introduction_markdown:
     values:
-      - image:
-      - thumbnail:
-        description: Square thumbnail image
-      - caption_text:
-      - alt_text:
+      - label: Gallery
+        image:
+        thumbnail:
+          description: Square thumbnail image
+        caption_text:
+        alt_text:
