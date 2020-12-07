@@ -139,6 +139,6 @@ _array_structures:
         introduction_markdown:
         images:
           - image:
-            thumbnail:
+            square-thumbnail:
             caption_text:
             alt_text:
