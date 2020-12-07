@@ -135,12 +135,12 @@ _array_structures:
     values:
       - label: Gallery
         icon: collections
-        value:
+        image:
           image:
           thumbnail:
             description: Square thumbnail image
           caption_text:
           alt_text:
-        value:
-          name:
-          introduction_markdown:
+        description:
+            name:
+            introduction_markdown:
