@@ -140,7 +140,8 @@ _array_structures:
         images:
           - label: Image
             icon: image
-            image:
-            thumbnail:
-            caption_text:
-            alt_text:
+            value:
+              image:
+              thumbnail:
+              caption_text:
+              alt_text:
