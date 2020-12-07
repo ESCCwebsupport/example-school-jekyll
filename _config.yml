@@ -131,9 +131,10 @@ _options:
 
 _array_structures:
   gallery:
-    style: modal
+    style: select
     values:
       - label: Introduction
+        icon: view_headline
         value:
           name:
           introduction_markdown:
