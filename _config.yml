@@ -140,5 +140,6 @@ _array_structures:
         images:
           - image:
             thumbnail:
+              description: Square image
             caption_text:
             alt_text:
