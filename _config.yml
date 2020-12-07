@@ -131,12 +131,13 @@ _options:
 
 _array_structures:
   gallery:
-    label: Gallery
-    icon: collections
-    name:
-    introduction_markdown:
-    image:
-      values:
+    values:
+      label: Gallery
+      icon: collections
+      value:
+        name:
+        introduction_markdown:
+      value:
         image:
         thumbnail:
         caption_text:
