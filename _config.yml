@@ -129,7 +129,6 @@ _options:
     redo: true
     image: true
 
-page_element: []
 _array_structures:
   gallery:
     - label: Gallery
