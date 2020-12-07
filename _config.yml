@@ -129,16 +129,16 @@ _options:
     redo: true
     image: true
 
-gallery-new: []
+page_element: []
 _array_structures:
   gallery:
     - label: Gallery
       style: modal
       icon: gallery
-      description:
+      values:
         name:
         introduction_markdown:
-      images:
+      values:
         image:
         thumbnail:
           description: Square thumbnail image
