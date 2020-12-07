@@ -133,11 +133,6 @@ _array_structures:
   gallery:
     style: select
     values:
-      - label: Introduction
-        icon: view_headline
-        value:
-          name:
-          introduction_markdown:
       - label: Gallery
         icon: collections
         value:
@@ -146,3 +141,6 @@ _array_structures:
             description: Square thumbnail image
           caption_text:
           alt_text:
+        value:
+          name:
+          introduction_markdown:
