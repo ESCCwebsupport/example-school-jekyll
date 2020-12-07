@@ -138,7 +138,7 @@ _array_structures:
         name:
         introduction_markdown:
         images:
-          values:
+          value:
             image:
             thumbnail:
             caption_text:
