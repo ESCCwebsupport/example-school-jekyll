@@ -133,12 +133,11 @@ _array_structures:
   gallery:
     - label: Gallery
       icon: collections
-      values:
-        name:
-        introduction_markdown:
-        image:
-          values:
-            image:
-            thumbnail:
-            caption_text:
-            alt_text:
+      name:
+      introduction_markdown:
+      image:
+        values:
+          image:
+          thumbnail:
+          caption_text:
+          alt_text:
