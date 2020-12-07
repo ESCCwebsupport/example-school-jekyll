@@ -137,7 +137,6 @@ _array_structures:
         value:
           name:
           introduction_markdown:
-    values:
       - label: Gallery
         icon: collections
         value:
