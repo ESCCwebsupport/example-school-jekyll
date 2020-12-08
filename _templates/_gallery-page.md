@@ -1,8 +1,8 @@
 ---
 layout: gallery
-title: Gallery test
-slug: gallery
-published: true
+title:
+slug:
+published: false
 header_image:
 mobile_header_image:
 gallery:
