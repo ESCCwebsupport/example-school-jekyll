@@ -6,7 +6,7 @@ published: true
 header_image:
 mobile_header_image:
 gallery:
-  - name: Gallery 1
+  - heading: Gallery 1
     introduction_markdown: This is the first gallery for our page.
     images:
       - image: /assets/media/gallery/school-closures-error.JPG
@@ -17,19 +17,15 @@ gallery:
         thumbnail: 'https://unsplash.it/600.jpg?image=251'
         caption_text:
         alt_text:
-  - name: Gallery 2
+  - heading: Gallery 2
     introduction_markdown: |-
       This is the second gallery for our page.
-
-      &nbsp;
-
-      &nbsp;
 
       ##### Nothing to see
 
       > Except for some really nice images.
 
-      * and a bullet point&nbsp;
+      * and a bullet point
     images:
       - image: 'https://unsplash.it/1200/768.jpg?image=255'
         thumbnail: 'https://unsplash.it/600.jpg?image=255'
