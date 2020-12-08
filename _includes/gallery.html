@@ -1,0 +1,25 @@
+{% for gallery in page.gallery %}
+{% if gallery.name %}
+<section class="container py-1 py-md-3">
+
+<h2 class="mb-2">{{ gallery.name }}</h2>
+
+<div class="pl-0 col-lg-8 col-sm-12">
+    {{ gallery.introduction_markdown | markdownify | strip }}
+</div>
+{% endif %}
+<div class="justify-content-left col-12 pl-0 pr-0">
+    <div class="row">
+        {% for image in gallery.images %}
+        <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="example-gallery" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box">
+            <figure class="figure">
+                <img src="{{ image.thumbnail }}" alt="{{ image.alt_text }}" class="img-fluid">
+                {% if image.caption_text %}<figcaption class="figure-caption"><i class="fas fa-camera"></i>{{ image.caption_text }}</figcaption>{% endif %}
+            </figure>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+</section>
+
+{% endfor %}

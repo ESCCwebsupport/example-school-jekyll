@@ -8,13 +8,14 @@
     {% if page.header_image %}
     {% include hero-image.html %}
     {% endif %}
-    <section class="container py-3">
+    <section class="container py-1 py-md-3">
         <div class="pb-2">
             {% include breadcrumbs.html %}
             <h1 id="skipto" class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
-            <div id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
+            <div class="pl-0 col-lg-8 col-sm-12" id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
         </div>
     </section>
+        {% include gallery.html %}
 
     {% include footer.html %}
     {% include scripts-gallery.html %}

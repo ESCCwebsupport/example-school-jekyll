@@ -135,7 +135,7 @@ _array_structures:
       label: Gallery
       icon: collections
       value:
-        name:
+        heading:
         introduction_markdown:
         images:
           - image:
