@@ -28,6 +28,9 @@ collections:
       - name: Add standard page
         icon: web
         href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_standard-page.md"
+      - name: Add gallery page
+        icon: photo_album
+        href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_gallery-page.md"
   school-information:
     _hide_content: false
     output: true
