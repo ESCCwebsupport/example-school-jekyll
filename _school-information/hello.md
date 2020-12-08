@@ -1,6 +1,6 @@
 ---
 layout: content-page
-title: Hello
+title: Hello there
 slug: hello
 published: false
 header_image:
