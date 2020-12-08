@@ -1,7 +1,7 @@
 ---
 layout: content-page
 title: Hello there
-slug: hello
+slug: hello there
 published: false
 header_image:
 file_path:
