@@ -2,7 +2,7 @@
 layout: content-page
 title: Hello there
 slug: hello there
-published: false
+published: true
 header_image:
 file_path:
 description:
