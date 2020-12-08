@@ -142,7 +142,9 @@ _array_structures:
         heading:
         introduction_markdown:
         images:
-          image:
-          square-thumbnail:
-          caption_text:
-          alt_text:
+          values:
+            value:
+              image:
+              square-thumbnail:
+              caption_text:
+              alt_text:
