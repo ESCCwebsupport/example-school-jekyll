@@ -24,6 +24,10 @@ collections:
     _hide_content: false
     output: true
     permalink: /school-life/curriculum/:title/
+    _add_options:
+      - name: Add standard page
+        icon: web
+        href: ":collection/.md🆕/_templates/_standard-page.md"
   school-information:
     _hide_content: false
     output: true
