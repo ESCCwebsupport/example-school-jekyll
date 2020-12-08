@@ -27,7 +27,7 @@ collections:
     _add_options:
       - name: Add standard page
         icon: web
-        href: ":collections_dir/.md🆕/_templates/_standard-page.md"
+        href: "cloudcannon::collections_dir/.md🆕/_templates/_standard-page.md"
   school-information:
     _hide_content: false
     output: true
