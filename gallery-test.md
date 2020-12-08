@@ -25,7 +25,11 @@ gallery:
 
       &nbsp;
 
-      &nbsp;
+      ##### Nothing to see
+
+      > Except for some really nice images.
+
+      * and a bullet point&nbsp;
     images:
       - image: 'https://unsplash.it/1200/768.jpg?image=255'
         thumbnail: 'https://unsplash.it/600.jpg?image=255'
