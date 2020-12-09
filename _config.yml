@@ -15,6 +15,9 @@ plugins:
 algolia:
   application_id: 'GS6YCBDMKW'
   index_name: 'st_invictas'
+  settings:
+    files_to_exclude:
+      - collections/_alerts/*
 
 uploads_dir: "/assets/media/:title"
 
