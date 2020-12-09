@@ -151,6 +151,10 @@ _array_structures:
       icon: image
       value:
         image:
-        square-thumbnail:
+        thumbnail:
         caption_text:
         alt_text:
+  thumbnail:
+    label: Thumbnail
+    description: Square version of image (1:1 ratio)
+      value:
