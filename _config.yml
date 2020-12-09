@@ -157,4 +157,3 @@ _array_structures:
   thumbnail:
     label: Thumbnail
     description: Square version of image (1:1 ratio)
-    value:
