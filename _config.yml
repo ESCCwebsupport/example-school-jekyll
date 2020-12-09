@@ -144,7 +144,7 @@ _array_structures:
       value:
         heading:
         introduction_markdown:
-
+        images:
   images:
     values:
       label: Image
