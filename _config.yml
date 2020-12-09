@@ -145,14 +145,12 @@ _array_structures:
         heading:
         introduction_markdown:
         images:
-        thumbnail:
-          - description: Square text
   images:
     values:
       label: Image
       icon: image
       value:
         image:
-        thumbnail:
+        square-thumbnail:
         caption_text:
         alt_text:
