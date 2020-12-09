@@ -10,6 +10,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-loading-lazy
+  - jekyll-algolia
+
+algolia:
+  application_id: 'GS6YCBDMKW'
+  index_name: 'st_invictas'
 
 uploads_dir: "/assets/media/:title"
 
@@ -43,10 +48,6 @@ collections:
     _hide_content: false
     output: true
     permalink: /send/:title/
-  sen-policies:
-    _hide_content: false
-    output: true
-    permalink: /send/sen-policies/:title/
   staff:
     _hide_content: false
     output: true

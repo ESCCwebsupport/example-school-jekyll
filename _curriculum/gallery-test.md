@@ -17,7 +17,7 @@ gallery:
         thumbnail: 'https://unsplash.it/600.jpg?image=251'
         caption_text:
         alt_text:
-  - heading: Gallery 2
+  - heading: Gallery 2 superfluous
     introduction_markdown: |-
       This is the second gallery for our page.
 
