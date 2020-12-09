@@ -28,6 +28,7 @@ collections:
   curriculum:
     _hide_content: false
     output: true
+    _icon: menu_book
     permalink: /school-life/curriculum/:title/
     _add_options:
       - name: Add standard page
@@ -39,22 +40,27 @@ collections:
   school-information:
     _hide_content: false
     output: true
+    _icon: info
     permalink: /school-information/:title/
   school-life:
     _hide_content: false
     output: true
+    _icon: school
     permalink: /school-life/:title/
   send:
     _hide_content: false
     output: true
+    _icon: escalator_warning
     permalink: /send/:title/
   staff:
     _hide_content: false
     output: true
+    _icon: groups
     permalink: /staff/:title/
   policies:
     _hide_content: false
     output: true
+    _icon: description
     permalink: /policies/:title/
   posts:
     _enabled_editors:
@@ -155,3 +161,7 @@ _array_structures:
         square-thumbnail_image:
         caption_text:
         alt_text:
+
+_comments:
+  thumbnail: A square image for the gallery's thumbnail
+  slug: Shortened page URL
