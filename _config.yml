@@ -145,6 +145,8 @@ _array_structures:
         heading:
         introduction_markdown:
         images:
+        thumbnail:
+          - description: Square text
   images:
     values:
       label: Image
@@ -154,6 +156,3 @@ _array_structures:
         thumbnail:
         caption_text:
         alt_text:
-  thumbnail:
-    label: Thumbnail
-    description: Square version of image (1:1 ratio)
