@@ -13,7 +13,7 @@ display_expandable-section: false
 expandable-section:
   - header:
     content_markdown:
-display_scroll_section: false
+display_scroll_section: true
 scroll-section:
   - header: First bit
     content_markdown: Some text
