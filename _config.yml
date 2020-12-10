@@ -170,6 +170,13 @@ _array_structures:
       value:
         header:
         content_markdown:
+  scroll-section:
+    values:
+      label: Side navigation section
+      icon: view_sidebar
+        value:
+          header:
+          content_markdown:
 
 _comments:
   thumbnail: A square image for the gallery's thumbnail

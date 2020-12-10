@@ -13,6 +13,4 @@ display_expandable-section: false
 expandable-section:
 display_scroll_section: false
 scroll-section:
-  - header:
-    content_markdown:
 ---
