@@ -17,6 +17,10 @@ gallery:
         thumbnail: /assets/media/gallery/daily-update-236x198px-8-12.jpg
         caption_text:
         alt_text:
+      - image: /assets/media/report-absence/absence.jpg
+        thumbnail: /assets/media/school meals/90s.jpg
+        caption_text: Taking your temperature
+        alt_text: Taking your temperature
   - heading: Gallery 2 superfluous
     introduction_markdown: |-
       This is the second gallery for our page.
