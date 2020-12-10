@@ -12,7 +12,7 @@
 <div class=" col-12 pl-0 pr-0">
     <div class="row">
         {% for image in gallery.images %}
-        <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="example-gallery" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box no-underline">
+        <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="{{ gallery.heading | slugify }}" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box no-underline">
             <figure>
                 <img src="{{ image.thumbnail }}" alt="{{ image.alt_text }}" class="img-fluid">
                 {% if image.caption_text %}<figcaption class="figure-caption"><i class="fas fa-camera"></i>{{ image.caption_text }}</figcaption>{% endif %}
