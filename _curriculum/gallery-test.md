@@ -14,7 +14,7 @@ gallery:
         caption_text: See the first image
         alt_text: Image 1 alt text
       - image: /assets/media/gallery/school-closures-error.JPG
-        thumbnail: 'https://unsplash.it/600.jpg?image=251'
+        thumbnail: 'https://unsplash.it/800.jpg?image=251'
         caption_text:
         alt_text:
   - heading: Gallery 2 superfluous
