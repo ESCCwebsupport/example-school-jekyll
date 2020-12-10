@@ -97,6 +97,6 @@ blockquote {
     @include font-size(2rem)
 }
 
-.accordion h2 {
+.accordion h2 .btn {
     @include font-size(1.5rem);
 }
