@@ -39,6 +39,9 @@ collections:
       - name: Add gallery page
         icon: photo_album
         href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_gallery-page.md"
+      - name: Add scroll page
+        icon: view_sidebar
+        href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_scroll-page.md"
   school-information:
     _hide_content: false
     output: true
@@ -205,4 +208,4 @@ _comments:
   thumbnail: A square image for the gallery's thumbnail
   slug: Shortened page URL
   caption_text: Optional text under the image
-  alt_text: Describe the image for a screen reader
+  alt_text: Required. Describe the image for a screen reader

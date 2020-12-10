@@ -22,7 +22,7 @@
                     {% else %}
                     <div id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
                     {% endif %}
-                    {% if page.display_scroll_section %}
+                    {% if scroll_section %}
                     {% include scrollspy-content.html %}
                     {% endif %}
                     {% if page.display_expandable-section %}
