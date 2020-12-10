@@ -503,7 +503,7 @@ blockquote {
 /*--- Lightbox ---*/
 
 .ekko-lightbox .modal-footer {
-    justify-content: unset;
+    justify-content: left;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
