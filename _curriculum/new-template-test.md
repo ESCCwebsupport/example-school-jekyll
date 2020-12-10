@@ -9,10 +9,12 @@ description:
 button:
   button_link:
   button_text:
-display_expandable-section: false
+display_expandable-section: true
 expandable-section:
-  - header:
-    content_markdown:
+  - header: Expand this heading
+    content_markdown: Nothing interesting
+  - header: Second heading to expand
+    content_markdown: 'Again, nothing useful in here.'
 display_scroll_section: true
 scroll-section:
   - header: First bit
