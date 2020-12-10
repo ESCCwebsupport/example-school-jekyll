@@ -517,6 +517,10 @@ blockquote {
     }
 }
 
+.modal-open {
+    padding-right: 0 !important;
+}
+
 .no-underline:hover {
     text-decoration: none;
 }
