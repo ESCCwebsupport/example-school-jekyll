@@ -519,7 +519,7 @@ blockquote {
 
 .modal-open {
     padding-right: 0 !important;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .no-underline:hover {
