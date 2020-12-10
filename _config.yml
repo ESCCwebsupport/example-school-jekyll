@@ -144,6 +144,29 @@ _options:
     undo: true
     redo: true
     image: true
+  introduction_markdown:
+    height: 500
+    width: 800
+    resize_style: "cover"
+    format: p h3 h4 h5
+    bold: true
+    italic: true
+    removeformat: true
+    link: true
+    underline: true
+    blockquote: true
+    bulletedlist: true
+    numberedlist: true
+    table: false
+    left: text-left
+    center: text-center
+    right: text-right
+    justify: false
+    styles: /_sass/cms_styles.css
+    embed: false
+    undo: true
+    redo: true
+    image: false
 
 _array_structures:
   gallery:
