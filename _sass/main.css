@@ -917,24 +917,42 @@ div.accordion .card-header {
     position: relative;
 }
 
+div.content-accordion .card-header {
+    padding: 0.5rem;
+}
+
 .accordion i.fa {
     font-size: 1.5rem;
 }
 
 .team [data-toggle="collapse"] .fa:before {
     content: "\f106";
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
 }
 
 .content-accordion [data-toggle="collapse"] .fa:before {
     content: "\f106";
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
+    top: 0.25rem;
 }
 
 .team [data-toggle="collapse"].collapsed .fa:before {
     content: "\f107";
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
 }
 
 .content-accordion [data-toggle="collapse"].collapsed .fa:before {
     content: "\f107";
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
+    top: 0.25rem;
 }
 
 .accordion h5 .btn, .accordion h2 .btn {
@@ -942,6 +960,7 @@ div.accordion .card-header {
     border-radius: 0;
     padding: 0.2rem;
     margin-bottom: 0.5rem;
+    position: relative;
 }
 
 .card .collapsing {
@@ -970,16 +989,17 @@ div.accordion .card-header {
     background-color: var(--alert-background);
 }
 
-.alert-card .card-header {
+.alert-card .accordion .card-header {
     border-bottom: 0;
-    padding: 0.75rem 0.25rem 0.75rem 0;
-    padding-bottom: 0.25rem !important;
+    padding-bottom: 0;
+    padding-top: 0.5rem;
     background-color: unset;
 }
 
 .alert-card h2 .btn {
     font-weight: 700;
-    border-radius: 0;   
+    border-radius: 0;
+    margin-bottom: 0.25rem;
 }
 
 .alert-card .card-body {
