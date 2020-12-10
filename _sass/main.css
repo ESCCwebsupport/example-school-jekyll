@@ -1040,7 +1040,7 @@ div.accordion .card-header {
     margin-top: .5rem;
 }
 
-.scrollspy h4 {
+.scrollspy h2 {
     background-color: var(--second-bg-colour);
     padding: 0.3rem;
     border-radius: 0.5rem;
