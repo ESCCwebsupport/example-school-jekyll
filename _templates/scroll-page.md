@@ -1,5 +1,5 @@
 ---
-layout: content-page
+layout: scroll-page
 title:
 slug:
 published: false

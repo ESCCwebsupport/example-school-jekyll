@@ -40,7 +40,7 @@ collections:
         icon: photo_album
         href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_gallery-page.md"
       - name: Add scroll page
-        icon: view_sidebar
+        icon: vertical_split
         href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_scroll-page.md"
   school-information:
     _hide_content: false
