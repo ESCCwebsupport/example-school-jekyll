@@ -1,7 +1,7 @@
 <div data-i18n="{{ page.title | slugify }}_scroll-content">
     <div id="contents" data-target="#list" data-offset="0" class="scrollspy">
         {% for scrollspy in page.scroll-section %}
-        <h4 class="mb-md-4 mb-3"id="{{ scrollspy.header | handle | slugify }}">{{ scrollspy.header }}</h4>
+        <h2 class="mb-md-4 mb-3"id="{{ scrollspy.header | handle | slugify }}">{{ scrollspy.header }}</h2>
         <div class="scroll-content">
             {{ scrollspy.content_markdown | markdownify }}
         </div>
