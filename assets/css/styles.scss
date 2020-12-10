@@ -92,3 +92,7 @@ blockquote {
 .landing-btn, .link-btn {
     @include font-size(1.25rem);
 }
+
+.scrollspy h2 {
+    @include font-size(2rem)
+}

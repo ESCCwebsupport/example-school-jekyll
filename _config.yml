@@ -42,6 +42,9 @@ collections:
       - name: Add scroll page
         icon: vertical_split
         href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_scroll-page.md"
+      - name: Add expanding sections page
+        icon: vertical_split
+        href: "cloudcannon:explore/_curriculum/.md🆕/_templates/_accordion-page.md"
   school-information:
     _hide_content: false
     output: true
