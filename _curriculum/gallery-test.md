@@ -15,7 +15,7 @@ gallery:
         alt_text: Image 1 alt text
       - image: 'https://unsplash.it/1200/768.jpg?image=258'
         thumbnail: 'https://unsplash.it/600.jpg?image=258'
-        caption_text:
+        caption_text: Another image goes here.
         alt_text:
       - image: /assets/media/report-absence/absence.jpg
         thumbnail: /assets/media/school meals/90s.jpg
