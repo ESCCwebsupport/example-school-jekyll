@@ -15,9 +15,8 @@ plugins:
 algolia:
   application_id: 'GS6YCBDMKW'
   index_name: 'st_invictas'
-  settings:
-    files_to_exclude:
-      - collections/_alerts/*
+  files_to_exclude:
+    - ./_alerts/*
 
 uploads_dir: "/assets/media/:title"
 
@@ -164,6 +163,13 @@ _array_structures:
         square-thumbnail_image:
         caption_text:
         alt_text:
+  expandable-section:
+    values:
+      label: Expandable section
+      icon: unfold_less
+      value:
+        header:
+        content_markdown:
 
 _comments:
   thumbnail: A square image for the gallery's thumbnail
