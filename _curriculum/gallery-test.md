@@ -9,19 +9,19 @@ gallery:
   - heading: Gallery 1
     introduction_markdown: This is the first gallery for our page.
     images:
-      - image: /assets/media/gallery/school-closures-error.JPG
-        thumbnail: 'https://unsplash.it/600.jpg?image=251'
+      - image: 'https://unsplash.it/1100/768.jpg?image=256'
+        thumbnail: 'https://unsplash.it/600.jpg?image=256'
         caption_text: See the first image
         alt_text: Image 1 alt text
-      - image: /assets/media/gallery/school-closures-error.JPG
-        thumbnail: /assets/media/gallery/daily-update-236x198px-8-12.jpg
+      - image: 'https://unsplash.it/1200/768.jpg?image=258'
+        thumbnail: 'https://unsplash.it/600.jpg?image=258'
         caption_text:
         alt_text:
       - image: /assets/media/report-absence/absence.jpg
         thumbnail: /assets/media/school meals/90s.jpg
         caption_text: Taking your temperature
         alt_text: Taking your temperature
-  - heading: Gallery 2 superfluous
+  - heading: Gallery 2
     introduction_markdown: |-
       This is the second gallery for our page.
 
