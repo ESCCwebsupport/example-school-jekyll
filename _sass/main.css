@@ -517,6 +517,10 @@ blockquote {
     }
 }
 
+.no-underline:hover {
+    text-decoration: none;
+}
+
 /*--- image gallery ---*/
 
 .image-gallery {

@@ -12,8 +12,8 @@
 <div class=" col-12 pl-0 pr-0">
     <div class="row">
         {% for image in gallery.images %}
-        <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="example-gallery" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box">
-            <figure class="figure">
+        <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="example-gallery" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box no-underline">
+            <figure>
                 <img src="{{ image.thumbnail }}" alt="{{ image.alt_text }}" class="img-fluid">
                 {% if image.caption_text %}<figcaption class="figure-caption"><i class="fas fa-camera"></i>{{ image.caption_text }}</figcaption>{% endif %}
             </figure>
@@ -25,30 +25,3 @@
 </section>
 
 {% endfor %}
-
-<div class="row justify-content-center">
-    <div class="col-md-8 pb-3">
-        <div class="row">
-            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pb-3">
-                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-            </a>
-        </div>
-        <div class="row">
-            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-            </a>
-        </div>
-    </div>
-</div>
