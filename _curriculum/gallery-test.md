@@ -9,7 +9,7 @@ gallery:
   - heading: Gallery 1
     introduction_markdown: This is the first gallery for our page.
     images:
-      - image: 'https://unsplash.it/1100/768.jpg?image=256'
+      - image: 'https://unsplash.it/1200/768.jpg?image=256'
         thumbnail: 'https://unsplash.it/600.jpg?image=256'
         caption_text: See the first image
         alt_text: Image 1 alt text
