@@ -96,3 +96,7 @@ blockquote {
 .scrollspy h2 {
     @include font-size(2rem)
 }
+
+.accordion h2 {
+    @include font-size(1.5rem);
+}
