@@ -160,7 +160,7 @@ _array_structures:
       icon: image
       value:
         image:
-        square-thumbnail_image:
+        thumbnail:
         caption_text:
         alt_text:
   expandable-section:
