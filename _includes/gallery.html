@@ -8,8 +8,7 @@
     {{ gallery.introduction_markdown | markdownify }}
 </div>
 {% endif %}
-<div class="row justify-content-left"></div>
-<div class=" col-12 pl-0 pr-0">
+<div class="justify-content-left col-12 pl-0 pr-0">
     <div class="row">
         {% for image in gallery.images %}
         <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="{{ gallery.heading | slugify }}" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box no-underline">
@@ -20,7 +19,6 @@
         </a>
         {% endfor %}
     </div>
-</div>
 </div>
 </section>
 
