@@ -144,11 +144,6 @@ collections:
     output: true
     permalink: /news/:year/:month/:day/:title/
 
-_add_options:
-  - name: Add something page
-    icon: format_line_spacing
-    href: "cloudcannon::editor/:collections_dir/.md🆕/_templates/_accordion-page.md"
-
 _options:
 
   layout:
