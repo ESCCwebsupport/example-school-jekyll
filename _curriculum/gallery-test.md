@@ -18,7 +18,7 @@ gallery:
         caption_text: Another image goes here.
         alt_text:
       - image: /assets/media/report-absence/absence.jpg
-        thumbnail: /assets/media/school meals/90s.jpg
+        thumbnail: /assets/media/report-absence/absence.jpg
         caption_text: Taking your temperature
         alt_text: Taking your temperature
   - heading: Gallery 2

@@ -52,26 +52,91 @@ collections:
     output: true
     _icon: info
     permalink: /school-information/:title/
+    _add_options:
+      - name: Add standard page
+        icon: web
+        href: "cloudcannon:explore/_school-information/.md🆕/_templates/_standard-page.md"
+      - name: Add gallery page
+        icon: photo_album
+        href: "cloudcannon:explore/_school-information/.md🆕/_templates/_gallery-page.md"
+      - name: Add scroll page
+        icon: vertical_split
+        href: "cloudcannon:explore/_school-information/.md🆕/_templates/_scroll-page.md"
+      - name: Add expanding sections page
+        icon: format_line_spacing
+        href: "cloudcannon:explore/_school-information/.md🆕/_templates/_accordion-page.md"
   school-life:
     _hide_content: false
     output: true
     _icon: school
     permalink: /school-life/:title/
+    _add_options:
+      - name: Add standard page
+        icon: web
+        href: "cloudcannon:explore/_school-life/.md🆕/_templates/_standard-page.md"
+      - name: Add gallery page
+        icon: photo_album
+        href: "cloudcannon:explore/_school-life/.md🆕/_templates/_gallery-page.md"
+      - name: Add scroll page
+        icon: vertical_split
+        href: "cloudcannon:explore/_school-life/.md🆕/_templates/_scroll-page.md"
+      - name: Add expanding sections page
+        icon: format_line_spacing
+        href: "cloudcannon:explore/_school-life/.md🆕/_templates/_accordion-page.md"
   send:
     _hide_content: false
     output: true
     _icon: escalator_warning
     permalink: /send/:title/
+    _add_options:
+      - name: Add standard page
+        icon: web
+        href: "cloudcannon:explore/_send/.md🆕/_templates/_standard-page.md"
+      - name: Add gallery page
+        icon: photo_album
+        href: "cloudcannon:explore/_send/.md🆕/_templates/_gallery-page.md"
+      - name: Add scroll page
+        icon: vertical_split
+        href: "cloudcannon:explore/_send/.md🆕/_templates/_scroll-page.md"
+      - name: Add expanding sections page
+        icon: format_line_spacing
+        href: "cloudcannon:explore/_send/.md🆕/_templates/_accordion-page.md"
   staff:
     _hide_content: false
     output: true
     _icon: groups
     permalink: /staff/:title/
+    _add_options:
+      - name: Add standard page
+        icon: web
+        href: "cloudcannon:explore/_staff/.md🆕/_templates/_standard-page.md"
+      - name: Add gallery page
+        icon: photo_album
+        href: "cloudcannon:explore/_staff/.md🆕/_templates/_gallery-page.md"
+      - name: Add scroll page
+        icon: vertical_split
+        href: "cloudcannon:explore/_staff/.md🆕/_templates/_scroll-page.md"
+      - name: Add expanding sections page
+        icon: format_line_spacing
+        href: "cloudcannon:explore/_staff/.md🆕/_templates/_accordion-page.md"
   policies:
     _hide_content: false
     output: true
     _icon: description
     permalink: /policies/:title/
+    _add_options:
+      - name: Add standard page
+        icon: web
+        href: "cloudcannon:explore/_policies/.md🆕/_templates/_standard-page.md"
+      - name: Add gallery page
+        icon: photo_album
+        href: "cloudcannon:explore/_policies/.md🆕/_templates/_gallery-page.md"
+      - name: Add scroll page
+        icon: vertical_split
+        href: "cloudcannon:explore/_policies/.md🆕/_templates/_scroll-page.md"
+      - name: Add expanding sections page
+        icon: format_line_spacing
+        href: "cloudcannon:explore/_policies/.md🆕/_templates/_accordion-page.md"
   posts:
     _enabled_editors:
       - content
