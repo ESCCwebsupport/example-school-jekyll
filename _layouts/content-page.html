@@ -18,13 +18,14 @@
                     <div id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
                     {% if page.button.button_link %}
                     {% include link-button.html %}
+                    {% endif %}
                 </div>
                 <div class="col-lg-4 col-sm-12" id="right-section">
                 </div>
             </div>
         </div>
     </section>
-    
+
     {% include footer.html %}
     {% include scripts.html %}
 
