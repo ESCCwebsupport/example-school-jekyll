@@ -4,6 +4,8 @@ permalink: pretty
 lang: en_GB
 timezone: Europe/London
 
+exclude: [vendor]
+
 url:
 
 plugins:
