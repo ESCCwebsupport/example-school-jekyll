@@ -19,10 +19,23 @@
         </div>
             <div class="d-flex flex-wrap mt-2 row no-gutters">
                 {% for link in page.page-links %}
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 mb-md-3 px-md-2 px-0">
+                {% assign mod3 = forloop.index | modulo: 3 %}
+                {% if mod3 == 1 %}
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 mb-md-3 pl-0 pr-md-2">
                     <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}"
                         class="btn btn-primary btn-lg btn-block btn-school-main landing-btn text-left align-items-center d-flex">{{ link.name }}<i class="fas fa-chevron-right float-right pl-3 mr-0 ml-auto"></i></a>
                 </div>
+                {% elsif mod3 == 2 %}
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 mb-md-3 pl-0 pl-md-1 pr-md-1">
+                    <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}"
+                        class="btn btn-primary btn-lg btn-block btn-school-main landing-btn text-left align-items-center d-flex">{{ link.name }}<i class="fas fa-chevron-right float-right pl-3 mr-0 ml-auto"></i></a>
+                </div>
+                {% elsif mod3 == 0 %}
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 mb-md-3 pl-0 pl-md-2 pr-md-0">
+                    <a data-i18n="{{ page.title | slugify }}_{{ link.name | slugify }}_button" href="{{ link.link }}"
+                        class="btn btn-primary btn-lg btn-block btn-school-main landing-btn text-left align-items-center d-flex">{{ link.name }}<i class="fas fa-chevron-right float-right pl-3 mr-0 ml-auto"></i></a>
+                </div>
+                {% endif %}
 
                 {% endfor %}
 
