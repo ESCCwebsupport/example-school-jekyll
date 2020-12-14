@@ -260,3 +260,5 @@ $('.closeall').click(function () {
   $('.content-accordion .card .collapse').collapse('hide');
 });
 };
+
+stickybits('.left-list');
