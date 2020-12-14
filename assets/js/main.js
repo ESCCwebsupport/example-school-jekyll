@@ -262,4 +262,4 @@ $('.closeall').click(function () {
 };
 
 var stickyElements = document.querySelectorAll('.sticky');
-Stickyfill.add('.left-list');
+Stickyfill.add(stickyElements);
