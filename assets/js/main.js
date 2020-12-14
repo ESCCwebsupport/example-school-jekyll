@@ -261,4 +261,5 @@ $('.closeall').click(function () {
 });
 };
 
-stickybits('.left-list');
+var stickyElements = document.querySelectorAll('.sticky');
+Stickyfill.add('.left-list');
