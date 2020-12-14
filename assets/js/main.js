@@ -261,4 +261,4 @@ $('.closeall').click(function () {
 });
 };
 
-stickybits('#list');
+stickybits('.left-list');
