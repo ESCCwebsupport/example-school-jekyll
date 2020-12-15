@@ -260,6 +260,3 @@ $('.closeall').click(function () {
   $('.content-accordion .card .collapse').collapse('hide');
 });
 };
-
-var stickyElements = document.querySelectorAll('.left-list');
-Stickyfill.add(stickyElements);

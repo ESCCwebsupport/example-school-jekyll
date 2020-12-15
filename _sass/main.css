@@ -802,6 +802,15 @@ p img {
     clear: both;
 }
 
+.fc table {
+    margin-bottom: 0;
+}
+
+.fc thead {
+    color: #fff;
+    background-color: var(--school-primary-colour);
+}
+
 table {
     width: 100%;
     margin-bottom: 1rem;
