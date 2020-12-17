@@ -100,3 +100,7 @@ blockquote {
 .content-accordion h2 .btn {
     @include font-size(1.25rem);
 }
+
+.fc h2.fc-toolbar-title {
+    @include font-size(2rem);
+}

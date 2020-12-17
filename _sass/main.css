@@ -10,6 +10,7 @@
     --govuk-highlight-colour: #fd0;
     --navbar-text-colour: rgb(29, 29, 29);
     --alert-background: rgba(221, 255, 0, 0.3);
+    --fc-today-bg-color: rgba(255,220,40,.25);
 }
 
 html {
@@ -802,6 +803,8 @@ p img {
     clear: both;
 }
 
+/*-- fullcalendar --*/
+
 .fc table {
     margin-bottom: 0;
 }
@@ -809,6 +812,18 @@ p img {
 .fc thead {
     color: #fff;
     background-color: var(--school-primary-colour);
+}
+
+.modal-footer .btn a {
+    color: #fff;
+}
+
+.modal-footer .btn a:hover {
+    text-decoration: none;
+}
+
+.modal-body {
+    padding: 0.5rem 1rem;
 }
 
 table {
