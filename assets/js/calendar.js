@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hour12: false,
         },
         displayEventTime: false,
+        dayMaxEvents: true,
         eventSources: [
             {
                 googleCalendarId: '2g2ibtamvviu6jctgl6j6su340@group.calendar.google.com',
@@ -38,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             defaultView: {
                 type: 'dayGridMonth',
-
             },
         },
         initialView: mobileCheck() ? 'newView' : 'dayGridMonth',
