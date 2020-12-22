@@ -17,11 +17,13 @@ document.addEventListener('DOMContentLoaded', function () {
             hour12: false,
         },
         displayEventTime: false,
-        dayMaxEvents: true,
+        dayMaxEvents: 2,
+        contentHeight: 'auto',
         eventSources: [
             {
                 googleCalendarId: '2g2ibtamvviu6jctgl6j6su340@group.calendar.google.com',
-                color: 'green'
+                color: 'var(--fc-bg-colour-1)',
+                textColor: '#000',
             },
             {
                 googleCalendarId: 'en.uk#holiday@group.v.calendar.google.com'
@@ -32,13 +34,25 @@ document.addEventListener('DOMContentLoaded', function () {
             newView: {
                 /* responsive view */
                 type: 'listWeek',
-                dayHeaderFormat: {
-                    weekday: 'short',
-                },
                 displayEventTime: true,
             },
             defaultView: {
                 type: 'dayGridMonth',
+            },
+            dayGridWeek: {
+                dayHeaderFormat: {
+                    weekday: 'short'
+                },
+            },
+            timeGridWeek: {
+                dayHeaderFormat: {
+                    weekday: 'short'
+                },
+                slotMinTime: '08:00:00',
+                slotMaxTime: '18:00:00',
+            },
+            listWeek: {
+                displayEventTime: true,
             },
         },
         initialView: mobileCheck() ? 'newView' : 'dayGridMonth',
@@ -53,17 +67,23 @@ document.addEventListener('DOMContentLoaded', function () {
         themeSystem: 'bootstrap',
         height: '100vh',
         businessHours: {
-            daysOfWeek: [1, 2, 3, 4, 5]
+            daysOfWeek: [1, 2, 3, 4, 5],
+            startTime: '08:00',
+            endTime: '18:00',
         },
         firstDay: 1,
         headerToolbar: {
-            left: 'title',
+            center: 'title',
             end: 'today prev,next',
-            center: ''
+            start: 'dayGridMonth,timeGridWeek,listWeek'
+        },
+        footerToolbar: {
+            // start: 'dayGridWeek dayGridMonth listWeek'
         },
         dayHeaderFormat: {
-            weekday: 'long',
+            weekday: 'short',
         },
+        nowIndicator: true,
 
         eventClick: function (info, jsEvent, view) {
             info.jsEvent.preventDefault();

@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Oxygen:400,700&display=swap");
 :root {
     --main-bg-colour: #fff;
-    --second-bg-colour: rgb(223, 223, 223);
+    --second-bg-colour: rgba(223, 223, 223, 1);
     --school-primary-colour: rgba(30, 79, 240, 1);
     --school-primary-colour-lighterbg: rgba(30, 79, 240, 0.9);
     --school-primary-colour-light: rgba(220, 237, 255, 1);
-    --footer-bg-colour: rgb(160, 160, 160);
-    --footer-text-colour: rgb(40, 40, 40);
+    --footer-bg-colour: rgba(160, 160, 160, 1);
+    --footer-text-colour: rgba(40, 40, 40, 1);
     --govuk-highlight-colour: #fd0;
-    --navbar-text-colour: rgb(29, 29, 29);
+    --navbar-text-colour: rgba(29, 29, 29, 1);
     --alert-background: rgba(221, 255, 0, 0.3);
     --fc-today-bg-color: rgba(255,220,40,.25);
+    --fc-bg-colour-1: rgb(35, 230, 100);
 }
 
 html {
@@ -825,6 +826,55 @@ p img {
 .modal-body {
     padding: 0.5rem 1rem;
 }
+
+.fc .fc-daygrid-day-number {
+    font-size: 1rem;
+}
+
+/* .fc-toolbar-chunk {
+    width: 33.33%;
+} */
+
+/* .fc-dayGridWeek-button {
+    margin-right: 0;
+}
+
+.fc-dayGridMonth-button {
+    margin-right: 0;
+}
+
+.fc-listWeek-button {
+    float: right;
+} */
+
+
+@media (max-width: 768px) {
+    .fc .fc-toolbar.fc-header-toolbar {
+        display: block;
+        text-align: center;
+    }
+
+    .fc-header-toolbar .fc-toolbar-chunk {
+        display: block;
+        padding: 0.25rem;
+    }
+
+    .fc-toolbar-chunk {
+        width: unset;
+    }
+
+    .fc-listWeek-button {
+        float: none;
+    }
+    .fc-dayGridMonth-button {
+        float: none;
+    }
+    .fc-dayGridWeek-button {
+        float: none;
+    }
+}
+
+/*-- table --*/
 
 table {
     width: 100%;

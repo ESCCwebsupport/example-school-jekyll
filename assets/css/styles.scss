@@ -104,3 +104,15 @@ blockquote {
 .fc h2.fc-toolbar-title {
     @include font-size(2rem);
 }
+
+.fc-toolbar-chunk .btn-group .btn:first-child {
+    @extend .rounded-left;
+}
+
+.fc-toolbar-chunk .btn-group .btn:last-child {
+    @extend .rounded-right;
+}
+
+.fc-today-button {
+    @extend .rounded;
+}
