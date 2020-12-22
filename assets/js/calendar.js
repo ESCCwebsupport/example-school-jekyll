@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
             start: 'dayGridMonth,timeGridWeek,listWeek'
         },
         footerToolbar: {
-            // start: 'dayGridWeek dayGridMonth listWeek'
+            start: 'dayGridMonth,timeGridWeek,listWeek'
         },
         dayHeaderFormat: {
             weekday: 'short',

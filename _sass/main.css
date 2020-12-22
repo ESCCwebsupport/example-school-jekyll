@@ -831,25 +831,16 @@ p img {
     font-size: 1rem;
 }
 
-/* .fc-toolbar-chunk {
-    width: 33.33%;
-} */
-
-/* .fc-dayGridWeek-button {
-    margin-right: 0;
+.fc-footer-toolbar {
+    display: none !important;
 }
 
-.fc-dayGridMonth-button {
-    margin-right: 0;
+#calendar .fc-daygrid-body tr, #calendar .fc-daygrid-body td {
+    border: 2px solid #dee2e6;
 }
-
-.fc-listWeek-button {
-    float: right;
-} */
-
 
 @media (max-width: 768px) {
-    .fc .fc-toolbar.fc-header-toolbar {
+    .fc .fc-toolbar.fc-header-toolbar, .fc .fc-toolbar.fc-footer-toolbar {
         display: block;
         text-align: center;
     }
@@ -863,14 +854,12 @@ p img {
         width: unset;
     }
 
-    .fc-listWeek-button {
-        float: none;
+    .fc-header-toolbar .fc-toolbar-chunk:first-child {
+        display: none;
     }
-    .fc-dayGridMonth-button {
-        float: none;
-    }
-    .fc-dayGridWeek-button {
-        float: none;
+
+    .fc-footer-toolbar {
+        display: block !important;
     }
 }
 
