@@ -1,4 +1,24 @@
-<div class="masthead d-sm-none" style="background-image:url('{{ page.mobile_header_image }}');">
-</div>
-<div class="masthead d-none d-sm-block" style="background-image:url('{{ page.header_image }}');">
-</div>
+<div class="masthead"></div>
+
+<!-- Pick which image is used -->
+
+<script>
+
+    var mobileImage = '{{ page.mobile_header_image }}';
+    var image = '{{ page.header_image }}';
+
+    function mobileCheck() {
+        if (window.innerWidth <= 768) {
+            document.querySelector('.masthead').style.backgroundImage = `url(${mobileImage})`;
+            return true;
+        } else {
+            document.querySelector('.masthead').style.backgroundImage = `url(${image})`;
+            return false;
+        }
+    };
+
+    mobileCheck();
+    window.addEventListener('resize', mobileCheck);
+
+
+</script>

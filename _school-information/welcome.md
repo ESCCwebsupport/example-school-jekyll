@@ -4,6 +4,7 @@ title: Head's welcome
 slug: welcome
 published: true
 header_image: /assets/images/head.jpg
+mobile_header_image: /assets/images/head_square.jpg
 file_path:
 description: A warm welcome to St. Invicta's from our headteacher, Mrs Madeup.
 button:

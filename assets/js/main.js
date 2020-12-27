@@ -71,7 +71,6 @@ $( document ).ready(function() {
 });
 
 
-
 // scrollspy //
 
 // reorder the two layout sections  and start spying if page has a scrollspy class on it
