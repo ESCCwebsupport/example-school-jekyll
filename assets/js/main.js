@@ -128,11 +128,11 @@ if (document.getElementById('mapPopup') !== null) {
   var mapRan = false;
   $('#mapPopup').click(function () {
     if (openOrClosed.classList.contains('show')) {
-      buttonText = `Show map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
+      buttonText = `Show us on map<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
       document.getElementById('mapPopup').innerHTML = buttonText;
       startMap();
     }
-    else buttonText = `Hide map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
+    else buttonText = `Hide map<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
     document.getElementById('mapPopup').innerHTML = buttonText;
     startMap();
   })
