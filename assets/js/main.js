@@ -120,15 +120,16 @@ $('.closeall').click(function () {
 });
 };
 
-if (document.querySelector('.map-container') !== null) {
-  $('#mapPopup').click(initMap);
+if (document.getElementById('mapPopup') !== null) {
   var buttonText = document.getElementById('mapPopup').innerHTML;
+  var openOrClosed = document.getElementById('collapseMap');
   $('#mapPopup').click(function () {
-    if (buttonText === `Show map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`) {
-      buttonText = `Hide map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`
+    if (openOrClosed.classList.contains('show')) {
+      buttonText = `Show map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
       document.getElementById('mapPopup').innerHTML = buttonText;
     }
-    else buttonText = `Show map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
+    else buttonText = `Hide map of school<i class="fa float-right mr-0 ml-auto pl-3"></i>`;
     document.getElementById('mapPopup').innerHTML = buttonText;
   })
+  $('#mapPopup').click(initMap);
 };
