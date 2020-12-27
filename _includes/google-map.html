@@ -1,0 +1,52 @@
+<button id="mapPopup" class="btn btn-outline-info btn-lg collapsed text-left btn-block col-12 col-md-6 align-items-center d-flex gov-box" type="button" data-toggle="collapse" href="#collapseMap" aria-expanded="false" aria-controls="collapseMap">Show map of school<i class="fa float-right mr-0 ml-auto pl-3"></i></button>
+<div class="collapse" id="collapseMap">
+<div class="map-container">
+    <div id="map"></div>
+</div>
+</div>
+
+<script>
+
+var map;
+
+const schoolLocation = { lat: {{ site.latitude }}, lng: {{ site.longitude }}};
+
+function initMap() {
+
+
+map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: schoolLocation,
+});
+
+let request = {
+    placeId: '{{ site.placeID }}',
+    fields: ["name", "formatted_address", "place_id", "geometry"],
+};
+
+const infowindow = new google.maps.InfoWindow();
+const service = new google.maps.places.PlacesService(map);
+service.getDetails(request, (place, status) => {
+if (status === google.maps.places.PlacesServiceStatus.OK) {
+  const marker = new google.maps.Marker({
+    map,
+    position: place.geometry.location,
+  });
+  google.maps.event.addListener(marker, "click", function () {
+    infowindow.setContent(
+      "<div><strong>" +
+        place.name +
+        "</strong><br>" +
+        "<br>" +
+        place.formatted_address +
+        "</div>"
+    );
+    infowindow.open(map, this);
+  });
+}
+});
+}
+
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&libraries=places&v=weekly"></script>

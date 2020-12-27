@@ -8,6 +8,11 @@ exclude: [vendor]
 
 url:
 
+google_maps_javascript_api_key: "AIzaSyB9vpU247qEfVCHWJZU5rpY2F6fPrmgIXw"
+placeID: ChIJ1wUDM_Fy30cRTs_DkN-Sh6I
+latitude: 50.81773
+longitude: 0.32846
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

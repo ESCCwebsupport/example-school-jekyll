@@ -14,6 +14,16 @@
     --fc-bg-colour-1: rgb(35, 230, 100);
 }
 
+.map-container {
+    height: 400px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 html {
     overflow-y: scroll;
 }
@@ -774,6 +784,11 @@ li:not(.lunrsearchresult) a:focus:not(.nav-link):not(.navbar-brand):not(.footer-
     text-decoration: none;
 }
 
+.hr-dashed {
+    color: rgba(92, 92, 92, 1);
+    border-top: 2px dashed;
+}
+
 /*-- image options in editor --*/
 
 p img {
@@ -1003,6 +1018,13 @@ div.content-accordion .card-header {
     top: 0.25rem;
 }
 
+#mapPopup[data-toggle="collapse"] .fa:before {
+    content: "\f106";
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
+}
+
 .team [data-toggle="collapse"].collapsed .fa:before {
     content: "\f107";
     position: relative;
@@ -1016,6 +1038,13 @@ div.content-accordion .card-header {
     padding-right: 0.25rem;
     padding-left: 0.5rem;
     top: 0.25rem;
+}
+
+#mapPopup[data-toggle="collapse"].collapsed .fa:before {
+    content: "\f107";
+    position: relative;
+    padding-right: 0.25rem;
+    padding-left: 0.5rem;
 }
 
 .accordion h5 .btn, .accordion h2 .btn {

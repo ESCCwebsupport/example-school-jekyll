@@ -23,7 +23,7 @@ quick-links:
     link: /
 ---
 
-<header class="masthead home h-100">
+<header class="masthead home h-100 is-homepage">
     <div id="homepage-images" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="6000">
         <div class="description">
             <h1>Welcome to St. Invicta's!</h1>
@@ -98,13 +98,8 @@ quick-links:
             <div class="col-lg-8 col-sm-12 mb-4">
                 <h5 class="mb-4">School calendar</h5>
 
-                <div class="d-none d-sm-block">
-                    <iframe class="lazyload" title="School Calendar" src="" data-src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23c4e9ff&amp;ctz=Europe%2FLondon&amp;src=MmcyaWJ0YW12dml1NmpjdGdsNmo2c3UzNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;color=%233F51B5&amp;showNav=1&amp;showTabs=1&amp;mode=MONTH&amp;showPrint=0&amp;showTitle=0&amp;showTz=0&amp;hl=en_GB" style="border-width:0" width="800" height="600"></iframe>
-                </div>
-
-                <div class="d-sm-none mob-calendar">
-                    <iframe class="lazyload" title="School Calendar mobile" src="" data-src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23c4e9ff&amp;ctz=Europe%2FLondon&amp;src=MmcyaWJ0YW12dml1NmpjdGdsNmo2c3UzNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;color=%233F51B5&amp;showNav=1&amp;showTabs=0&amp;mode=AGENDA&amp;showPrint=0&amp;showTitle=0&amp;showTz=0&amp;hl=en_GB&amp;showDate=0" style="border:solid 1px #777" width="800" height="600"></iframe>
-                </div>
+                <div id="calendar"></div>
+                {% include calendar-modal.html %}
             </div>
             <div class="col-lg-4 col-sm-12 editable">
                 <h5 class="text-center mb-4 home-text">Quick links</h5>

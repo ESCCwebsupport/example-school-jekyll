@@ -3,7 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     /* Create function to initialize the correct view */
     function mobileCheck() {
         if (window.innerWidth >= 768) {
-            return false;
+            if (document.querySelector('.is-homepage') !== null) {
+                return true;
+            }
+            else return false;
         } else {
             return true;
         }
@@ -58,8 +61,13 @@ document.addEventListener('DOMContentLoaded', function () {
         initialView: mobileCheck() ? 'newView' : 'dayGridMonth',
         windowResize: function (view) {
             if (window.innerWidth >= 768) {
-                calendar.changeView('defaultView');
-                /* More code */
+                if (document.querySelector('.is-homepage') !== null) {
+                    calendar.changeView('newView');
+                    return;
+                }
+                else {
+                    calendar.changeView('defaultView');
+                }
             } else {
                 calendar.changeView('newView');
             }
@@ -109,8 +117,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     endDate = FullCalendarMoment.toMoment(info.event.end, calendar).format("to dddd D MMMM YYYY");
                 }
                 endDate = "";
-                startTime = FullCalendarMoment.toMoment(info.event.start, calendar).format(": HH:mm");
-                endTime = FullCalendarMoment.toMoment(info.event.end, calendar).format(" to HH:mm");
+                startTime = FullCalendarMoment.toMoment(info.event.start, calendar).format(" - HH:mm");
+                endTime = " until " + FullCalendarMoment.toMoment(info.event.end, calendar).format("HH:mm");
             }
 
             let eventTimeString = startDate + startTime + endDate + endTime;
