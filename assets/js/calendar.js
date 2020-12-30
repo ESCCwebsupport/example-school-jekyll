@@ -59,19 +59,19 @@ document.addEventListener('DOMContentLoaded', function () {
             },
         },
         initialView: mobileCheck() ? 'newView' : 'dayGridMonth',
-        windowResize: function (view) {
-            if (window.innerWidth >= 768) {
-                if (document.querySelector('.is-homepage') !== null) {
-                    calendar.changeView('newView');
-                    return;
-                }
-                else {
-                    calendar.changeView('defaultView');
-                }
-            } else {
-                calendar.changeView('newView');
-            }
-        },
+        // windowResize: function (view) {
+        //     if (window.innerWidth >= 768) {
+        //         if (document.querySelector('.is-homepage') !== null) {
+        //             calendar.changeView('newView');
+        //             return;
+        //         }
+        //         else {
+        //             calendar.changeView('defaultView');
+        //         }
+        //     } else {
+        //         calendar.changeView('newView');
+        //     }
+        // },
         themeSystem: 'bootstrap',
         height: '100vh',
         businessHours: {
