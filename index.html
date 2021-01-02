@@ -96,13 +96,13 @@ quick-links:
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-sm-12 mb-4">
-                <h5 class="mb-4">School calendar</h5>
+                <h2 class="mb-4">School calendar</h2>
 
                 <div id="calendar"></div>
                 {% include calendar-modal.html %}
             </div>
             <div class="col-lg-4 col-sm-12 editable">
-                <h5 class="text-center mb-4 home-text">Quick links</h5>
+                <h2 class="text-center mb-4 home-text">Quick links</h2>
                 {% for link in page.quick-links %}
                 <div class="pb-2"><a class="btn btn-success btn-md btn-block btn-school-main" href="{{ link.link }}">{{ link.link-text }}</a></div>
                 {% endfor %}

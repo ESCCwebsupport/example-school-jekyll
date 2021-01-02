@@ -12,6 +12,8 @@
     --alert-background: rgba(221, 255, 0, 0.3);
     --fc-today-bg-color: rgba(255,220,40,.25);
     --fc-bg-colour-1: rgb(35, 230, 100);
+    --fc-bg-colour-2: rgb(93, 209, 255);
+    --fc-bg-colour-3: rgb(230, 168, 62);
 }
 
 .map-container {
@@ -877,6 +879,24 @@ p img {
         display: block !important;
     }
 }
+
+#fullCalModal span.fas, #fullCalModal span.far {
+    font-size: 1.25rem;
+    padding-right: 0.5rem;
+}
+
+#fullCalModal span.fa-calendar-day {
+    color: rgba(255, 0, 0, 1);
+}
+
+#fullCalModal span.fa-clock {
+    color: rgba(0, 0, 255, 1);
+}
+
+#fullCalModal span.fa-chalkboard-teacher {
+    color: rgba(0, 164, 0, 1);
+}
+
 
 /*-- table --*/
 
