@@ -79,7 +79,7 @@ p {
 
 .navbar-nav li a {
     padding: 0px 15px;
-    margin: 5px 0 2px 0;
+    margin: 5px 0 5px 0;
     border-bottom: 3px;
     border-color: transparent;
     border-bottom-style: solid;
@@ -726,7 +726,7 @@ a.btn-card {
 /*--- icons ---*/
 
 p {
-    i.fa, i.fas, i.far {
+    i.fa, i.fas, i.far, span.fa, span.fas, span.fa {
         font-size: 1.6rem;
         margin-right: 8px;
     }

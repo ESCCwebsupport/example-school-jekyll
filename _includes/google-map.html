@@ -1,4 +1,4 @@
-<button id="mapPopup" class="btn btn-outline-info btn-md collapsed text-left btn-block col-12 col-md-6 align-items-center d-flex gov-box stretched-link" type="button" data-toggle="collapse" href="#collapseMap" aria-expanded="false" aria-controls="collapseMap">Show us on map<i class="fa float-right mr-0 ml-auto pl-3"></i></button>
+<button id="mapPopup" class="btn btn-outline-info btn-md collapsed text-left btn-block col-12 col-md-6 align-items-center d-flex gov-box stretched-link showHide" type="button" data-toggle="collapse" href="#collapseMap" aria-expanded="false" aria-controls="collapseMap">Show map<i class="fa float-right mr-0 ml-auto pl-3"></i></button>
 
 <div class="collapse" id="collapseMap">
 <div class="map-container">
@@ -10,7 +10,8 @@
 
 var map;
 
-const schoolLocation = { lat: {{ site.latitude }}, lng: {{ site.longitude }}};
+const schoolLocation = { lat: {{ page.map_latitude }}, lng: {{ page.map_longitude }}};
+const markerLocation = '{{ page.map_marker_location }}';
 
 function initMap() {
 
@@ -20,9 +21,24 @@ map = new google.maps.Map(document.getElementById('map'), {
     center: schoolLocation,
 });
 
+var placeIdFinder = {
+    location: map.getCenter(),
+    radius: '500',
+    query: markerLocation,
+  };
+
+  var idFinderService = new google.maps.places.PlacesService(map);
+  idFinderService.textSearch(placeIdFinder, callback);
+
+  function callback(results, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    var placeId = results[0].place_id;
+  };
+
+
 let request = {
-    placeId: '{{ site.placeID }}',
-    fields: ["name", "formatted_address", "place_id", "geometry"],
+    placeId: placeId,
+    fields: ["name", "formatted_address", "place_id", "geometry", "url",],
 };
 
 const infowindow = new google.maps.InfoWindow();
@@ -40,13 +56,15 @@ if (status === google.maps.places.PlacesServiceStatus.OK) {
         "</strong><br>" +
         "<br>" +
         place.formatted_address +
+        "<br><br>" +
+        `<a href="${place.url}">Get directions on Google maps</a>` +
         "</div>"
     );
     infowindow.open(map, this);
   });
 }
 });
-}
+}};
 
 </script>
 

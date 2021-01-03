@@ -9,7 +9,7 @@ exclude: [vendor]
 url:
 
 google_maps_javascript_api_key: "AIzaSyB9vpU247qEfVCHWJZU5rpY2F6fPrmgIXw"
-placeID: ChIJ1wUDM_Fy30cRTs_DkN-Sh6I
+# placeID: ChIJ1wUDM_Fy30cRTs_DkN-Sh6I
 latitude: 50.81773
 longitude: 0.32846
 
@@ -281,6 +281,6 @@ _array_structures:
 
 _comments:
   thumbnail: A square image for the gallery's thumbnail
-  slug: Shortened page URL
+  slug: Shortened page URL (lower case)
   caption_text: Optional text under the image
   alt_text: Required. Describe the image for a screen reader
