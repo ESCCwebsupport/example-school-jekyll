@@ -8,3 +8,7 @@ map_latitude: 50.81773
 map_longitude: 0.32846
 map_marker_location: Pevensey & Westham Primary School
 ---
+
+Email us: [office@stinvictas-school.com](mailto:office@stinvictas-school.com?subject=Website%20contact)
+
+Phone us: [01323 111000](tel:01323111000)
