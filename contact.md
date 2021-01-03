@@ -4,9 +4,9 @@ title: Contact us
 slug: contact
 published: true
 _has_map: true
-map_latitude: 50.81773
-map_longitude: 0.32846
-map_marker_location: Pevensey & Westham Primary School
+map_latitude: 50.76671735192107
+map_longitude: 0.27842880554371274
+map_marker_location: Eastbourne Borough Council
 ---
 
 Email us: [office@stinvictas-school.com](mailto:office@stinvictas-school.com?subject=Website%20contact)
