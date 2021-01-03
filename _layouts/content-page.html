@@ -16,6 +16,9 @@
             <div class="row">
                 <div class="col-lg-8 col-sm-12" id="main-section">
                     <div id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
+                    {% if page._has_map %}
+                    {% include google-map.html %}
+                    {% endif %}
                     {% if page.button.button_link %}
                     {% include link-button.html %}
                     {% endif %}
