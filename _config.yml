@@ -281,3 +281,6 @@ _comments:
   slug: Shortened page URL (lower case)
   caption_text: Optional text under the image
   alt_text: Required. Describe the image for a screen reader
+  description: Required. Summarise the content of the page
+  mobile_header_image: A square (1:1) image
+  header_image: A landscape image with 2.5:1 ratio

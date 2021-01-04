@@ -26,6 +26,10 @@
     position: relative;
 }
 
+.showHide span.fa, .showHide span.fas, .showHide span.far {
+    font-size: 1.5rem;
+}
+
 html {
     overflow-y: scroll;
 }
@@ -39,12 +43,16 @@ body {
     background: var(--main-bg-colour);
 }
 
-body h1, h2, h3, h4, h5, h6 {
+body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
     -webkit-font-smoothing: antialiased;
     clear: both;
     padding: 0.25rem 0 0.25rem 0;
+}
+
+body h2, body h3, body h4, body h5, body h6 {
+    padding: 1.5rem 0 0.25rem 0;
 }
 
 p {
@@ -726,7 +734,7 @@ a.btn-card {
 /*--- icons ---*/
 
 p {
-    i.fa, i.fas, i.far, span.fa, span.fas, span.fa {
+    i.fa, i.fas, i.far {
         font-size: 1.6rem;
         margin-right: 8px;
     }
@@ -1075,6 +1083,10 @@ div.content-accordion .card-header {
     position: relative;
 }
 
+.accordion h5, .accordion h2 {
+    padding-top: 0.25rem;
+}
+
 .card .collapsing {
     -webkit-transition-duration: 0.15s;
     transition-duration: 0.15s;
@@ -1094,6 +1106,7 @@ div.content-accordion .card-header {
 .alert-card .accordion h2 {
     padding-right: 0;
     position: relative;
+    padding-top: 0.25rem;
 }
 
 .alert-card .card {
