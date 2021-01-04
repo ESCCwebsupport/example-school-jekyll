@@ -11,9 +11,9 @@
     --navbar-text-colour: rgba(29, 29, 29, 1);
     --alert-background: rgba(221, 255, 0, 0.3);
     --fc-today-bg-color: rgba(255,220,40,.25);
-    --fc-bg-colour-1: rgb(35, 230, 100);
-    --fc-bg-colour-2: rgb(93, 209, 255);
-    --fc-bg-colour-3: rgb(230, 168, 62);
+    --fc-bg-colour-1: rgba(35, 230, 100, 1);
+    --fc-bg-colour-2: rgba(93, 209, 255, 1);
+    --fc-bg-colour-3: rgba(230, 168, 62, 1);
 }
 
 .map-container {
