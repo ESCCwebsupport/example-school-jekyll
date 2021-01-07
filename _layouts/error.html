@@ -8,11 +8,13 @@
     <section class="container py-3">
         <div class="pb-2">
             <h1 id="skipto" class="mt-2" data-i18n="{{ page.title | slugify }}_title"> {{ page.title}} </h1>
-            <div class="col-12" id="main-section">
-            <div id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
+            <div class="row">
+                <div class="col-12" id="main-section">
+                    <div id="content" data-i18n="{{ page.title | slugify }}_content"> {{ content }}</div>
+                </div>
             </div>
-            </div>
-            </section>
+        </div>
+    </section>
     {% include footer.html %}
     {% include scripts.html %}
 
