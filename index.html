@@ -104,7 +104,7 @@ quick-links:
             <div class="col-lg-4 col-sm-12 editable">
                 <h2 class="text-center mb-4 home-text">Quick links</h2>
                 {% for link in page.quick-links %}
-                <div class="pb-2"><a class="btn btn-success btn-md btn-block btn-school-main" href="{{ link.link }}">{{ link.link-text }}</a></div>
+                <div class="pb-2"><a class="btn btn-success btn-md btn-block btn-school-main text-left align-items-center d-flex" href="{{ link.link }}">{{ link.link-text }}<i class="fas fa-chevron-right float-right pl-3 mr-0 ml-auto"></i></a></div>
                 {% endfor %}
             </div>
         </div>
