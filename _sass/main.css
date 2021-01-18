@@ -58,6 +58,10 @@ p {
     margin-top: 0.3rem;
 }
 
+a {
+  color: #0D6EFD;
+}
+
 /* --- skip content ---*/
 
 .skip-container {
