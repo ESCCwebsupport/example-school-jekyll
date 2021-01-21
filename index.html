@@ -43,7 +43,7 @@ quick-links:
         <!-- The slideshow -->
         <div class="carousel-inner" role="listbox" aria-label="image slider">
           {% for image in page.carousel %}
-            <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" style="background-image:url('{{ image.image }}')" role="img" aria-label="{{ image.alt-text }}">
+            <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}" style="background-image:url('{{ image.image }}')" role="option" aria-label="{{ image.alt-text }}">
             </div>
             {% endfor %}
         </div>
