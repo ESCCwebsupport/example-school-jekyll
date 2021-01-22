@@ -275,6 +275,13 @@ _array_structures:
       value:
         header:
         content_markdown:
+  page-links:
+    values:
+      label: Landing page link
+      icon: link
+      value:
+        name:
+        link:
 
 _comments:
   thumbnail: A square image for the gallery's thumbnail

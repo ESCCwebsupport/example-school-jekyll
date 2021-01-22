@@ -5,6 +5,7 @@ slug: governors
 published: true
 description: St. Invicta's governors are very important to our school. They do some things.
 header_image: /uploads/foto-sushi-6anudmpilw4-unsplash.jpg
+mobile_header_image:
 governors:
   - name: James Governor
     image: /assets/images/head.jpg
