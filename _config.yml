@@ -4,7 +4,7 @@ permalink: pretty
 lang: en_GB
 timezone: Europe/London
 
-exclude: [vendor]
+exclude: [vendor, node_modules]
 
 url:
 
@@ -242,6 +242,27 @@ _options:
     undo: true
     redo: true
     image: false
+
+_explore:
+  groups:
+    - heading: Top level pages and alerts
+      collections:
+        - pages
+        - alerts
+    - heading: Sections
+      collections:
+        - curriculum
+        - school-information
+        - school-life
+        - send
+        - staff
+        - policies
+    - heading: News
+      collections:
+        - posts
+    - heading: Data
+      collections:
+        - data
 
 _array_structures:
   gallery:
