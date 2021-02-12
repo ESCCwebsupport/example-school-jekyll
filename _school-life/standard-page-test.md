@@ -19,7 +19,7 @@ Seems to have everything in place like it should?
 
 ### Does it?
 
-Yes I think so.
+Yes I think so. Do you?
 
 ![](/assets/images/news-radio.jpg){: .half-wrap-left width="1280" height="1280"}
 
