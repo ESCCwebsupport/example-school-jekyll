@@ -34,4 +34,4 @@ expandable-section:
       ....&nbsp;*contentinfo area content*&nbsp;....&lt;/div&gt;
 ---
 
-Visually outline the landmarks and/or headings on the page using the following buttons.
+Visually outline the landmarks and /or headings on the page using the following buttons.
