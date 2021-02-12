@@ -23,4 +23,6 @@ Yes I think so. Do you?
 
 ![](/assets/images/news-radio.jpg){: .half-wrap-left width="1280" height="1280"}
 
-Hello. I'm alongside the image.
+Hello. I’m alongside the image.
+
+I wrap in the visual editor.
