@@ -2,7 +2,7 @@
 layout: content-page
 title: Admissions
 slug:
-published: true
+published: false
 header_image:
 file_path:
 description: >-
