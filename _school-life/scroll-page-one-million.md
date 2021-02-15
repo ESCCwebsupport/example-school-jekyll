@@ -2,7 +2,7 @@
 layout: scroll-page
 title: Scroll page one million
 slug: scroll million
-published: false
+published: true
 header_image: /assets/media/scroll million/pw-28-9.jpg
 mobile_header_image:
 file_path:
