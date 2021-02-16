@@ -11,7 +11,7 @@ description: >-
 button:
   button_link:
   button_text:
-published: false
+published: true
 ---
 
 This page shows how headings should be used on a website, in order to meet accessibility requirements.
