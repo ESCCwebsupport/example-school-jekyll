@@ -154,7 +154,7 @@ _options:
     height: 500
     width: 800
     resize_style: "cover"
-    format: p h3 h4 h5
+    format: p h2 h3 h4 h5
     bold: true
     italic: true
     removeformat: true
@@ -177,7 +177,7 @@ _options:
     height: 500
     width: 800
     resize_style: "cover"
-    format: p h3 h4 h5
+    format: p h2 h3 h4 h5
     bold: true
     italic: true
     removeformat: true
@@ -200,7 +200,7 @@ _options:
     height: 500
     width: 800
     resize_style: "cover"
-    format: p h3 h4 h5
+    format: p h2 h3 h4 h5
     bold: true
     italic: true
     removeformat: true
@@ -223,7 +223,7 @@ _options:
     height: 500
     width: 800
     resize_style: "cover"
-    format: p h3 h4 h5
+    format: p h2 h3 h4 h5
     bold: true
     italic: true
     removeformat: true

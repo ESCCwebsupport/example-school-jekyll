@@ -27,12 +27,12 @@
                                 <div class="card-body">
                                 <div class="card-text text-black-50"><strong>Role</strong>: {{ governor.job }}</div>
                                 <div class="card-text text-black-50"><strong>Appointed on</strong>:
-                                    {{ governor.appointed_date | date_to_string }}</div>
+                                    {{ governor.appointed_date | remove: "+0100" | date_to_string }}</div>
                                 <div class="card-text text-black-50"><strong>Appointing body</strong>:
                                     {{ governor.appointing-body }}</div>
                                 <div class="card-text text-black-50"><strong>Term</strong>:
-                                    {{ governor.term-start_date | date_to_string }} to
-                                    {{ governor.term-end_date | date_to_string }}</div>
+                                    {{ governor.term-start_date | remove: "+0100" | date_to_string }} to
+                                    {{ governor.term-end_date | remove: "+0100" | date_to_string }}</div>
                                 {% if governor.declare-interests_markdown %}
                                 <div class="card-text text-black-50"><strong>Business, pecuniary or personal interests</strong>:
                                     {{ governor.declare-interests_markdown | markdownify }}</div>
@@ -84,12 +84,12 @@
                         <div class="card-body">
                                 <div class="card-text text-black-50"><strong>Role</strong>: {{ governor.job }}</div>
                                 <div class="card-text text-black-50"><strong>Appointed on</strong>:
-                                    {{ governor.appointed_date | date_to_string }}</div>
+                                    {{ governor.appointed_date | remove: "+0100" | date_to_string }}</div>
                                 <div class="card-text text-black-50"><strong>Appointing body</strong>:
                                     {{ governor.appointing-body }}</div>
                                 <div class="card-text text-black-50"><strong>Term</strong>:
-                                    {{ governor.term-start_date | date_to_string }} to
-                                    {{ governor.term-end_date | date_to_string }}</div>
+                                    {{ governor.term-start_date | remove: "+0100" | date_to_string }} to
+                                    {{ governor.term-end_date | remove: "+0100" | date_to_string }}</div>
                                 {% if governor.declare-interests_markdown %}
                                 <div class="card-text text-black-50"><strong>Business, pecuniary or personal interests</strong>:
                                     {{ governor.declare-interests_markdown | markdownify }}</div>

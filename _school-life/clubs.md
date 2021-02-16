@@ -17,6 +17,6 @@ expandable-section:
     content_markdown:
 ---
 
-At St Invicta's we run a number of clubs, including music and athletics to encourage our children to learn extra-curricular activities.
+At St Invicta's we run a number of clubs, including music and athletics to encourage our children to learn extra-curricular activities. And have fun\!
 
 See our timetable below for details about when we run these clubs and who to contact to get involved.

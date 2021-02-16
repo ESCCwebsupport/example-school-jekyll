@@ -2,10 +2,12 @@
 layout: content-page
 title: Admissions
 slug:
-published: true
+published: false
 header_image:
 file_path:
-description:
+description: >-
+  Find our how to get a place at St Invicta's and read more about our admissions
+  policy.
 button:
   button_link:
   button_text:
