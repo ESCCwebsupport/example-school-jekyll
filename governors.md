@@ -44,7 +44,7 @@ Our governors are a hugely important part of St. Invicta's. They keep us in chec
 
 | Not sure | How we | Need this | To look |
 | --- | --- | --- | --- |
-| Governor 1 | &\#9745; | &nbsp; | &nbsp; |
+| Governor 1 | \- \[x\] | &\#9745; | &nbsp; |
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
