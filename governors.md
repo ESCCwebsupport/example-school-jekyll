@@ -35,13 +35,48 @@ governors:
     job: Staff governor
 ---
 
-Our governors are a hugely important part of St. Invicta's. They keep us in check, on track and provide support to our teachers. Here's what they do:
+Our governors are a hugely important part of St. Invicta’s. They keep us in check, on track and provide support to our teachers. Here’s what they do:
 
 * lots of important things
 * keep everything ticking over.
 
 #### Governor attendance record:
 
-<table><thead><tr><th>Not sure</th><th>How we</th><th>Need this</th><th>To look</th></tr></thead><tbody><tr><td>Governor 1</td><td class="text-center">☑</td><td class="text-center">☑</td><td class="text-center">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr></tbody></table>
-
-&nbsp;
+<div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Governor</th>
+                        <th>Meeting - 12 Jan 2020</th>
+                        <th>Meeting - 10 Feb 2021</th>
+                        <th>Meeting - 16 Feb 2021</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Governor 1</td>
+                        <td class="text-center">☑</td>
+                        <td class="text-center">☑</td>
+                        <td class="text-center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Governor 2</td>
+                        <td class="text-center">&amp;#10060;</td>
+                        <td class="text-center">☑</td>
+                        <td class="text-center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
