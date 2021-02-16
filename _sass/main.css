@@ -949,6 +949,10 @@ th, td {
     padding: .75rem;
 }
 
+table caption {
+  caption-side:top;
+}
+
 div#breadcrumbs {
     font-size: 1rem;
 }
