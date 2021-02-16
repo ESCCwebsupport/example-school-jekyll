@@ -24,6 +24,9 @@ algolia:
 
 uploads_dir: "/assets/media/:title"
 
+kramdown:
+  input: GFM
+
 # incremental: true
 
 collections:
