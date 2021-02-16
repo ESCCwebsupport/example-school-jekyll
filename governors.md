@@ -40,6 +40,6 @@ Our governors are a hugely important part of St. Invicta’s. They keep us in ch
 * lots of important things
 * keep everything ticking over.
 
-#### Governor attendance record:
+## Governor attendance
 
 <div class="table-responsive"><table class="table table-bordered table-hover"><caption>Governor attendance 2020/21</caption><thead><tr><th>Governor</th><th>Meeting - 12 Jan 2020</th><th>Meeting - 10 Feb 2021</th><th>Meeting - 16 Feb 2021</th><th>Meeting - 14 April 2021</th></tr></thead><tbody><tr><td>Governor 1</td><td class="text-center">✅</td><td class="text-center">✅</td><td class="text-center">❌</td><td class="text-center">✅</td></tr><tr><td>Governor 2</td><td class="text-center">❌</td><td class="text-center">✅</td><td class="text-center">✅</td><td class="text-center">✅</td></tr><tr><td>Governor 3</td><td class="text-center">❌</td><td class="text-center">✅</td><td class="text-center">✅</td><td class="text-center">✅</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr></tbody></table></div>
