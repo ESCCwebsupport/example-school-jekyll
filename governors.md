@@ -42,11 +42,6 @@ Our governors are a hugely important part of St. Invicta's. They keep us in chec
 
 #### Governor attendance record:
 
-| Not sure | How we | Need this | To look |
-| --- | --- | --- | --- |
-| Governor 1 | \- \[x\] | &\#9745; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+<table><thead><tr><th>Not sure</th><th>How we</th><th>Need this</th><th>To look</th></tr></thead><tbody><tr><td>Governor 1</td><td class="text-center">☑</td><td class="text-center">☑</td><td class="text-center">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr><tr><td>&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td><td class="text-center">&nbsp;</td></tr></tbody></table>
 
 &nbsp;
