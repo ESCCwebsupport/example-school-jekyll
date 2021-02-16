@@ -2,7 +2,7 @@
 layout: accordion
 title: Expanding sections test
 slug: expanding test
-published: true
+published: false
 header_image:
 file_path:
 description: A page to test the template for expanding sections - aka accordion.
