@@ -2,7 +2,6 @@
 layout: content-page
 title:
 slug:
-published: false
 header_image:
 file_path:
 description:
@@ -17,4 +16,5 @@ display_scroll_section: false
 scroll-section:
   - header:
     content_markdown:
+published: true
 ---

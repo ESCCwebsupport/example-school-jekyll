@@ -2,7 +2,6 @@
 layout: content-page
 title:
 slug:
-published: true
 header_image:
 file_path:
 description:
@@ -13,4 +12,5 @@ display_expandable-section: false
 expandable-section:
   - header:
     content_markdown:
+published: true
 ---

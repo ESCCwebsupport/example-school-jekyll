@@ -1,11 +1,11 @@
-<div class="masthead">
+<div class="masthead"></div>
 
 <!-- Pick which image is used -->
 
 <script type="module">
 
-    var mobileImage = '{{ page.mobile_header_image }}';
-    var image = '{{ page.header_image }}';
+    var mobileImage = encodeURI('{{ page.mobile_header_image }}');
+    var image = encodeURI('{{ page.header_image }}');
 
     function mobileCheck() {
         if (window.innerWidth <= 768) {
@@ -22,4 +22,3 @@
 
 
 </script>
-</div>

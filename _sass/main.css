@@ -760,6 +760,11 @@ p {
 
 /*--- general ---*/
 
+.btn-primary {
+    background-color: rgb(13, 110, 253);
+    border-color: rgb(13, 110, 253);
+}
+
 .gov-link:focus { 
     outline: 3px solid transparent;
     background-color: var(--govuk-highlight-colour);
@@ -802,6 +807,10 @@ li:not(.lunrsearchresult) a:focus:not(.nav-link):not(.navbar-brand):not(.footer-
     border-top: 2px dashed;
 }
 
+.link-btn {
+    max-width: max-content;
+}
+
 /*-- image options in editor --*/
 
 p img {
@@ -811,6 +820,7 @@ p img {
     display: block;
     margin-right: auto;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    margin: 1rem 0 1rem 0;
 }
 
 .align-left {
@@ -833,6 +843,7 @@ p img {
 }
 
 /*-- fullcalendar --*/
+
 
 .fc table {
     margin-bottom: 0;
@@ -1046,7 +1057,6 @@ div.content-accordion .card-header {
     position: relative;
     padding-right: 0.25rem;
     padding-left: 0.5rem;
-    top: 0.25rem;
 }
 
 #mapPopup[data-toggle="collapse"] .fa:before {
@@ -1068,7 +1078,6 @@ div.content-accordion .card-header {
     position: relative;
     padding-right: 0.25rem;
     padding-left: 0.5rem;
-    top: 0.25rem;
 }
 
 #mapPopup[data-toggle="collapse"].collapsed .fa:before {
