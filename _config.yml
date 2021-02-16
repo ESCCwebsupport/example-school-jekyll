@@ -24,6 +24,9 @@ algolia:
 
 uploads_dir: "/assets/media/:title"
 
+kramdown:
+  input: GFM
+
 # incremental: true
 
 collections:
@@ -303,6 +306,22 @@ _array_structures:
       value:
         name:
         link:
+  governors:
+    values:
+      label: Governor
+      icon: account_box
+      value:
+        name:
+        image:
+        job:
+        appointed_date:
+        appointing-body:
+        term-start_date:
+        term-end_date:
+        term-has-expired: False
+        declare-interests_markdown:
+        governor-elsewhere_markdown:
+        attendance_number:
 
 _comments:
   thumbnail: A square image for the gallery's thumbnail
@@ -311,4 +330,5 @@ _comments:
   alt_text: Required. Describe the image for a screen reader
   description: Required. Summarise the content of the page
   mobile_header_image: A square (1:1) image
-  header_image: A landscape image with 2.5:1 ratio
+  header_image: A landscape image with 3:1 ratio
+  attendance_number: Percentage attendance last year

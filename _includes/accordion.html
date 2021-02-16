@@ -5,8 +5,8 @@
     <div class="card">
       <div class="card-header" id="{{ accordion.header | slugify }}">
         <h2 class="mb-0">
-          <button type="button" class="btn btn-link collapsed text-left btn-block" data-toggle="collapse"
-            data-target="#content-collapse{{ forloop.index }}">{{ accordion.header }}<i class="fa float-right"></i></button>
+          <button type="button" class="btn btn-link collapsed text-left btn-block d-flex align-items-center" data-toggle="collapse"
+            data-target="#content-collapse{{ forloop.index }}">{{ accordion.header }}<i class="fa float-right ml-auto"></i></button>
         </h2>
       </div>
       <div id="content-collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}">
