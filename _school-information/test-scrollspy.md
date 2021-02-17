@@ -2,7 +2,7 @@
 layout: content-page
 title: Test scrollspy
 slug: test-scrollspy
-published: false
+published: true
 header_image:
 file_path:
 description: >-
