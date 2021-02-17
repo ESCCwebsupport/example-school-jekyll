@@ -35,7 +35,7 @@ gallery:
         thumbnail: 'https://unsplash.it/600.jpg?image=255'
         caption_text: This is the second image. Do you like it?
         alt_text: Image 2 alternative text
-  - heading:
+  - heading: Needs a heading
     introduction_markdown: This is a gallery without a heading. There's probably a big space.
     images:
 ---
