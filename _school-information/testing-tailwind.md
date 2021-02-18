@@ -12,3 +12,4 @@ button:
   button_text:
 ---
 
+Hello. Some text.
