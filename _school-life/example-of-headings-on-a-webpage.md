@@ -38,4 +38,4 @@ As above, this content is meant to be read underneath the last H3 and with the s
 
 ## Now we can start another H2 heading
 
-We got to the end of the last major section, which was broken into smaller H3 headings and one of those into H4s. This is a brand new major section of the page, so we start again with an H2.
+We got to the end of the last major section, which was broken into smaller H3 headings and one of those into H4s. This is a [brand new major section](/school-life/school-meals/) of the page, so we start again with an H2.
