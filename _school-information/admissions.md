@@ -11,13 +11,8 @@ description: >-
 button:
   button_link:
   button_text:
-display_expandable-section: true
+display_expandable-section: false
 expandable-section:
-  - header: Image here
-    content_markdown: |-
-      ![](assets/images/head.jpg){: .half-wrap-left width="1920" height="1371"}
-
-      Hello, I'm wrapping
 ---
 
 Content here.
