@@ -11,7 +11,7 @@ description: >-
 button:
   button_link:
   button_text:
-display_expandable-section: false
+display_expandable-section: true
 expandable-section:
   - header: Image here
     content_markdown: |-
