@@ -54,7 +54,7 @@ scroll-section:
       * An example of a sub-area is a portlet in a portal application.
   - header: Image check
     content_markdown: |-
-      ![](assets/images/head.jpg){: width="1920" height="1371"}
+      ![](assets/images/head.jpg){: .half-wrap-left width="1920" height="1371"}
 
       Hi, I'm wrapping here now.
 
