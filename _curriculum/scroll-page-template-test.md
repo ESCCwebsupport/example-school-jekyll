@@ -70,3 +70,5 @@ scroll-section:
 Due to the complexity of today’s web content, if using landmarks,&nbsp;**all perceivable content**&nbsp;should reside in a semantically meaningful landmark in order that content is not missed by the user.
 
 ![](assets/images/head.jpg){: width="1920" height="1371"}
+
+![](assets/media/scroll-template-test/90s.jpg){: width="413" height="305"}
