@@ -54,7 +54,7 @@ scroll-section:
       * An example of a sub-area is a portlet in a portal application.
   - header: Image check
     content_markdown: >-
-      ![](assets/images/classroom2.jpg){: .half-wrap-left width="2000"
+      ![](/assets/images/classroom2.jpg){: .two-third-wrap-left width="2000"
       height="1333"}
 
 
@@ -66,6 +66,6 @@ scroll-section:
 
 Due to the complexity of today’s web content, if using landmarks,&nbsp;**all perceivable content**&nbsp;should reside in a semantically meaningful landmark in order that content is not missed by the user.
 
-![](assets/images/head.jpg){: width="1920" height="1371"}
+![](/assets/images/head.jpg){: width="1920" height="1371"}
 
-![](assets/media/scroll-template-test/90s.jpg){: width="413" height="305"}
+&nbsp;
