@@ -27,7 +27,7 @@ uploads_dir: "/assets/media/:title"
 kramdown:
   input: GFM
 
-# incremental: true
+incremental: true
 
 collections:
   alerts:

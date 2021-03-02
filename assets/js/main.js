@@ -144,3 +144,21 @@ if (document.getElementById('mapPopup') !== null) {
     else return;
   }
 };
+
+// remove p tags from tables
+$( document ).ready(function() {
+  $('.table p').contents().unwrap();
+});
+
+if (document.getElementsByTagName('iframe') !== null) {
+  var iframes = Array.from(document.getElementsByTagName('iframe'));
+  for (i = 0; i < iframes.length; i ++ ) {
+  if ($('iframe[src*="youtube"]')) {
+    iframes[i].removeAttribute('frameborder');
+
+    if (iframes[i].hasAttribute('title')) {
+    } else {
+      iframes[i].setAttribute('title', 'YouTube video');
+    }
+  }
+  }};
