@@ -8,4 +8,8 @@ layout: content-page
         By {{ page.author }}
     </p>
     <div data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
+    {% if page.gallery %}
+    {% include gallery.html %}
+    {% endif %}
 </div>
+

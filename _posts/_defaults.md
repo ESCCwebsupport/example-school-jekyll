@@ -2,6 +2,7 @@
 layout: post
 title:
 slug:
+published: false
 author:
 date:
 header_image:
@@ -19,5 +20,5 @@ display_scroll_section: false
 scroll-section:
   - header:
     content_markdown:
-published: true
+gallery:
 ---
