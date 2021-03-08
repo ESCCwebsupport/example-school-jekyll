@@ -21,6 +21,14 @@ gallery:
         thumbnail: /assets/media/report-absence/absence.jpg
         caption_text: Taking your temperature
         alt_text: Taking your temperature
+      - image: /assets/media/gallery/9dd1c937-d2b2-4e6b-b9d8-776bdec220d2.jpeg
+        thumbnail:
+        caption_text:
+        alt_text:
+      - image: /assets/media/gallery/imag1172.jpg
+        thumbnail:
+        caption_text:
+        alt_text:
   - heading: Gallery 2
     introduction_markdown: |-
       This is the second gallery for our page.
@@ -36,7 +44,7 @@ gallery:
         caption_text: This is the second image. Do you like it?
         alt_text: Image 2 alternative text
   - heading:
-    introduction_markdown: No header, but text is allowed.
+    introduction_markdown: 'No header, but text is allowed.'
     images:
 ---
 

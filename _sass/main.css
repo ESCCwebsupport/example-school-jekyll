@@ -594,6 +594,19 @@ ul.image-gallery {
     padding-inline-start: 0.25rem;
 }
 
+.thumb {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .thumb {
+        height: 220px;
+        width: 100%;
+    }
+}
+
 /*--- news section ---*/
 
 p.news-intro {

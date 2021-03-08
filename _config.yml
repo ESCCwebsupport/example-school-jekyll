@@ -6,7 +6,7 @@ timezone: Europe/London
 
 exclude: [vendor, node_modules]
 
-url: https://snazzy-surf.cloudvent.net
+url:
 
 google_maps_javascript_api_key: "AIzaSyB9vpU247qEfVCHWJZU5rpY2F6fPrmgIXw"
 
@@ -27,7 +27,7 @@ uploads_dir: "/assets/media/:title"
 kramdown:
   input: GFM
 
-incremental: true
+# incremental: true
 
 collections:
   alerts:
