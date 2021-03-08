@@ -25,6 +25,10 @@ gallery:
         thumbnail:
         caption_text:
         alt_text:
+      - image: /assets/media/gallery/imag1172.jpg
+        thumbnail:
+        caption_text:
+        alt_text:
   - heading: Gallery 2
     introduction_markdown: |-
       This is the second gallery for our page.
