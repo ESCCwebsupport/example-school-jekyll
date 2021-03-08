@@ -2,7 +2,7 @@
 layout: post
 title: Testing a gallery
 slug:
-published: false
+published: true
 author: Matt
 date: 2021-03-08 00:00:00
 header_image:

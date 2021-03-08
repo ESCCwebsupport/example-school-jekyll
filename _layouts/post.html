@@ -1,5 +1,5 @@
 ---
-layout: content-page
+layout: news-page
 ---
 <div data-i18n="news_{{ page.title | slugify }}_content">
     <p class="news-intro">Posted on {{ page.date | date_to_string }} - {% include read_time.html %} read
@@ -8,8 +8,4 @@ layout: content-page
         By {{ page.author }}
     </p>
     <div data-i18n="{{ page.title | slugify }}_content">{{ content }}</div>
-    {% if page.gallery %}
-    {% include gallery.html %}
-    {% endif %}
 </div>
-
