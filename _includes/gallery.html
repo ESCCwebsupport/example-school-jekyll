@@ -18,7 +18,7 @@
         {% for image in gallery.images %}
         <a href="{{ image.image }}" data-toggle="lightbox" data-alt="{{ image.alt_text }}" data-gallery="{{ gallery.heading | slugify }}" data-footer="{{ image.caption_text }}" class="col-6 col-md-4 mb-4 gov-box no-underline">
             <figure>
-                <img src="//images.weserv.nl/?url={{ site.url }}{{ image.image }}&w=300&h=300" alt="{{ image.alt_text }}" class="img-fluid">
+                <img src="//images.weserv.nl/?url={{ site.baseurl }}{{ image.image }}&w=300&h=300" alt="{{ image.alt_text }}" class="img-fluid">
                 {% if image.caption_text %}<figcaption class="figure-caption"><i class="fas fa-camera"></i>{{ image.caption_text }}</figcaption>{% endif %}
             </figure>
         </a>
