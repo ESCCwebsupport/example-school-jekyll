@@ -274,6 +274,7 @@ _array_structures:
       icon: collections
       value:
         heading:
+        show-heading: false
         introduction_markdown:
         images:
   images:
