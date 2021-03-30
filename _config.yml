@@ -33,7 +33,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /touch-icon.png
+      image: touch-icon.png
 
 collections:
   alerts:
