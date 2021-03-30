@@ -8,8 +8,6 @@ exclude: [vendor, node_modules]
 
 url:
 
-logo: "touch-icon.png"
-
 google_maps_javascript_api_key: "AIzaSyB9vpU247qEfVCHWJZU5rpY2F6fPrmgIXw"
 
 plugins:
@@ -30,6 +28,12 @@ kramdown:
   input: GFM
 
 # incremental: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /touch-icon.png
 
 collections:
   alerts:
