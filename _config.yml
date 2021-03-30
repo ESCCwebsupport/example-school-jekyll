@@ -8,7 +8,7 @@ exclude: [vendor, node_modules]
 
 url:
 
-logo: /touch-icon.png
+logo: "/touch-icon.png"
 
 google_maps_javascript_api_key: "AIzaSyB9vpU247qEfVCHWJZU5rpY2F6fPrmgIXw"
 
