@@ -29,6 +29,12 @@ kramdown:
 
 # incremental: true
 
+defaults:
+  - scope:
+      path:
+    values:
+      image: /touch-icon.png
+
 collections:
   alerts:
     _hide_content: false
@@ -274,6 +280,7 @@ _array_structures:
       icon: collections
       value:
         heading:
+        show-heading: false
         introduction_markdown:
         images:
   images:

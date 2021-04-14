@@ -1,5 +1,7 @@
+{% if page.expandable-section %}
 <button class="btn btn-outline-success openall">open all sections</button> <button class="btn btn-outline-danger closeall">close all sections</button>
 <div class="bs-accordion py-3 content-accordion" data-i18n="{{ page.title | slugify }}_accordion">
+{% endif %}
   <div class="accordion" id="{{ page.title }}_accordion">
     {% for accordion in page.expandable-section %}
     <div class="card">
