@@ -58,7 +58,7 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.5.1)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -98,7 +98,6 @@ DEPENDENCIES
   jekyll-loading-lazy (~> 0.1.1)
   jekyll-seo-tag (~> 2.6)
   jekyll-sitemap
-  nokogiri (~> 1.11.0.rc4)
 
 BUNDLED WITH
    2.1.4
