@@ -2,50 +2,6 @@
 label: Scroll section
 hide_body: false
 fields:
-- type: text
-  name: layout
-  label: layout
-- type: text
-  name: title
-  label: title
-- type: text
-  name: slug
-  label: slug
-- type: text
-  name: header_image
-  label: header_image
-- type: text
-  name: file_path
-  label: file_path
-- type: text
-  name: description
-  label: description
-- type: field_group
-  name: button
-  label: button
-  fields:
-  - type: text
-    name: button_link
-    label: button_link
-  - type: text
-    name: button_text
-    label: button_text
-- type: boolean
-  name: display_expandable-section
-  label: display_expandable-section
-- type: field_group_list
-  name: expandable-section
-  label: expandable-section
-  fields:
-  - type: text
-    name: header
-    label: header
-  - type: text
-    name: content_markdown
-    label: content_markdown
-- type: boolean
-  name: display_scroll_section
-  label: display_scroll_section
 - type: field_group_list
   name: scroll-section
   label: scroll-section
