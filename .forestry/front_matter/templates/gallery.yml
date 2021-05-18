@@ -1,0 +1,45 @@
+---
+label: Gallery
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: header_image
+  label: header_image
+- type: text
+  name: mobile_header_image
+  label: mobile_header_image
+- type: field_group_list
+  name: gallery
+  label: gallery
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: introduction_markdown
+    label: introduction_markdown
+  - type: field_group_list
+    name: images
+    label: images
+    fields:
+    - type: text
+      name: image
+      label: image
+    - type: text
+      name: thumbnail
+      label: thumbnail
+    - type: text
+      name: caption_text
+      label: caption_text
+    - type: text
+      name: alt_text
+      label: alt_text
