@@ -11,7 +11,7 @@
             data-target="#content-collapse{{ forloop.index }}">{{ accordion.header }}<i class="fa float-right ml-auto"></i></button>
         </h2>
       </div>
-      <div id="content-collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}">
+      <div id="content-collapse{{ forloop.index }}" class="collapse" aria-labelledby="{{ page.title }}_accordion">
 
         <div class="card-body">
           {{ accordion.content_markdown | markdownify }}
