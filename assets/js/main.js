@@ -52,9 +52,9 @@ $('img').closest('a').addClass("no-tag");
 });
 
 $( document ).ready(function() {
-$('a[href*="pdf"]:not(.no-tag)').prepend(`<i class="far fa-file-pdf"></i>`).addClass("no-style");
-$('a[href*="doc"]:not(.no-tag)').prepend(`<i class="far fa-file-word"></i>`).addClass("no-style");
-$('a[href*="xls"]:not(.no-tag)').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
+$('a[href*=".pdf"]:not(.no-tag)').prepend(`<i class="far fa-file-pdf"></i>`).addClass("no-style");
+$('a[href*=".doc"]:not(.no-tag)').prepend(`<i class="far fa-file-word"></i>`).addClass("no-style");
+$('a[href*=".xls"]:not(.no-tag)').prepend(`<i class="far fa-file-excel"></i>`).addClass("no-style");
 });
 
 $( document ).ready(function() {
