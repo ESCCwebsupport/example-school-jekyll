@@ -1,4 +1,4 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js" integrity="sha256-34Si1Y6llMBKM3G0jQILVeoQKEwuxjbk4zGWXXMT4ps=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.js" integrity="sha512-yKwv5WRe/jXGAmdSARB9Hs6MACkXT3Al5ytTPhbDc+tmUG4no7+TMHERFOVMI+VSxF8eUosSnlRJSUd5hblFQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script>
     {% assign counter = 0 %}
@@ -7,7 +7,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | replace: '"', ' ' | replace: '&nbsp;', ' '  }}",
-        "description": "{{ page.description }}"
+        "description": "{{ page.description | strip_newlines }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endif %}{% endfor %}
         {% for page in site.documents %}{
@@ -19,7 +19,7 @@
         "scrollspy": "{{ page.scroll-section | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | remove: '=' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | remove: '*' | remove: '#' }}",
         {% for gallery in page.gallery %} "gallery-heading{{ forloop.index }}": "{{ gallery.heading | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | remove: '=' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | remove: '*' | remove: '#' }}", {% endfor %}
         {% for gallery in page.gallery %} "gallery-introduction{{ forloop.index }}": "{{ gallery.introduction_markdown | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | replace: 'introduction_text', ' ' | replace: 'content_markdown', ' ' | replace: 'text_block', '' | replace: 'link_button', '' | replace: 'link_text', '' | replace: '_id', ' ' | remove: '=' | replace: '[', '' | replace: ']', '' | replace: '{', '' | replace: '&gt', ' ' | replace: '“', '' | replace: '”', '' | replace: ';', '' | replace: ',', ' ' | replace: 'header', ' ' | remove: '*' | remove: '#' }}", {% endfor %}
-        "description": "{{ page.description }}"
+        "description": "{{ page.description | strip_newlines }}"
         {% assign counter = counter | plus: 1 %}
         }, {% endfor %}
 
@@ -28,7 +28,7 @@
         "url": "{{ site.url }}{{ page.url }}",
         "title": "{{ page.title }}",
         "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
-        "description": "{{ page.description }}"
+        "description": "{{ page.description | strip_newlines }}"
         {% assign counter = counter | plus: 1 %}
         }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
     
@@ -82,7 +82,7 @@
         <div class="form-row">
             <div class="col-9">
                 <label class="sr-only" for="lunrsearch">Search field</label><input type="search" class="form-control"
-                    id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search our site..." />
+                    id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search our site..." autocomplete="off" />
             </div>
             <div class="col-3">
                 <button class="btn btn-success" type="submit"><span class="sr-only">Submit search</span><i class="fa fa-search img-responsive"></button>
