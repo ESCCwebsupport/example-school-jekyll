@@ -2,7 +2,7 @@
 layout: content-page
 title: lflasjflk
 slug: a.smf.asfm
-published: false
+published: true
 header_image:
 mobile_header_image:
 file_path:

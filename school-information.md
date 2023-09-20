@@ -14,4 +14,6 @@ page-links:
     link: /school-information/ks2-performance/
   - name: Pupil premium
     link: /school-information/pupil-premium/
+  - name: Foundation open day
+    link: /school-information/a.smf.asfm/
 ---
