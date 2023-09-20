@@ -1,7 +1,7 @@
 ---
 layout: landing
 published: true
-title: School information
+title: School information - test site
 description: Read information about our school.
 page-links:
   - name: Head's welcome
